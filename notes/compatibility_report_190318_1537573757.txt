@@ -1,0 +1,10 @@
+Converting GML script: ${project_dir}\scripts\crypt_string\crypt_string.gml
+Converted description /// @description  crypt_string(str,key)/// @function  crypt_string
+/// @param str
+/// @param key
+
+Converting GML script: ${project_dir}\scripts\crypt_file\crypt_file.gml
+Converted description /// @description crypt_file(file_name,password)/// @function crypt_file
+/// @param file_name
+/// @param password
+Converted string - line 5: '' -> ""
