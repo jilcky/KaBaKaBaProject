@@ -1,4 +1,4 @@
-
+//var
 var map = argument0
 var str  = argument1
 if true//debug_mode
