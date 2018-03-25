@@ -16,8 +16,3 @@ if keyboard_check(vk_alt) and keyboard_check_pressed(vk_enter)
 	W^=true
 	window_set_fullscreen(W)
 }
-
-if room = rGameStart
-{
-	room_goto(room1)
-}

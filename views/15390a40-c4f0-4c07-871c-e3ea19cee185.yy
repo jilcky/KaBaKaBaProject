@@ -4,10 +4,10 @@
     "mvc": "1.1",
     "name": "15390a40-c4f0-4c07-871c-e3ea19cee185",
     "children": [
-        "6520a588-b260-4c63-bfd3-c631e39b8abf"
+        "f79e1b4d-9a2d-4c93-a693-62ac19bd89bb"
     ],
     "filterType": "GMRoom",
-    "folderName": "登陆用",
+    "folderName": "游戏用",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

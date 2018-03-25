@@ -10,7 +10,8 @@
         "d1745812-9554-4dce-baaa-98c4c294abc7",
         "a052b05c-4e8d-4ab6-abf2-59376b714b52",
         "cf4682f4-ab2d-4471-acab-3d7498675464",
-        "8da73311-2ae9-47f9-aa2b-0bed6b731d1f"
+        "8da73311-2ae9-47f9-aa2b-0bed6b731d1f",
+        "1db18b34-27fd-4a0a-a02a-63ed7c6839d7"
     ],
     "filterType": "GMObject",
     "folderName": "笔记",

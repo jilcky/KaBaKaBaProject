@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+#region 读取文件并且绘制
+
 show_debug_message("检查 内含文件")
 if  file_exists(working_directory+"MeunButton/10.png")
 {
@@ -24,4 +27,7 @@ show_debug_message("检查 内含文件 成功")
 			}
 	}
 }
+
+
+#endregion
 
