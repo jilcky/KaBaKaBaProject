@@ -3,17 +3,19 @@ var Map = All_Button_Index
 var Size = array_length_1d(Button_Order);
 next Size in {
 	var map = DSmap_create();
-	Map[? Button_Order[i]] = map; //载入按钮引索
+	
+	ds_map_add_map(Map,Button_Order[i],map)
+	//Map[? Button_Order[i]] = map; 
+	//载入按钮引索
 	//精灵
 	map[? "spr"] = Spr_Add(working_directory + "./Image/MeunButton/1.png")
 
 	//坐标
-	var h = sprite_get_height(map[? "spr"])+8;
+	var h = sprite_get_height(map[? "spr"]);
 	var w = sprite_get_width(map[? "spr"]);
 
-	map[? "xstart"] = GameInfo.Width +1024 
-	map[? "x"] = GameInfo.Width - w;
-	map[? "y"] = h * i + GameInfo.Height - (Size * (h));
+	map[? "xstart"] = +1024 map[? "x"] = GameInfo.Width - w;
+	map[? "y"] = h * i + GameInfo.Height - (Size * h);
 
 	map[? "ystart"] = map[? "y"];
 	//id
@@ -33,3 +35,6 @@ next Size in {
 	TweenFire(map[? "id"], EaseOutCubic, TWEEN_MODE_ONCE, true, 0.0, 0.5, "y", map[? "ystart"], map[? "y"]);
 
 } //初化各种按钮
+
+
+		script180(All_Button_Index,ds_map_size(All_Button_Index))

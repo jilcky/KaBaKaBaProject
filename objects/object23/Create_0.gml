@@ -1,5 +1,5 @@
 if (live_call()) return live_result;
-#region菜单按钮系列;
+#region  菜单按钮系列;
 All_Map_Index = ds_list_create(); //在房间结束的时候集体清理用(结合 Dsmap_c 使用)
 All_Spr_Index = ds_list_create();
 
@@ -14,4 +14,6 @@ Order_UseTween = false; //是否使用补间
 Order_Mode = ""; //指令输入的类型
 Button_Order = 0; //指令列表 数组 创建的时候 塞进去
 
-#endregion#endregion
+#endregion
+#endregion
+

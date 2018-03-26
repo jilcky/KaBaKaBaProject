@@ -1,10 +1,8 @@
 //进行清理
-#region清理缓存 (map和精灵等)
+#region 清理缓存 (map和精灵等)
 
 //销毁按钮
-var Key = ds_map_find_first(All_Button_Index) 
-if true 
-next ds_map_size(All_Button_Index) in {
+var Key = ds_map_find_first(All_Button_Index) if true next ds_map_size(All_Button_Index) in {
 
 	var map = All_Button_Index[? Key]
 

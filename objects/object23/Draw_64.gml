@@ -1,7 +1,7 @@
+
 if (live_call()) return live_result;
 //绘制零件
-var Key = ds_map_find_first(All_Button_Index)
-if true next ds_map_size(All_Button_Index) in {
+var Key = ds_map_find_first(All_Button_Index) if true next ds_map_size(All_Button_Index) in {
 
 	var map = All_Button_Index[? Key]
 
