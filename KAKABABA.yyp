@@ -32,6 +32,14 @@
     },
     "resources": [
         {
+            "Key": "0168dc60-24be-417b-8b17-9f75c3871867",
+            "Value": {
+                "id": "2ffbeb7f-4ab9-4ec2-9663-903a99a05afd",
+                "resourcePath": "scripts\\DSmap_create\\DSmap_create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "01a4ced3-e57f-4319-80ad-4798c3c199b4",
             "Value": {
                 "id": "3df6be62-c118-4b01-9ccc-1cbed6777868",
@@ -45,6 +53,14 @@
                 "id": "58e09487-db61-43e6-931d-61a43ae46f65",
                 "resourcePath": "datafiles_yy\\gmlive-server.exe.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "05062dc7-302d-4231-b23d-72e4c5fe3eb1",
+            "Value": {
+                "id": "0ef7c583-87c6-49bf-b0fe-a479c94b1f04",
+                "resourcePath": "scripts\\Spr_Add\\Spr_Add.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -189,6 +205,14 @@
                 "id": "396f3bab-54d8-4a31-99c9-04b750808252",
                 "resourcePath": "scripts\\TweenEasyMove\\TweenEasyMove.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "145f4af7-1509-4a4f-bfe9-ee04cf46e0c3",
+            "Value": {
+                "id": "6796c5c5-0749-4e3e-a61d-13d83a8ecf54",
+                "resourcePath": "fonts\\fText42\\fText42.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1112,14 +1136,6 @@
             }
         },
         {
-            "Key": "70d2e62c-d35a-41ef-b6ea-caf3802fd30b",
-            "Value": {
-                "id": "f1280a04-755b-49b5-abba-5630b88baa23",
-                "resourcePath": "objects\\oMeunCountrol\\oMeunCountrol.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7165b3df-acf2-4232-b924-27de8b355836",
             "Value": {
                 "id": "2b124cbd-5d75-49c8-8e26-9d9c351a26d7",
@@ -1173,6 +1189,14 @@
                 "id": "2e6e0316-3af0-49df-afdd-2a71f7cfb20a",
                 "resourcePath": "datafiles_yy\\gmlive.html.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "7899ebb7-b818-4210-aa7b-c29a31196143",
+            "Value": {
+                "id": "ed112fb9-cde3-4b05-b9f2-2ef6fcdd5f96",
+                "resourcePath": "objects\\object23\\object23.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1661,6 +1685,14 @@
                 "id": "edea07c3-9ec6-4756-8a92-88c204f881ac",
                 "resourcePath": "scripts\\__x\\__x.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a715588a-247b-49cd-9c98-903cb43d20d9",
+            "Value": {
+                "id": "e376a0dd-348d-4653-a901-3f4d74720a35",
+                "resourcePath": "fonts\\fText32\\fText32.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -2669,7 +2701,9 @@
         "0fa10a90-65ad-46b7-bf53-2c6fbf745074",
         "3d1f7487-82ae-4d45-90e2-b3aac1295319",
         "c7e4577c-8d93-4010-b222-1274b369a7fd",
-        "cb23c3dc-5acc-4dc1-bcfa-f4506ade50ad"
+        "cb23c3dc-5acc-4dc1-bcfa-f4506ade50ad",
+        "0168dc60-24be-417b-8b17-9f75c3871867",
+        "05062dc7-302d-4231-b23d-72e4c5fe3eb1"
     ],
     "tutorial": ""
 }

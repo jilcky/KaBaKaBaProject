@@ -1,0 +1,17 @@
+if (live_call()) return live_result;
+#region菜单按钮系列;
+All_Map_Index = ds_list_create(); //在房间结束的时候集体清理用(结合 Dsmap_c 使用)
+All_Spr_Index = ds_list_create();
+
+All_Tween_Index = ds_list_create(); //补间动画引索
+All_Button_Index = DSmap_create(); //按钮的引索
+display_set_gui_size(1920, 1080);#region // 指令系列
+Order_String = ""; //指令
+Order_Locking = false; //锁定不执行
+Order_Tweening = false; //执行期间
+Order_TweenTime = false; //执行补间的速度
+Order_UseTween = false; //是否使用补间
+Order_Mode = ""; //指令输入的类型
+Button_Order = 0; //指令列表 数组 创建的时候 塞进去
+
+#endregion#endregion

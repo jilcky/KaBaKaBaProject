@@ -1,4 +1,4 @@
-draw_set_font(fText)
+draw_set_font(fText42)
 draw_set_color(c_red)
 //for (var i = ds_list_size(Debug); i > 1 ; i--) {
 //    draw_text(128,i*32,Debug[|ds_list_size(Debug)-i])

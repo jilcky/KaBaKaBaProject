@@ -21,7 +21,7 @@ RoomBack = room
 #region PC的情况下 测试方便的调整
 //if true//os_type = os_windows 
 {
-	var Size = 0.5
+	var Size = 0.25
 window_set_size(GameInfo.Width*Size,GameInfo.Height*Size)
 window_set_position(1920/2-1280/2,1080/2-720/2)//只是单纯的让游戏画面在中间而已
 }
