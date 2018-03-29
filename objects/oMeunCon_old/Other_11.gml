@@ -1,4 +1,5 @@
 /// @description 反馈动画结束进行执行
+/*
 #region 主菜单
 if room = room3{
 switch (ButtonOrder) {

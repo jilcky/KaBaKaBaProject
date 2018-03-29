@@ -123,6 +123,7 @@ repeat(_propCount)
     }
     else // Standard Properties
     {
+		if ds_map_size(global.__PropertySetters__){
 		if (ds_map_exists(global.__PropertySetters__, _propRaw))
 		{
 			// Get raw property setter script
@@ -168,11 +169,12 @@ repeat(_propCount)
 	        _extData[++_extIndex] = argument[++_argIndex]; // destination
 			_extData[++_extIndex] = _target; // target
 			_extData[++_extIndex] = _propRaw; // variable string
-		}
+		}}
     }
     
     // This is needed for getting raw property information with TweenGet() -- Thanks past self!
     _extData[++_extIndex] = _propRaw;
+	
 }
 
 return TGMS_TweenFire(_target, TGMS_MultiPropertySetter__, argument[1], argument[2], argument[3], argument[4], argument[5], 0, 1, _extData);

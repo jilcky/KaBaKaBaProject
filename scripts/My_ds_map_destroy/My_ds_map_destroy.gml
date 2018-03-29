@@ -1,0 +1,1 @@
+ds_list_add(oGame.Map_list,argument0)

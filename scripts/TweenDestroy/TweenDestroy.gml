@@ -23,6 +23,7 @@ if (is_array(_t))
     }
     
     // Invalidate tween handle
+
     if (ds_map_exists(global.TGMS_MAP_TWEEN, _t[TWEEN.ID]))
     {
         ds_map_delete(global.TGMS_MAP_TWEEN, _t[TWEEN.ID]);
