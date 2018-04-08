@@ -1,12 +1,12 @@
 ///// @description Insert description here
 //// You can write your code in this editor
 
-//// Inherit the parent event
-//event_inherited();
+// Inherit the parent event
+event_inherited();
 
-//mode = oVk_Button_type.Tap
+mode = oVk_Button_type.Tap
 
-//ButtonSize = image_xscale
+ButtonSize = image_xscale
 
-//Fuck = 0
+Fuck = 0
 

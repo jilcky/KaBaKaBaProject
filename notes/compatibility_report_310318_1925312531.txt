@@ -1,0 +1,29 @@
+资源名称 'draw_sprite_pos_fixed_scripts' 冲突,已经存在, 重新命名为 'draw_sprite_pos_fixed_scripts_scripts'
+转换 GML 脚本: ${project_dir}\scripts\draw_sprite_pos_fixed_scripts_scripts\draw_sprite_pos_fixed_scripts_scripts.gml
+转换后的描述 /// @description  draw_sprite_pos_fixed_scripts(sprite,subimg,x1,y1,x2,y2,x3,y3,x4,y4,colour,alpha);/// @function  draw_sprite_pos_fixed_scripts
+/// @param sprite
+/// @param subimg
+/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+/// @param x3
+/// @param y3
+/// @param x4
+/// @param y4
+/// @param colour
+/// @param alpha
+
+!!! 字体f_roboto 使用在没有安装字体 (Roboto Th) 的系统上 - 字体没有重新生成
+转换 GML 脚本: ${project_dir}\objects\o_controller\Create_0.gml
+转换后的描述 /// @description  Init
+
+转换 GML 脚本: ${project_dir}\objects\o_controller\Step_0.gml
+转换后的描述 /// @description  Control
+
+转换 GML 脚本: ${project_dir}\objects\o_controller\Draw_0.gml
+转换后的描述 /// @description  Draw
+转换后的字符串 - 行 25: 'FIXED' -> "FIXED"
+转换后的字符串 - 行 26: 'STANDARD' -> "STANDARD"
+转换后的字符串 - 行 27: 'FIXED' -> "FIXED"
+转换后的字符串 - 行 28: 'STANDARD' -> "STANDARD"

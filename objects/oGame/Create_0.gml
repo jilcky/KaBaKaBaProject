@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+show_debug_overlay(true)
 enum GameInfo {
 Height = 1080,
 Width = 1920,
@@ -24,8 +24,11 @@ if true//os_type = os_windows
 	var Size = 0.25
 window_set_size(GameInfo.Width*Size,GameInfo.Height*Size)
 window_set_position(1920/2-1280/2,1080/2-720/2)//只是单纯的让游戏画面在中间而已
+
+
 }
 
+display_set_gui_size(GameInfo.Width,GameInfo.Height)
 #endregion
 
 
