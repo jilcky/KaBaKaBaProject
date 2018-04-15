@@ -18,7 +18,7 @@ for (var i = 0; i < 3; ++i) {
 var type =  "位置"
 FileMap[?string(ID)+"_"+string(type)] = "Image/Background/"+string(i)+".png"
 var type =  "MD5"
-FileMap[?string(ID)+"_"+string(type)] = md5_file(working_directory+ "Image/Background/"+string(i)+".png")
+FileMap[?string(ID)+"_"+string(type)] = md5_file(  "Image/Background/"+string(i)+".png")
 ID++
 }
 
@@ -27,14 +27,14 @@ for (var i = 0; i < 10; ++i) {
 var type =  "位置"
 FileMap[?string(ID)+"_"+string(type)] = "Image/MeunButton/"+string(i)+".png"
 var type =  "MD5"
-FileMap[?string(ID)+"_"+string(type)] = md5_file(working_directory+ "Image/MeunButton/"+string(i)+".png")
+FileMap[?string(ID)+"_"+string(type)] = md5_file(  "Image/MeunButton/"+string(i)+".png")
 
 ID++
 }
 FileMap[?"数量"] = ID 
 
 
- file = file_text_open_write(working_directory+"/File.txt")
+ file = file_text_open_write( "/File.txt")
 file_text_write_string(file,json_encode(FileMap))
 file_text_close(file)
 
@@ -45,7 +45,7 @@ file_text_close(file)
 
 #region // 检查从文件位置里面读取出来 能否读取出来 
 
- file = file_text_open_read(working_directory+"/File.txt")
+ file = file_text_open_read( "/File.txt")
 FileMap = json_decode( file_text_read_string(file))
 ID = FileMap[?"数量"]
 file_text_close(file)
@@ -65,7 +65,7 @@ for (var i = 0; i < ID; ++i) {
 #endregion
 
 
- file = file_text_open_write(working_directory+"/File2.txt")
+ file = file_text_open_write( "/File2.txt")
 file_text_write_string(file,json_encode(FileMap2))
 file_text_close(file)
 

@@ -16,11 +16,11 @@ ds_grid_set_region(grid_, 0, 0, width_ - 1, height_ - 1, VOID);
 var _controller_x = width_ div 2;
 var _controller_y = height_ div 2;
 var _controller_direction = irandom(3);
-var _steps = 128;
+var _steps = 1280;
 
 var _player_start_x = _controller_x * CELL_WIDTH + CELL_WIDTH/2;
 var _player_start_y = _controller_y * CELL_HEIGHT + CELL_HEIGHT/2;
-instance_create_layer(_player_start_x, _player_start_y, "Instances", o_player);
+//instance_create_layer(_player_start_x, _player_start_y, "Instances", o_player);
 
 // Choose the direction change odds
 var _direction_change_odds = 1;
@@ -49,6 +49,8 @@ repeat (_steps) {
 	}
 }
 
+
+
 // Create the walls tiles
 for (var _y = 1; _y < height_-1; _y++) {
 	for (var _x = 1; _x < width_-1; _x++) {
@@ -59,8 +61,7 @@ for (var _y = 1; _y < height_-1; _y++) {
 			var _south_tile = grid_[# _x, _y+1] == VOID;
 		
 			var _tile_index = NORTH*_north_tile + WEST*_west_tile + EAST*_east_tile + SOUTH*_south_tile + 1;
-		//	if (_tile_index == 1) 
-		if true{
+			if (_tile_index == 1) {
 				grid_[# _x, _y] = FLOOR	
 			}
 		}
@@ -80,4 +81,10 @@ for (var _y = 1; _y < height_-1; _y++) {
 			tilemap_set(_wall_map_id, _tile_index, _x, _y);
 		}
 	}
+}
+
+for (var i = 0; i < width_; ++i) {
+for (var j = 0; j < height_; ++j) {
+		grid_[# i, j] = -5
+}
 }

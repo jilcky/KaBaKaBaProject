@@ -1,4 +1,4 @@
-/// @description Tweens instance's image index
+/// @description Tweens instance"s image index
 /// @param {real} index1
 /// @param {real} index2 
 /// @param {real} delay

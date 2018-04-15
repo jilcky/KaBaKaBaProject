@@ -8,7 +8,7 @@
         "cbfee8b5-5e58-4be3-bb00-c53dc7d4eb4d"
     ],
     "filterType": "GMObject",
-    "folderName": "用户信息",
+    "folderName": "物品列表展示",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

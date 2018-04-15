@@ -1,9 +1,12 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description 创建游戏设定
+
+
+
+
 show_debug_overlay(true)
 enum GameInfo {
-Height = 1080,
-Width = 1920,
+Height = 720,
+Width = 1280,
 
 }
 
@@ -21,9 +24,9 @@ RoomBack = room
 #region PC的情况下 测试方便的调整
 if true//os_type = os_windows 
 {
-	var Size = 0.25
-window_set_size(GameInfo.Width*Size,GameInfo.Height*Size)
-window_set_position(1920/2-1280/2,1080/2-720/2)//只是单纯的让游戏画面在中间而已
+// 	var Size = 0.25
+// window_set_size(GameInfo.Width*Size,GameInfo.Height*Size)
+// window_set_position(1920/2-1280/2,1080/2-720/2)//只是单纯的让游戏画面在中间而已
 
 
 }
@@ -47,4 +50,5 @@ Meun_Index[?"工作室"] = oMeun_Studio_Control;
 
 Map_list = ds_list_create()
 List_list = ds_list_create()
-Spr_list = ds_list_create()
+
+Spr_map = ds_list_create()

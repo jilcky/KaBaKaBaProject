@@ -6,7 +6,7 @@
         na
 
     INFO:
-        Clears persistent room's stored tween data
+        Clears persistent room"s stored tween data
 */
 
 var _sharedTweener = SharedTweener();
@@ -39,7 +39,7 @@ if (ds_map_exists(_pRoomTweens, _key))
     // Destroy all stored tweens in queue
     repeat(ds_queue_size(_queue))
     {
-        var _t = ds_queue_dequeue(_queue);                  // Get next tween from room's queue
+        var _t = ds_queue_dequeue(_queue);                  // Get next tween from room"s queue
         
         // Invalidate tween handle
         if (ds_map_exists(global.TGMS_MAP_TWEEN, _t[TWEEN.ID]))
@@ -67,7 +67,7 @@ if (ds_map_exists(_pRoomTweens, _key))
         }
     }
     
-    ds_queue_destroy(_queue);          // Destroy room's queue for stored tweens
+    ds_queue_destroy(_queue);          // Destroy room"s queue for stored tweens
     ds_map_delete(_pRoomTweens, _key); // Delete persistent room id from stored tweens map
 }
 

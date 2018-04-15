@@ -1,4 +1,4 @@
-/// @description Tweens instance's image blend colour
+/// @description Tweens instance"s image blend colour
 /// @param {real} col1
 /// @param {real} col2
 /// @param {real} delay

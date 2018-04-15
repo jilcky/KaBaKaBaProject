@@ -10,7 +10,7 @@
         na
 
     INFO:
-        Clears persistent room's stored tween data
+        Clears persistent room"s stored tween data
 */
 
 TGMS_ClearRoom(argument0);

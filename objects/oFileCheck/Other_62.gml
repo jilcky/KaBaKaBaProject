@@ -7,19 +7,19 @@ if async_load[?"id"] = GetJSONMD5
     {
         JSONMD5 = async_load[?"result"]
         
-        if !file_exists(working_directory+"FileJSON.txt"){
-            GetJSONFile = http_get_file("http://localhost/KaBaKaBa/FileJSON.txt",working_directory+"FileJSON.txt")
+        if !file_exists( "FileJSON.txt"){
+            GetJSONFile = http_get_file("http://localhost/KaBaKaBa/FileJSON.txt", "FileJSON.txt")
             show_debug_message("JSON缺失")
         }
         else
         {
-            if md5_file(working_directory+"FileJSON.txt") = JSONMD5
+            if md5_file( "FileJSON.txt") = JSONMD5
             {
                  Mode = "开始对比"
             }
             else
             {
-                 GetJSONFile = http_get_file("http://localhost/KaBaKaBa/FileJSON.txt",working_directory+"FileJSON.txt")
+                 GetJSONFile = http_get_file("http://localhost/KaBaKaBa/FileJSON.txt", "FileJSON.txt")
                  show_debug_message("JSON有差异")
             }
         }

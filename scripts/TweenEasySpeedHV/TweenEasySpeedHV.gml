@@ -1,4 +1,4 @@
-/// @description Tweens instance's hspeed/vspeed
+/// @description Tweens instance"s hspeed/vspeed
 /// @param {real} hspd1
 /// @param {real} vspd1 
 /// @param {real} hspd2

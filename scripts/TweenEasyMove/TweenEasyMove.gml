@@ -1,4 +1,4 @@
-/// @description Tweens instance's x/y position
+/// @description Tweens instance"s x/y position
 /// @param {real} x1
 /// @param {real} y1
 /// @param {real} x2

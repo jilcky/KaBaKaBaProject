@@ -9,7 +9,7 @@ inUpdateLoop = true;
 prevDeltaTime = deltaTime;      // Store previous usable delta time format
 deltaTime = delta_time/1000000; // Update usable delta time format
 
-// Let's prevent delta time from exhibiting sporadic behaviour, shall we?
+// Let"s prevent delta time from exhibiting sporadic behaviour, shall we?
 // IF the delta time is greater than the set max duration
 if (deltaTime > maxDelta)
 {
@@ -58,7 +58,7 @@ if (isEnabled)
     {   
         tick -= updateInterval; // Decrement step tick by update interval value
         
-        // IF system timescale isn't "paused"
+        // IF system timescale isn"t "paused"
         if (timeScale != 0)
         {   
             //--------------------------------------------------
@@ -96,7 +96,7 @@ if (isEnabled)
 						}
 					}
                     else // Tween has reached start or destination
-                    if (_t[TWEEN.TIME_SCALE] != 0) // Make sure time scale isn't "paused"
+                    if (_t[TWEEN.TIME_SCALE] != 0) // Make sure time scale isn"t "paused"
                     {
                         var _property = _t[TWEEN.PROPERTY]; // Cache property -- temporary?
                         
@@ -104,8 +104,8 @@ if (isEnabled)
                         switch(_t[TWEEN.MODE])
                         {
                         case TWEEN_MODE_ONCE:
-                            _t[@ TWEEN.STATE] = TWEEN_STATE.STOPPED;  // Set tween's state as STOPPED
-                            _t[@ TWEEN.TIME] = _duration*(_time > 0); // Update tween's time
+                            _t[@ TWEEN.STATE] = TWEEN_STATE.STOPPED;  // Set tween"s state as STOPPED
+                            _t[@ TWEEN.TIME] = _duration*(_time > 0); // Update tween"s time
                             
                             // Update property
                             script_execute(_property, _t[TWEEN.START] + _t[TWEEN.CHANGE]*(_time > 0), _t[TWEEN.DATA], _t[TWEEN.TARGET], _t[TWEEN.VARIABLE]);
@@ -130,7 +130,7 @@ if (isEnabled)
                             }
                             else
                             {
-                                // Update tween's time
+                                // Update tween"s time
                                 _t[@ TWEEN.TIME] = 0;
                                 
                                 // Update property
@@ -153,13 +153,13 @@ if (isEnabled)
                             // Update property
                             script_execute(_property, script_execute(_t[TWEEN.EASE], _time, _t[TWEEN.START], _t[TWEEN.CHANGE], _duration), _t[TWEEN.DATA], _t[TWEEN.TARGET], _t[TWEEN.VARIABLE]);
                             
-                            _t[@ TWEEN.DIRECTION] = -_t[TWEEN.DIRECTION];           // Reverse tween's direction
-                            _t[@ TWEEN.TIME_SCALE] = -_t[TWEEN.TIME_SCALE];         // Reverse tween's time scale
+                            _t[@ TWEEN.DIRECTION] = -_t[TWEEN.DIRECTION];           // Reverse tween"s direction
+                            _t[@ TWEEN.TIME_SCALE] = -_t[TWEEN.TIME_SCALE];         // Reverse tween"s time scale
                             TGMS_ExecuteEvent(_t[TWEEN.EVENTS], TWEEN_EV_CONTINUE); // Execute CONTINUE event
                         break;
                         
                         case TWEEN_MODE_LOOP:
-                            // Update tween's time depending on side of loop
+                            // Update tween"s time depending on side of loop
                             if (_time > 0) { _time = _time - _duration; }
                             else           { _time = _time + _duration; }
                             
@@ -174,7 +174,7 @@ if (isEnabled)
                         break;
                         
                         case TWEEN_MODE_REPEAT:
-                            // Update tween's time and starting location based on side of loop
+                            // Update tween"s time and starting location based on side of loop
                             if (_time > 0)
                             {
                                 _time = _time - _duration; // Update raw time with epsilon compensation
@@ -253,9 +253,9 @@ if (ds_priority_size(eventCleaner))
     repeat(_cbIndex-1)
     {
         var _cb = _event[| --_cbIndex];           // Get next callback and decrement iterator
-        var _target = _cb[TWEEN_CALLBACK.TARGET]; // Cache callback's target instance
+        var _target = _cb[TWEEN_CALLBACK.TARGET]; // Cache callback"s target instance
         
-        // If the tween's target instance doesn't exist...
+        // If the tween"s target instance doesn"t exist...
         if (instance_exists(_target) == false)
         {
             // Attempt to activate target instance

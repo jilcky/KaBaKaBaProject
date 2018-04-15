@@ -18,9 +18,10 @@ next ds_list_size(All_Map_Index) in {
 	My_ds_map_destroy(All_Map_Index[| i]);
 }
 //清理精灵
-next ds_list_size(All_Spr_Index) in {
-	sprite_delete(All_Spr_Index[| i]);
-}
+ //next ds_list_size(All_Spr_Index) in {
+ //	sprite_delete(All_Spr_Index[| i]);
+ //}
+ 
 My_ds_list_destroy(All_Map_Index);
 My_ds_list_destroy(All_Spr_Index);
 My_ds_list_destroy(All_Tween_Index)

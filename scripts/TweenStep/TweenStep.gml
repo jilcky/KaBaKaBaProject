@@ -82,14 +82,14 @@ if (is_array(_t))
             if (_property != TGMS_NULL__) script_execute(_property, script_execute(_t[TWEEN.EASE], _time, _t[TWEEN.START], _t[TWEEN.CHANGE], _duration), _t[TWEEN.DATA], _t[TWEEN.TARGET], _t[TWEEN.VARIABLE]);    
         }
         else // Tween has reached start or destination
-        if (_t[TWEEN.TIME_SCALE] != 0) // Make sure time scale isn't "paused"
+        if (_t[TWEEN.TIME_SCALE] != 0) // Make sure time scale isn"t "paused"
         {
             // Update tween based on its play mode -- Could put overflow wait time in here????
             switch(_t[TWEEN.MODE])
             {
             case TWEEN_MODE_ONCE:
-                _t[@ TWEEN.STATE] = TWEEN_STATE.STOPPED;  // Set tween's state as STOPPED
-                _t[@ TWEEN.TIME] = _duration*(_time > 0); // Update tween's time
+                _t[@ TWEEN.STATE] = TWEEN_STATE.STOPPED;  // Set tween"s state as STOPPED
+                _t[@ TWEEN.TIME] = _duration*(_time > 0); // Update tween"s time
                 
                 // Update property
                 if (_property != TGMS_NULL__) script_execute(_property, _t[TWEEN.START] + _t[TWEEN.CHANGE]*(_time > 0), _t[TWEEN.DATA], _t[TWEEN.TARGET], _t[TWEEN.VARIABLE]);
@@ -114,7 +114,7 @@ if (is_array(_t))
                 }
                 else
                 {
-                    // Update tween's time
+                    // Update tween"s time
                     _t[@ TWEEN.TIME] = 0;
                     
                     // Update property
@@ -157,7 +157,7 @@ if (is_array(_t))
             break;
             
             case TWEEN_MODE_REPEAT:
-                // Update local time and tween's starting location
+                // Update local time and tween"s starting location
                 if (_time > 0)
                 {
                     _time = _time - _duration;

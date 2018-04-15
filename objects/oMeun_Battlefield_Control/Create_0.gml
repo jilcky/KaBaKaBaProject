@@ -6,10 +6,10 @@ event_inherited();
 
 
 
-BGFIle[0] = working_directory+"./Image/Background/11.png"
-BGFIle[1] = working_directory+"./Image/Background/12.png"
-BGFIle[2] = working_directory+"./Image/Background/13.png"
-BGFIle[3] = working_directory+"./Image/Background/14.png"
+BGFIle[0] =  "./Image/Background/11.png"
+BGFIle[1] =  "./Image/Background/12.png"
+BGFIle[2] =  "./Image/Background/13.png"
+BGFIle[3] =  "./Image/Background/14.png"
 
 BGSelect = 0
 

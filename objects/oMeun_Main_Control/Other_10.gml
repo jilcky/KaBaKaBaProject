@@ -27,9 +27,11 @@ if ds_map_exists(Meun_Index,Order_String)
 }
 else
 {
-	instance_create_depth(x,y,-1,self.object_index)
+	//instance_create_depth(x,y,-1,self.object_index)
 	
 		show_debug_message(string(Order_String) + "_指令未注册") 
+		
+		exit;
 }
 
 	sprite_delete(BG)

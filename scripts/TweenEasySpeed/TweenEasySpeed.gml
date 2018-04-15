@@ -1,4 +1,4 @@
-/// @description Tweens instance's speed
+/// @description Tweens instance"s speed
 /// @param {real} spd1
 /// @param {real} spd2 
 /// @param {real} delay

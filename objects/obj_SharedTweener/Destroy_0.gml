@@ -56,7 +56,7 @@ repeat(ds_list_size(_tweens))
             ds_map_delete(_events, ds_map_find_first(_events));     // Delete event key   
         }
         
-        // Destroy events map and invalidate tween's reference
+        // Destroy events map and invalidate tween"s reference
         ds_map_destroy(_events);
         _t[@ TWEEN.EVENTS] = -1; // :: Do I need this?
     }

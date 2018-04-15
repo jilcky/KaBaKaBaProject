@@ -13,6 +13,6 @@
 
 if sprite_exists(sprite_index)
 {
-var Size = 1920/sprite_get_width(sprite_index)
+var Size = 1280/sprite_get_width(sprite_index)
 draw_sprite_ext(sprite_index,0,0,0,Size,Size,0,c_white,1
 )}

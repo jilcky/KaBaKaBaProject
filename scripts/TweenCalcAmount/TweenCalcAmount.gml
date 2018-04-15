@@ -1,4 +1,4 @@
-/// @description Returns calculated value using tween's state and a set amount
+/// @description Returns calculated value using tween"s state and a set amount
 
 /// TweenCalcAmount(tween,amount)
 /// @param tween	tween id
@@ -60,6 +60,6 @@ else
         return _t[TWEEN.START];
     }
 
-    // Return tween's calculated value for its current state
+    // Return tween"s calculated value for its current state
     return script_execute(_t[TWEEN.EASE], clamp(argument1, 0, _duration), _t[TWEEN.START], _t[TWEEN.CHANGE], 1);
 }

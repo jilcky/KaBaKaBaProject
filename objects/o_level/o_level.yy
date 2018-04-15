@@ -5,7 +5,7 @@
     "name": "o_level",
     "eventList": [
         {
-            "id": "2ab5fb2e-f5c6-4295-a4be-154275fe3ef7",
+            "id": "f1c940d6-996c-495d-8022-1ca7e42a09f2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "0b6e424b-aa40-4d26-84f0-c69b8d65f630"
         },
         {
-            "id": "651c9cc2-586f-4e0f-948e-06585209abb7",
+            "id": "1a2f2a37-f3d4-4373-8d05-5076db64bf88",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "0b6e424b-aa40-4d26-84f0-c69b8d65f630"
         },
         {
-            "id": "e915b313-bd34-49ad-b911-bca99df4152e",
+            "id": "fbbd182f-5795-4963-bb02-f8d66c85fc5d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +35,7 @@
             "m_owner": "0b6e424b-aa40-4d26-84f0-c69b8d65f630"
         },
         {
-            "id": "f327792b-346e-4aa8-b5fc-6baaecb8439c",
+            "id": "3e90a49f-a2bf-4951-83c8-ef54805f6a6a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -64,5 +64,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "visible": false
 }

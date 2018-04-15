@@ -12,7 +12,7 @@ if  allowTouch and mode = oVk_Button_type.Filck
 		"image_alpha", image_alpha, 0.5);
 
 	
-	// Call user event 0 when tween finishes -- resets 'allowTouch'
+	// Call user event 0 when tween finishes -- resets "allowTouch"
 	TweenAddCallbackUser(tween, TWEEN_EV_FINISH, id, 15);
 	//TweenAddCallbackUser(tween, TWEEN_EV_FINISH, id, 14);
 	

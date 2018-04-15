@@ -1,4 +1,4 @@
-/// @description Tweens instance's image alpha
+/// @description Tweens instance"s image alpha
 /// @param {real} alpha1
 /// @param {real} alpha2 
 /// @param {real} delay

@@ -1,4 +1,4 @@
-/// @description Tweens instance's direction
+/// @description Tweens instance"s direction
 /// @param {real} dir1
 /// @param {real} dir2
 /// @param {real} delay

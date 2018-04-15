@@ -1,6 +1,6 @@
 /// TGMS_ExecuteEvent(event_list,event_type)
 /*
-    DON'T CALL THIS DIRECTLY!!!
+    DON"T CALL THIS DIRECTLY!!!
 */
 
 // IF events and event type initialized...

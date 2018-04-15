@@ -1,6 +1,8 @@
 
 if (live_call()) return live_result;
 //绘制零件
+if	ds_map_size(All_Button_Index)
+{
 var Key = ds_map_find_first(All_Button_Index) 
 if true next ds_map_size(All_Button_Index) in {
 
@@ -12,4 +14,4 @@ if true next ds_map_size(All_Button_Index) in {
 	draw_text_transformed(map[? "id"].x, map[? "id"].y, map[? "order"], 1, 1, 0)
 
 	Key = ds_map_find_next(All_Button_Index, Key)
-}
+}}

@@ -1,4 +1,4 @@
-/// @description Safely destroys a tween without error, even if it doesn't exist
+/// @description Safely destroys a tween without error, even if it doesn"t exist
 
 /// @param	tween[s] tween id(s)
 

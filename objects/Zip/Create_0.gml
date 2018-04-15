@@ -1,5 +1,5 @@
 path = "Button.zip"
-File = working_directory+"NewContent2/"
+File =  "NewContent2/"
  var files = zip_unzip(path, File);
       if files > 0
          {

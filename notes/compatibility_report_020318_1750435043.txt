@@ -190,28 +190,28 @@ Converted description /// @description nsp_variable_global_get_br(Variable)/// 
 /// @param Variable
 
 Converting GML script: ${project_dir}\scripts\nsp_variable_set_new\nsp_variable_set_new.gml
-Error: variable 'variable_instance_set' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable "variable_instance_set" has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 Converted description /// @description nsp_variable_set_new(Instance, Variable, Value)/// @function nsp_variable_set_new
 /// @param Instance
 /// @param  Variable
 /// @param  Value
 
 Converting GML script: ${project_dir}\scripts\nsp_variable_get_new\nsp_variable_get_new.gml
-Error: variable 'variable_instance_exists' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
-Error: variable 'variable_instance_get' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable "variable_instance_exists" has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable "variable_instance_get" has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 Converted description /// @description nsp_variable_get_new(Instance, Variable)/// @function nsp_variable_get_new
 /// @param Instance
 /// @param  Variable
 
 Converting GML script: ${project_dir}\scripts\nsp_variable_global_set_new\nsp_variable_global_set_new.gml
-Error: variable 'variable_global_set' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable "variable_global_set" has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 Converted description /// @description nsp_variable_global_set_new(Name, Value)/// @function nsp_variable_global_set_new
 /// @param Name
 /// @param  Value
 
 Converting GML script: ${project_dir}\scripts\nsp_variable_global_get_new\nsp_variable_global_get_new.gml
-Error: variable 'variable_global_exists' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
-Error: variable 'variable_global_get' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable "variable_global_exists" has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable "variable_global_get" has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 Converted description /// @description nsp_variable_global_get_new(Name)/// @function nsp_variable_global_get_new
 /// @param Name
 
@@ -328,6 +328,6 @@ Converting GML script: ${project_dir}\scripts\nsp_string_force\nsp_string_force.
 Converted description /// @description nsp_string_force(Value)/// @function nsp_string_force
 /// @param Value
 
-Added compatibility script 'instance/instance_create.gml'
-Added compatibility script 'object/object_get_depth.gml'
-Added compatibility script '__global_object_depths.gml'
+Added compatibility script "instance/instance_create.gml"
+Added compatibility script "object/object_get_depth.gml"
+Added compatibility script "__global_object_depths.gml"

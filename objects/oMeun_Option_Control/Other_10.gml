@@ -9,11 +9,12 @@ instance_create_depth(x,y,depth,oMeun_Main_Control);instance_destroy();
 	break;
 
 default:
+
 	show_debug_message(string(Order_String) + "_指令未注册") 
 	
-	instance_create_depth(x,y,-1,self.object_index)
+	//instance_create_depth(x,y,-1,self.object_index)
 	
-	instance_destroy(self,id)
+	//instance_destroy(self,id)
 	
 	break;
 }

@@ -7,7 +7,7 @@
         "e6c8e5db-10d0-4386-825b-78ea3b168680"
     ],
     "filterType": "GMObject",
-    "folderName": "战斗虚拟键",
+    "folderName": "战斗",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

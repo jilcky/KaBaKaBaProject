@@ -31,7 +31,7 @@ TGMS_BuildDefaultProperties();
 // Declare default global system-wide settings
 //-----------------------------------------------
 global.TGMS_SharedTweener = noone;    // Declare global variable for holding shared tweener instance
-global.TGMS_IsEnabled = true;         // System's active state boolean
+global.TGMS_IsEnabled = true;         // System"s active state boolean
 global.TGMS_TimeScale = 1.0;          // Effects overall speed of how fast system plays tweens/delays
 global.TGMS_MinDeltaFPS = 10;         // The lowest framerate before delta tweens will begin to lag behind (Ideally, keep between 10-15)
 global.TGMS_UpdateInterval = 1.0;     // Sets how often (in steps) system will update (1 = default, 2 = half speed, 0.5 = double speed) DO NOT set as 0 or below!

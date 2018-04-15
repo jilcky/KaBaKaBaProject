@@ -1,4 +1,4 @@
-资源名称 'draw_sprite_pos_fixed_scripts' 冲突,已经存在, 重新命名为 'draw_sprite_pos_fixed_scripts_scripts'
+资源名称 "draw_sprite_pos_fixed_scripts" 冲突,已经存在, 重新命名为 "draw_sprite_pos_fixed_scripts_scripts"
 转换 GML 脚本: ${project_dir}\scripts\draw_sprite_pos_fixed_scripts_scripts\draw_sprite_pos_fixed_scripts_scripts.gml
 转换后的描述 /// @description  draw_sprite_pos_fixed_scripts(sprite,subimg,x1,y1,x2,y2,x3,y3,x4,y4,colour,alpha);/// @function  draw_sprite_pos_fixed_scripts
 /// @param sprite
@@ -23,7 +23,7 @@
 
 转换 GML 脚本: ${project_dir}\objects\o_controller\Draw_0.gml
 转换后的描述 /// @description  Draw
-转换后的字符串 - 行 25: 'FIXED' -> "FIXED"
-转换后的字符串 - 行 26: 'STANDARD' -> "STANDARD"
-转换后的字符串 - 行 27: 'FIXED' -> "FIXED"
-转换后的字符串 - 行 28: 'STANDARD' -> "STANDARD"
+转换后的字符串 - 行 25: "FIXED" -> "FIXED"
+转换后的字符串 - 行 26: "STANDARD" -> "STANDARD"
+转换后的字符串 - 行 27: "FIXED" -> "FIXED"
+转换后的字符串 - 行 28: "STANDARD" -> "STANDARD"

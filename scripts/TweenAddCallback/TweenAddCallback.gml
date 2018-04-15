@@ -37,7 +37,7 @@ if (is_undefined(_t)) { return undefined; }
 var _events = _t[TWEEN.EVENTS];
 var _cb;
 
-// Create and assign events map if it doesn't exist
+// Create and assign events map if it doesn"t exist
 if (_events == -1)
 {
     _events = ds_map_create();

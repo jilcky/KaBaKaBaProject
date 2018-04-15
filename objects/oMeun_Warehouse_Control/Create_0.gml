@@ -4,3 +4,4 @@ Button_Order[0] = "返回"
 event_inherited();
 
 instance_create_depth(x,y,depth,oHandControl)
+

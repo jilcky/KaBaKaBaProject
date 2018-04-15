@@ -1,7 +1,7 @@
 /// v0.9.84
 
 // Global system-wide settings
-isEnabled = global.TGMS_IsEnabled;                     // System's active state flag
+isEnabled = global.TGMS_IsEnabled;                     // System"s active state flag
 timeScale = global.TGMS_TimeScale;                     // Global time scale of tweening engine
 timeScaleDelta = timeScale * delta_time/1000000;	   // Global time scale effected by delta timing
 minDeltaFPS = global.TGMS_MinDeltaFPS;                 // Minimum frame rate before delta time will lag behind
@@ -13,7 +13,7 @@ tick = 0;                            // System update timer
 autoCleanIndex = 0;                  // Used to track index when processing passive memory manager
 keepPersistent = false;              // Becomes true if tweening used in persistent room
 maxDelta = 1/minDeltaFPS;            // Cache delta cap
-deltaTime = delta_time/1000000;      // Let's make delta time more practical to work with, shall we?
+deltaTime = delta_time/1000000;      // Let"s make delta time more practical to work with, shall we?
 prevDeltaTime = deltaTime;           // Holds delta time from previous step
 deltaRestored = false;               // Used to help maintain predictable delta timing
 addDelta = 0.0;                      // Amount to add to delta time if update interval not reached

@@ -7,7 +7,7 @@
     Supported Data Labels:
         "group"         -- Group which tween belongs to
         "time"          -- Current time of tween in steps or seconds
-        "time_amount"   -- Sets the tween's time by a relative amount between 0.0 and 1.0 
+        "time_amount"   -- Sets the tween"s time by a relative amount between 0.0 and 1.0 
         "time_scale"    -- How fast a tween updates : Default = 1.0
         "duration"      -- How long a tween takes to fully animate in steps or seconds
         "ease"          -- The easing algorithm used by the tween

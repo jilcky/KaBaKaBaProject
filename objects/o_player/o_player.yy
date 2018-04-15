@@ -5,7 +5,7 @@
     "name": "o_player",
     "eventList": [
         {
-            "id": "f321e992-4706-4909-9182-7dc8bf7422ec",
+            "id": "2bc2fe55-3c2f-4345-a608-f38ffb605c43",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "6f00a1b8-7194-43fb-b304-c1f095571e03"
         },
         {
-            "id": "1607e1e4-f1e2-46b7-a4fd-a817024beb7b",
+            "id": "b4ea7b3d-178b-4870-8cc7-a7d13d672a91",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "6f00a1b8-7194-43fb-b304-c1f095571e03"
         },
         {
-            "id": "fc141450-dc1a-4d6c-8f28-820c592e443e",
+            "id": "f94f687d-7865-4fcd-89c9-97bac3d20a1b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +35,7 @@
             "m_owner": "6f00a1b8-7194-43fb-b304-c1f095571e03"
         }
     ],
-    "maskSpriteId": "f9ff6700-553a-439c-95ce-64d50a6fe256",
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,

@@ -1,4 +1,4 @@
-//让游戏菜单使用补间动画 倒带
+/// @description 让游戏菜单使用补间动画 倒带
 if (live_call()) return live_result;
 
 if Order_Locking = false{

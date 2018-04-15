@@ -2,7 +2,7 @@
 /*
 	Set up default properties for optimisation and normalization purposes.
 	This is NOT REQUIRED for custom properties/variables to be used, but they will
-	perform slower than tween's set up with TGMS_BuildProperty().
+	perform slower than tween"s set up with TGMS_BuildProperty().
 	
 	It is advised to create your own list of custom properties elsewhere.
 	It is safe to delete any properties and their associated scripts.

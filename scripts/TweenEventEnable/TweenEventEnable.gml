@@ -18,7 +18,7 @@ if (is_array(_t)){
     var _enable = argument2;
     var _events = _t[TWEEN.EVENTS];
     
-    // Create and assign events map if it doesn't exist
+    // Create and assign events map if it doesn"t exist
     if (_events == -1)
     {
         _events = ds_map_create();

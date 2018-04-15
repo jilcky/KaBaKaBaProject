@@ -14,6 +14,6 @@ else
     event_user(1)
 }
 
-sprite_index = sprite_add(working_directory+"./Image/Background/3.png",0,0,0,0,0)
+sprite_index = sprite_add( "./Image/Background/3.png",0,0,0,0,0)
 
 depth = 100

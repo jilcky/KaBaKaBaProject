@@ -14,10 +14,10 @@ if (room_persistent)
 {
     var _key = room; // Set map key as room id
     
-    // Create persistent queue for room if it doesn't exist
+    // Create persistent queue for room if it doesn"t exist
     if (ds_map_exists(pRoomTweens, _key) == false) { ds_map_replace(pRoomTweens, _key, ds_queue_create()); }
     
-    // Cache room's tween queue
+    // Cache room"s tween queue
     var _pRoomQueue = pRoomTweens[? _key];
         
     // Add tweens to persistent room data 
@@ -25,7 +25,7 @@ if (room_persistent)
     repeat(_index)
     {  
         var _t = _tweens[| --_index];   // Get tween and decrement iterator
-        var _target = _t[TWEEN.TARGET]; // Cache tween's target
+        var _target = _t[TWEEN.TARGET]; // Cache tween"s target
         
         if (instance_exists(_target))
         {
@@ -39,10 +39,10 @@ if (room_persistent)
         {
             instance_activate_object(_target); // Attempt to activate target
             
-            // IF the tween's target now exists
+            // IF the tween"s target now exists
             if (instance_exists(_target))
             {
-                // IF the target instance isn't persistent
+                // IF the target instance isn"t persistent
                 if (_target.persistent == false)
                 {
                     ds_queue_enqueue(_pRoomQueue, _t); // Add tween to persistent room queue
@@ -62,10 +62,10 @@ if (room_persistent)
     //----------------------
     //  Handle delays
     //----------------------
-    // Create persistent delays queue for room if it doesn't exist
+    // Create persistent delays queue for room if it doesn"t exist
     if (ds_map_exists(pRoomDelays, _key) == false) { ds_map_replace(pRoomDelays, _key, ds_queue_create()); }
     
-    // Cache room's delayed tweens queue
+    // Cache room"s delayed tweens queue
     var _pRoomDelays = pRoomDelays[? _key];
     
     // Iterate through all delayed tweens backwards
@@ -73,7 +73,7 @@ if (room_persistent)
     repeat(_index)
     {
         var _t = delayedTweens[| --_index]; // Get tween and decrement iterator
-        var _target = _t[TWEEN.TARGET];     // Cache tween's target
+        var _target = _t[TWEEN.TARGET];     // Cache tween"s target
         
         // IF target exists
         if (instance_exists(_target))
@@ -114,7 +114,7 @@ else
     repeat(_index)
     {  
         var _t = _tweens[| --_index];   // Get tween and increment iterator
-        var _target = _t[TWEEN.TARGET]; // Cahce tween's target instance
+        var _target = _t[TWEEN.TARGET]; // Cahce tween"s target instance
         
         // IF target exists and is persistent, signal tweening system to be persistent
         if (instance_exists(_target))

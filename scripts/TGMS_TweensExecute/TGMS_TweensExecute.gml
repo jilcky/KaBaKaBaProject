@@ -19,13 +19,13 @@
         Currently takes only a max of 3 optional arguments.
         
     Example:
-        // Execute 'TweenStop' for all tweens, including those with deactivated targets
+        // Execute "TweenStop" for all tweens, including those with deactivated targets
         TweensExecute(TWEENS_ALL, 0, TweenStop);
         
-        // Execute 'TweenPause' with tweens belonging to group 2
+        // Execute "TweenPause" with tweens belonging to group 2
         TweensExecute(TWEENS_GROUP, 2, TweenPause)
         
-        // Execute 'TweenSetTime' for tweens associated with obj_Jumpy
+        // Execute "TweenSetTime" for tweens associated with obj_Jumpy
         TweensExecute(TWEENS_TARGET, obj_Jumpy, TweenSetTime, 2.0);
 */
 

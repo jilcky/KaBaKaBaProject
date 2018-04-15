@@ -1,4 +1,4 @@
-/// @description Returns calculated value using a tween's state at a set time
+/// @description Returns calculated value using a tween"s state at a set time
 
 /// TweenCalcTime(tween,time)
 /// @param tween	tween id
@@ -8,7 +8,7 @@
 
 /*      
     INFO:
-        Returns a calculated value using a tween's current state
+        Returns a calculated value using a tween"s current state
         at a specified point in time.
         
         Note: Useful with null property setters which can be set by
@@ -60,7 +60,7 @@ else
         return _t[TWEEN.START];
     }
 
-    // Return tween's calculated value for its current state
+    // Return tween"s calculated value for its current state
     return script_execute(_t[TWEEN.EASE], clamp(argument1, 0, _duration), _t[TWEEN.START], _t[TWEEN.CHANGE], _duration);
 }
 

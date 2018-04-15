@@ -1,7 +1,7 @@
 if Mode = "开始对比"
 {
     
-    var file = file_text_open_read(working_directory+"/FileJSON.txt")
+    var file = file_text_open_read( "/FileJSON.txt")
     FileMap = json_decode( file_text_read_string(file))
     file_text_close(file)
     
@@ -64,7 +64,7 @@ if Mode = "下载差异"
      if  Size and DownLock  {
     for (var i = 0; i < Size; ++i)  {
 		
-   DownFile[|ds_list_size(DownFile)] =  http_get_file(HTTP+_key,working_directory+_key)
+   DownFile[|ds_list_size(DownFile)] =  http_get_file(HTTP+_key, _key)
     
     var _key = ds_map_find_next(NoFileMap,_key)
     }

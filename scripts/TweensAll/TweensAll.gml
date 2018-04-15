@@ -1,8 +1,8 @@
-/// @description returns all tween ids for, scripts supporting 'tween[s]' argument
+/// @description returns all tween ids for, scripts supporting "tween[s]" argument
 
 /*
     The Tweens* scripts can be used with any tween scripts
-    which show 'tween[s]' as an argument.
+    which show "tween[s]" as an argument.
     
     e.g.
         TweenStop(TweensAll()); // Stop all tweens

@@ -1,4 +1,4 @@
-/// @description returns selected tween ids, for scripts supporting 'tween[s]' argument
+/// @description returns selected tween ids, for scripts supporting "tween[s]" argument
 
 /// @param tween1	first selected tween
 /// @param tween2	second selected tween
@@ -6,7 +6,7 @@
 
 /*
     The Tweens*() scripts can be used with any tween scripts
-    which show 'tween[s]' as an argument.
+    which show "tween[s]" as an argument.
     
     e.g.
 		var _tweens = Tweens(tween1, tween2);

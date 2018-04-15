@@ -1,5 +1,5 @@
-var _x_input = oVk_Rocker.RX/oVk_Rocker.R  or  keyboard_check(vk_right) - keyboard_check(vk_left);
-var _y_input = oVk_Rocker.RY/oVk_Rocker.R or  keyboard_check(vk_down) - keyboard_check(vk_up);
+var _x_input = keyboard_check(vk_right) - keyboard_check(vk_left);
+var _y_input = keyboard_check(vk_down) - keyboard_check(vk_up);
 
 x_speed_ += _x_input * acceleration_;
 y_speed_ += _y_input * acceleration_;
@@ -33,28 +33,25 @@ if (x_speed_ > 0) {
 // Move horizontally
 x += x_speed_;
 
-//// Right collisions
-//if x_speed_ > 0 {
-//	if (grid_place_meeting(self, o_level.grid_)) {
-//		x = bbox_right&~(CELL_WIDTH-1);
-//		x -= bbox_right-x;
-//		x_speed_ = 0;
-//	}
-//} else if x_speed_ < 0 {
-//	// Left collisions
-//	if (grid_place_meeting(self, o_level.grid_)) {
-//		x = bbox_left&~(CELL_WIDTH-1);
-//		x += CELL_WIDTH+x-bbox_left;
-//		x_speed_ = 0;
-//	}
-//}
+// Right collisions
+if x_speed_ > 0 {
+	if (grid_place_meeting(self, o_level.grid_)) {
+		x = bbox_right&~(CELL_WIDTH-1);
+		x -= bbox_right-x;
+		x_speed_ = 0;
+	}
+} else if x_speed_ < 0 {
+	// Left collisions
+	if (grid_place_meeting(self, o_level.grid_)) {
+		x = bbox_left&~(CELL_WIDTH-1);
+		x += CELL_WIDTH+x-bbox_left;
+		x_speed_ = 0;
+	}
+}
 
 // Move vertically
 y += y_speed_;
 
-y = min(y,1080  -128)
-y = max(512,y)
-/*
 // Vertical collisions
 if y_speed_ > 0 {
 	// Bottom collisions
@@ -71,4 +68,3 @@ if y_speed_ > 0 {
 		y_speed_ = 0;
 	}
 }
-

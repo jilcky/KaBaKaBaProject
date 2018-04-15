@@ -3,7 +3,7 @@
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "neko.dll",
-    "CopyToMask": -1,
+    "CopyToMask": 64,
     "exists": false,
     "exportAction": 0,
     "exportDir": "",

@@ -1,4 +1,4 @@
-/// @description Tweens instance's image angle
+/// @description Tweens instance"s image angle
 /// @param {real} angle1
 /// @param {real} angle2
 /// @param {real} delay

@@ -1,4 +1,4 @@
-
+/*
 if (!surface_exists(shadow_surface_)) {
 	// Create the shadow surface
 	shadow_surface_ = surface_create(room_width, room_height);

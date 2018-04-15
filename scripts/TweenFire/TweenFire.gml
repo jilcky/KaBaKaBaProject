@@ -27,7 +27,7 @@
         TweenFire(obj_Player, EaseOutCubic, TWEEN_MODE_PATROL, false, 30, 60, x__, x, mouse_x, y__, y, mouse_y);
         
     Note: 
-        TweenFire() is required. It's support script, TGMS_TweenFire(), is also required.  
+        TweenFire() is required. It"s support script, TGMS_TweenFire(), is also required.  
         However, additional *To/*From/*Make/*Play scripts can be safely deleted if desired.
 */
 

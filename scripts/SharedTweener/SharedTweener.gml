@@ -21,8 +21,8 @@ else
     }
     else
     {
-        // Create new shared tweener if it doesn't exist
-        global.TGMS_SharedTweener = instance_create_depth(-1000000, -1000000, 0, obj_SharedTweener);
+        // Create new shared tweener if it doesn"t exist
+        global.TGMS_SharedTweener = instance_create_depth(-100, -100, 0, obj_SharedTweener);
         return global.TGMS_SharedTweener;
     }
 }

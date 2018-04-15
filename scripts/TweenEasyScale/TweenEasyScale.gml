@@ -1,4 +1,4 @@
-/// @description Tweens instance's image scale
+/// @description Tweens instance"s image scale
 /// @param {real} x1
 /// @param {real} y1
 /// @param {real} x2

@@ -1,0 +1,580 @@
+转换 GML 脚本: ${project_dir}\scripts\scr_sound_callback_sample\scr_sound_callback_sample.gml
+转换后的字符串 - 行 1: "beep" -> "beep"
+
+转换 GML 脚本: ${project_dir}\scripts\scr_listbox_drawline_sample_custom\scr_listbox_drawline_sample_custom.gml
+转换后的字符串 - 行 47: "$4.50" -> "$4.50"
+
+转换 GML 脚本: ${project_dir}\objects\ui_defaults\Create_0.gml
+转换后的字符串 - 行 41: "" -> ""
+转换后的字符串 - 行 54: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_defaults\Alarm_11.gml
+转换后的描述 /// @description used for uiDestroy,  like fadeout splash type labels...
+
+转换 GML 脚本: ${project_dir}\objects\ui_defaults\Other_22.gml
+转换后的描述 /// @description create ease object for animation
+
+转换 GML 脚本: ${project_dir}\objects\ui_defaults\Other_21.gml
+转换后的描述 /// @description for resizing in code
+
+转换 GML 脚本: ${project_dir}\objects\ui_defaults\Other_20.gml
+转换后的描述 /// @description sound controls....
+
+转换 GML 脚本: ${project_dir}\objects\ui_defaults\Draw_0.gml
+转换内建函数 - 行23: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+转换内建函数 - 行24: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+
+转换 GML 脚本: ${project_dir}\objects\ui_defaults\KeyPress_1.gml
+转换后的字符串 - 行 7: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_label\Create_0.gml
+转换后的字符串 - 行 32: "" -> ""
+转换后的字符串 - 行 33: "" -> ""
+转换后的字符串 - 行 35: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_label\Other_11.gml
+转换后的描述 /// @description break apart memo string
+转换后的字符串 - 行 8: "" -> ""
+转换后的字符串 - 行 9: "" -> ""
+转换后的字符串 - 行 13: "" -> ""
+转换后的字符串 - 行 21: " " -> " "
+转换后的字符串 - 行 21: "#" -> "#"
+转换后的字符串 - 行 31: "#" -> "#"
+转换后的字符串 - 行 31: "\" -> "\\"
+转换后的字符串 - 行 35: "#" -> "#"
+转换后的字符串 - 行 37: " " -> " "
+转换后的字符串 - 行 40: " " -> " "
+转换后的字符串 - 行 42: " " -> " "
+转换后的字符串 - 行 44: "" -> ""
+转换后的字符串 - 行 56: "" -> ""
+转换后的字符串 - 行 58: "" -> ""
+转换后的字符串 - 行 61: "" -> ""
+转换后的字符串 - 行 67: "XgpT" -> "XgpT"
+
+转换 GML 脚本: ${project_dir}\objects\ui_label\Draw_0.gml
+转换后的字符串 - 行 52: "X" -> "X"
+转换后的字符串 - 行 67: "XgpT" -> "XgpT"
+
+转换 GML 脚本: ${project_dir}\objects\ui_button_ani\Draw_0.gml
+转换后的字符串 - 行 175: "X" -> "X"
+转换后的字符串 - 行 200: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox_ext\Create_0.gml
+转换后的字符串 - 行 23: "" -> ""
+转换后的字符串 - 行 62: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox_ext\Step_0.gml
+转换后的字符串 - 行 1: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox_ext\Other_11.gml
+转换后的描述 /// @description break apart memo string
+转换后的字符串 - 行 8: "" -> ""
+转换后的字符串 - 行 9: "" -> ""
+转换后的字符串 - 行 10: "" -> ""
+转换后的字符串 - 行 14: "" -> ""
+转换后的字符串 - 行 22: " " -> " "
+转换后的字符串 - 行 22: "#" -> "#"
+转换后的字符串 - 行 32: "#" -> "#"
+转换后的字符串 - 行 32: "\" -> "\\"
+转换后的字符串 - 行 36: "#" -> "#"
+转换后的字符串 - 行 38: " " -> " "
+转换后的字符串 - 行 41: " " -> " "
+转换后的字符串 - 行 43: " " -> " "
+转换后的字符串 - 行 45: "" -> ""
+转换后的字符串 - 行 57: "" -> ""
+转换后的字符串 - 行 59: "" -> ""
+转换后的字符串 - 行 62: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox_ext\Other_10.gml
+转换后的描述 /// @description mouse lifted or moved off control
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox_ext\Draw_0.gml
+错误: D:\GIT\KaBaKaBaProject\objects\ui_listbox_ext\Draw_0.gml - 169: 单引号不再适用于字符串
+错误: D:\GIT\KaBaKaBaProject\objects\ui_listbox_ext\Draw_0.gml - 169: 意外的一元运算符 !=
+太多错误 - GML 不处理 : ${project_dir}\objects\ui_listbox_ext\Draw_0.gml
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox\Create_0.gml
+转换后的字符串 - 行 23: "Items Not Set" -> "Items Not Set"
+转换后的字符串 - 行 60: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox\Step_0.gml
+转换后的字符串 - 行 1: "" -> ""
+转换后的字符串 - 行 3: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox\Other_11.gml
+转换后的描述 /// @description break apart memo string
+转换后的字符串 - 行 8: "" -> ""
+转换后的字符串 - 行 9: "" -> ""
+转换后的字符串 - 行 10: "" -> ""
+转换后的字符串 - 行 14: "" -> ""
+转换后的字符串 - 行 22: " " -> " "
+转换后的字符串 - 行 22: "#" -> "#"
+转换后的字符串 - 行 32: "#" -> "#"
+转换后的字符串 - 行 32: "\" -> "\\"
+转换后的字符串 - 行 36: "#" -> "#"
+转换后的字符串 - 行 38: " " -> " "
+转换后的字符串 - 行 41: " " -> " "
+转换后的字符串 - 行 43: " " -> " "
+转换后的字符串 - 行 45: "" -> ""
+转换后的字符串 - 行 57: "" -> ""
+转换后的字符串 - 行 59: "" -> ""
+转换后的字符串 - 行 62: "" -> ""
+转换后的字符串 - 行 67: "XgpT" -> "XgpT"
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox\Other_10.gml
+转换后的描述 /// @description mouse lifted or moved off control
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox\Draw_0.gml
+转换后的字符串 - 行 32: "XgpT" -> "XgpT"
+转换后的字符串 - 行 86: "X" -> "X"
+转换后的字符串 - 行 153: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_button\Draw_0.gml
+转换后的字符串 - 行 93: "X" -> "X"
+转换后的字符串 - 行 111: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_bubble\Create_0.gml
+转换后的字符串 - 行 25: "" -> ""
+转换后的字符串 - 行 55: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_bubble\Step_0.gml
+转换后的字符串 - 行 1: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_bubble\Other_12.gml
+转换后的描述 /// @description call when we need to resize
+
+转换 GML 脚本: ${project_dir}\objects\ui_bubble\Other_11.gml
+转换后的描述 /// @description fade out and destroy
+
+转换 GML 脚本: ${project_dir}\objects\ui_bubble\Other_10.gml
+转换后的描述 /// @description drawn when uiTextValue is changed.
+转换后的字符串 - 行 38: "" -> ""
+转换后的字符串 - 行 72: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_label_score\Create_0.gml
+转换后的字符串 - 行 28: "," -> ","
+
+转换 GML 脚本: ${project_dir}\objects\ui_editbox\Create_0.gml
+转换后的字符串 - 行 45: "" -> ""
+转换后的字符串 - 行 47: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_editbox\Keyboard_1.gml
+转换后的字符串 - 行 41: "" -> ""
+转换后的字符串 - 行 46: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_editbox\Mouse_4.gml
+转换后的字符串 - 行 8: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_editbox\Other_63.gml
+转换后的字符串 - 行 14: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_editbox\Other_11.gml
+转换后的描述 /// @description from keyboard
+转换后的字符串 - 行 3: "" -> ""
+转换后的字符串 - 行 7: "back" -> "back"
+转换后的字符串 - 行 11: "" -> ""
+转换后的字符串 - 行 14: "enter" -> "enter"
+转换后的字符串 - 行 22: "" -> ""
+转换后的字符串 - 行 25: "" -> ""
+转换后的字符串 - 行 27: "\#" -> "\\#"
+转换后的字符串 - 行 30: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_editbox\Other_10.gml
+转换后的描述 /// @description Set Focus
+转换后的字符串 - 行 17: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_editbox\Draw_0.gml
+转换后的字符串 - 行 37: "\#" -> "\\#"
+转换后的字符串 - 行 39: "X" -> "X"
+转换后的字符串 - 行 43: "\#" -> "\\#"
+转换后的字符串 - 行 50: "" -> ""
+转换后的字符串 - 行 51: "X" -> "X"
+转换后的字符串 - 行 55: "#" -> "#"
+转换后的字符串 - 行 55: "\#" -> "\\#"
+转换后的字符串 - 行 70: "" -> ""
+转换后的字符串 - 行 82: "\#" -> "\\#"
+转换后的字符串 - 行 96: "\#" -> "\\#"
+转换后的字符串 - 行 106: "#" -> "#"
+转换后的字符串 - 行 106: "\#" -> "\\#"
+转换后的字符串 - 行 122: "" -> ""
+转换后的字符串 - 行 124: "X" -> "X"
+
+转换 GML 脚本: ${project_dir}\objects\ui_dialog\Create_0.gml
+转换后的字符串 - 行 88: "" -> ""
+转换后的字符串 - 行 95: "" -> ""
+转换后的字符串 - 行 96: "*" -> "*"
+转换后的字符串 - 行 116: "" -> ""
+转换后的字符串 - 行 119: "button" -> "button"
+
+转换 GML 脚本: ${project_dir}\objects\ui_dialog\Other_14.gml
+转换后的描述 /// @description restore mouse controls underneath panel.
+
+转换 GML 脚本: ${project_dir}\objects\ui_dialog\Other_13.gml
+转换后的描述 /// @description will disable all mouse controls beneath panel;
+
+转换 GML 脚本: ${project_dir}\objects\ui_dialog\Other_11.gml
+转换后的描述 /// @description create dialog and it"s components
+转换后的字符串 - 行 25: "" -> ""
+转换后的字符串 - 行 31: "OK" -> "OK"
+转换后的字符串 - 行 48: "" -> ""
+转换后的字符串 - 行 61: "" -> ""
+转换后的字符串 - 行 70: "" -> ""
+转换后的字符串 - 行 87: ") 
+     {
+       uiEditBox2.uiVisible=false;          
+     }
+else
+     {
+     with (uiEditBox2) 
+         {x=other.x+ ( dw div 2);  //center edit1box
+          y=cury;
+          uiSetWidth=(dw div 2)-50;
+          uiAlpha=other.uiAlpha;
+          uiVisible=other.uiVisible;   
+         } 
+     cury += uiEditBox2.uiCurHeight+5;      
+     }        
+       
+  
+uiCheckBox.uiVisible=false;  
+if (uiCheckBox.uiTextValue ==" -> ") 
+     {
+       uiEditBox2.uiVisible=false;          
+     }
+else
+     {
+     with (uiEditBox2) 
+         {x=other.x+ ( dw div 2);  //center edit1box
+          y=cury;
+          uiSetWidth=(dw div 2)-50;
+          uiAlpha=other.uiAlpha;
+          uiVisible=other.uiVisible;   
+         } 
+     cury += uiEditBox2.uiCurHeight+5;      
+     }        
+       
+  
+uiCheckBox.uiVisible=false;  
+if (uiCheckBox.uiTextValue =="
+转换后的字符串 - 行 105: ") 
+     {
+       uiCheckBox.uiVisible=false;          
+     }
+else
+     {
+     with (uiCheckBox) 
+         {x=other.x+ (( dw-(string_width(string_hash_to_newline(uiTextValue))+150)) div 2);  //center checkbox!
+          y=cury;
+          uiSetWidth=string_width(string_hash_to_newline(uiTextValue))+100;
+          uiAlpha=other.uiAlpha;
+          uiVisible=other.uiVisible;     
+         } 
+     cury += uiCheckBox.uiCurHeight+5;     
+     }   
+       
+cury+=20;
+curx=x+( (dw-((uiNumButtons*(butwidth))+((uiNumButtons-1)*butspace))     ) div 2);
+
+for (fx=1;fx<=uiNumButtons;fx+=1)
+{
+
+   switch (fx)
+    {
+      case 1: curb=uiButtons1; break;
+      case 2: curb=uiButtons2; break;
+      case 3: curb=uiButtons3; break;
+      case 4: curb=uiButtons4; break;
+    }  //switch      
+
+  with (curb) do
+  {
+   if (uiTextValue ==" -> ") 
+     {
+       uiCheckBox.uiVisible=false;          
+     }
+else
+     {
+     with (uiCheckBox) 
+         {x=other.x+ (( dw-(string_width(string_hash_to_newline(uiTextValue))+150)) div 2);  //center checkbox!
+          y=cury;
+          uiSetWidth=string_width(string_hash_to_newline(uiTextValue))+100;
+          uiAlpha=other.uiAlpha;
+          uiVisible=other.uiVisible;     
+         } 
+     cury += uiCheckBox.uiCurHeight+5;     
+     }   
+       
+cury+=20;
+curx=x+( (dw-((uiNumButtons*(butwidth))+((uiNumButtons-1)*butspace))     ) div 2);
+
+for (fx=1;fx<=uiNumButtons;fx+=1)
+{
+
+   switch (fx)
+    {
+      case 1: curb=uiButtons1; break;
+      case 2: curb=uiButtons2; break;
+      case 3: curb=uiButtons3; break;
+      case 4: curb=uiButtons4; break;
+    }  //switch      
+
+  with (curb) do
+  {
+   if (uiTextValue =="
+转换后的字符串 - 行 137: ") 
+     {
+       uiVisible=false;          
+     }
+     else
+     {
+       x=curx;  //center checkbox!
+       y=cury;
+       uiSetWidth=butwidth;
+       uiAlpha=other.uiAlpha;
+       uiVisible=other.uiVisible;         
+     }
+   }
+  curx+=butwidth+butspace; 
+} //for loop
+
+
+uiSetHeight=(cury+uiButtonHeight+10)-y;
+uiSetWidth=uiDialogWidth;
+    
+
+if uiDialogPosX=-1 {x=(room_width-uiDialogWidth) div 2;}     //auto-center;
+if uiDialogPosY=-1 {y=(room_height-sprite_height) div 2;}    //auto-center;
+
+
+
+
+
+
+
+ -> ") 
+     {
+       uiVisible=false;          
+     }
+     else
+     {
+       x=curx;  //center checkbox!
+       y=cury;
+       uiSetWidth=butwidth;
+       uiAlpha=other.uiAlpha;
+       uiVisible=other.uiVisible;         
+     }
+   }
+  curx+=butwidth+butspace; 
+} //for loop
+
+
+uiSetHeight=(cury+uiButtonHeight+10)-y;
+uiSetWidth=uiDialogWidth;
+    
+
+if uiDialogPosX=-1 {x=(room_width-uiDialogWidth) div 2;}     //auto-center;
+if uiDialogPosY=-1 {y=(room_height-sprite_height) div 2;}    //auto-center;
+
+
+
+
+
+
+"+"\""+@"
+
+转换 GML 脚本: ${project_dir}\objects\ui_dialog\Other_10.gml
+转换后的描述 /// @description button pressed;
+转换后的字符串 - 行 11: "button1" -> "button1"
+转换后的字符串 - 行 12: "button2" -> "button2"
+转换后的字符串 - 行 13: "button3" -> "button3"
+转换后的字符串 - 行 14: "button4" -> "button4"
+
+转换 GML 脚本: ${project_dir}\objects\ui_combobox\Create_0.gml
+转换后的字符串 - 行 23: "Items Not Set" -> "Items Not Set"
+
+转换 GML 脚本: ${project_dir}\objects\ui_combobox\Alarm_0.gml
+转换后的描述 /// @description destory lookuplist object
+
+转换 GML 脚本: ${project_dir}\objects\ui_combobox\Mouse_4.gml
+转换后的字符串 - 行 14: "XgpT" -> "XgpT"
+
+转换 GML 脚本: ${project_dir}\objects\ui_combobox\Other_10.gml
+转换后的描述 /// @description Process event from lookuplist object
+
+转换 GML 脚本: ${project_dir}\objects\ui_combobox\Draw_0.gml
+转换后的字符串 - 行 42: "X" -> "X"
+
+转换 GML 脚本: ${project_dir}\objects\ui_checkgroup\Create_0.gml
+转换后的字符串 - 行 23: "Items Not Set" -> "Items Not Set"
+
+转换 GML 脚本: ${project_dir}\objects\ui_checkgroup\Draw_0.gml
+转换后的字符串 - 行 45: "" -> ""
+转换后的字符串 - 行 80: "X" -> "X"
+
+转换 GML 脚本: ${project_dir}\objects\ui_checkbox\Draw_0.gml
+转换后的字符串 - 行 40: "X" -> "X"
+
+转换 GML 脚本: ${project_dir}\objects\ui_textbox\Mouse_4.gml
+转换后的字符串 - 行 9: "\#" -> "\\#"
+
+转换 GML 脚本: ${project_dir}\objects\ui_textbox\Other_63.gml
+转换后的字符串 - 行 14: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_textbox\Draw_0.gml
+转换后的字符串 - 行 35: "" -> ""
+转换后的字符串 - 行 37: "" -> ""
+转换后的字符串 - 行 41: "\#" -> "\\#"
+转换后的字符串 - 行 51: "X" -> "X"
+
+转换 GML 脚本: ${project_dir}\objects\ui_textani\Create_0.gml
+转换后的字符串 - 行 36: "" -> ""
+转换后的字符串 - 行 42: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_textani\Draw_0.gml
+转换后的字符串 - 行 124: " " -> " "
+
+转换 GML 脚本: ${project_dir}\objects\ui_slider\Other_10.gml
+转换后的描述 /// @description  on mouse movement
+
+转换 GML 脚本: ${project_dir}\objects\ui_panel\Other_14.gml
+转换后的描述 /// @description restore mouse controls underneath panel.
+
+转换 GML 脚本: ${project_dir}\objects\ui_panel\Other_13.gml
+转换后的描述 /// @description will disable all mouse controls beneath panel;
+
+转换 GML 脚本: ${project_dir}\objects\ui_panel\Other_12.gml
+转换后的描述 /// @description called to restore states of children
+
+转换 GML 脚本: ${project_dir}\objects\ui_panel\Other_11.gml
+转换后的描述 /// @description called to save states of children
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox_horz\Create_0.gml
+转换后的字符串 - 行 23: "" -> ""
+转换后的字符串 - 行 67: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox_horz\Step_0.gml
+转换后的字符串 - 行 1: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox_horz\Other_11.gml
+转换后的描述 /// @description break apart memo string
+转换后的字符串 - 行 8: "" -> ""
+转换后的字符串 - 行 9: "" -> ""
+转换后的字符串 - 行 10: "" -> ""
+转换后的字符串 - 行 14: "" -> ""
+转换后的字符串 - 行 22: " " -> " "
+转换后的字符串 - 行 22: "#" -> "#"
+转换后的字符串 - 行 32: "#" -> "#"
+转换后的字符串 - 行 32: "\" -> "\\"
+转换后的字符串 - 行 36: "#" -> "#"
+转换后的字符串 - 行 38: " " -> " "
+转换后的字符串 - 行 41: " " -> " "
+转换后的字符串 - 行 43: " " -> " "
+转换后的字符串 - 行 45: "" -> ""
+转换后的字符串 - 行 57: "" -> ""
+转换后的字符串 - 行 59: "" -> ""
+转换后的字符串 - 行 62: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox_horz\Other_10.gml
+转换后的描述 /// @description mouse lifted or moved off control
+
+转换 GML 脚本: ${project_dir}\objects\ui_listbox_horz\Draw_0.gml
+转换后的字符串 - 行 91: "X" -> "X"
+转换后的字符串 - 行 143: "Xypg" -> "Xypg"
+转换后的字符串 - 行 218: "" -> ""
+转换后的字符串 - 行 218: "Xypg" -> "Xypg"
+
+转换 GML 脚本: ${project_dir}\objects\ui_keyboard\Create_0.gml
+转换后的字符串 - 行 37: "qwertyuiop" -> "qwertyuiop"
+转换后的字符串 - 行 38: "QWERTYUIOP" -> "QWERTYUIOP"
+转换后的字符串 - 行 39: "1234567890" -> "1234567890"
+转换后的字符串 - 行 44: "asdfghjkl" -> "asdfghjkl"
+转换后的字符串 - 行 45: "ASDFGHJKL" -> "ASDFGHJKL"
+转换后的字符串 - 行 46: "!@$%&-+()" -> "!@$%&-+()"
+转换后的字符串 - 行 51: "zxcvbnm,." -> "zxcvbnm,."
+转换后的字符串 - 行 52: "ZXCVBNM<>" -> "ZXCVBNM<>"
+转换后的字符串 - 行 53: "[]~\/:;"" -> "[]~\\/:;""
+转换后的字符串 - 行 53: ""_=?" -> "\"_=?"
+转换后的字符串 - 行 57: "" -> ""
+转换后的字符串 - 行 58: "?123" -> "?123"
+转换后的字符串 - 行 59: "ABC" -> "ABC"
+转换后的字符串 - 行 60: "" -> ""
+转换后的字符串 - 行 61: "" -> ""
+转换后的字符串 - 行 62: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_keyboard\Step_0.gml
+转换后的字符串 - 行 21: "ui_editbox" -> "ui_editbox"
+
+转换 GML 脚本: ${project_dir}\objects\ui_keyboard\Other_16.gml
+转换后的描述 /// @description process eventobject when enter pressed
+
+转换 GML 脚本: ${project_dir}\objects\ui_keyboard\Other_15.gml
+转换后的描述 /// @description destroy memory
+
+转换 GML 脚本: ${project_dir}\objects\ui_keyboard\Other_14.gml
+转换后的描述 /// @description show keyboard event
+
+转换 GML 脚本: ${project_dir}\objects\ui_keyboard\Other_13.gml
+转换后的描述 /// @description refresh keys...like shift pressed
+
+转换 GML 脚本: ${project_dir}\objects\ui_keyboard\Other_12.gml
+转换后的描述 /// @description hide keyboard
+
+转换 GML 脚本: ${project_dir}\objects\ui_keyboard\Other_11.gml
+转换后的描述 /// @description set keys and board
+转换后的字符串 - 行 54: "key" -> "key"
+转换后的字符串 - 行 93: "back" -> "back"
+转换后的字符串 - 行 103: "" -> ""
+转换后的字符串 - 行 124: "shift" -> "shift"
+转换后的字符串 - 行 134: "" -> ""
+转换后的字符串 - 行 152: " " -> " "
+转换后的字符串 - 行 155: "key" -> "key"
+转换后的字符串 - 行 180: "enter" -> "enter"
+转换后的字符串 - 行 190: "" -> ""
+转换后的字符串 - 行 210: "state" -> "state"
+转换后的字符串 - 行 235: "hide" -> "hide"
+转换后的字符串 - 行 245: "" -> ""
+
+转换 GML 脚本: ${project_dir}\objects\ui_keyboard\Other_10.gml
+转换后的描述 /// @description keypressed event
+转换后的字符串 - 行 6: "\#" -> "\\#"
+转换后的字符串 - 行 6: "#" -> "#"
+转换后的字符串 - 行 8: "ui_editbox" -> "ui_editbox"
+转换后的字符串 - 行 11: "key" -> "key"
+转换后的字符串 - 行 21: "back" -> "back"
+转换后的字符串 - 行 24: "back" -> "back"
+转换后的字符串 - 行 28: "enter" -> "enter"
+转换后的字符串 - 行 31: "enter" -> "enter"
+转换后的字符串 - 行 36: "shift" -> "shift"
+转换后的字符串 - 行 44: "state" -> "state"
+转换后的字符串 - 行 49: "hide" -> "hide"
+
+转换 GML 脚本: ${project_dir}\objects\ui_ani_control\Other_16.gml
+转换后的描述 /// @description animation for ONCE animation (popup...etc)
+/// @param popup...etc
+
+转换 GML 脚本: ${project_dir}\objects\ui_ani_control\Other_15.gml
+转换后的描述 /// @description sparkle
+
+转换 GML 脚本: ${project_dir}\objects\ui_ani_control\Other_14.gml
+转换后的描述 /// @description sin animation (2 pi/ runs continous)
+/// @param 2 pi/ runs continous
+
+转换 GML 脚本: ${project_dir}\objects\ui_ani_control\Other_13.gml
+转换后的描述 /// @description movement animation
+
+转换 GML 脚本: ${project_dir}\objects\ui_ani_control\Other_12.gml
+转换后的描述 /// @description set ease defaults
+
+转换 GML 脚本: ${project_dir}\objects\ui_ani_control\Other_11.gml
+转换后的描述 /// @description ease function
+
+转换 GML 脚本: ${project_dir}\objects\ui_swipe\Create_0.gml
+转换后的字符串 - 行 17: "" -> ""
+
+添加兼容性脚本 "instance/instance_create.gml"
+添加兼容性脚本 "object/object_get_depth.gml"
+添加兼容性脚本 "texture/texture_set_interpolation.gml"
+添加兼容性脚本 "view/__view_get.gml"
+添加兼容性脚本 "view/__init_view.gml"
+添加兼容性脚本 "__init_global.gml"
+添加兼容性脚本 "__global_object_depths.gml"

@@ -13,7 +13,7 @@ Button_Order[4] = "蚕丝"
 with(oDrawMeunBG)
 {
 sprite_delete(sprite_index)
-sprite_index = sprite_add(working_directory+"./Image/Background/4.png",0,0,0,0,0)
+sprite_index = sprite_add( "./Image/Background/4.png",0,0,0,0,0)
 }
 
 switch (Order_String) {
@@ -27,7 +27,7 @@ case "牧场":
 with(oDrawMeunBG)
 {
 sprite_delete(sprite_index)
-sprite_index = sprite_add(working_directory+"./Image/Background/5.png",0,0,0,0,0)
+sprite_index = sprite_add( "./Image/Background/5.png",0,0,0,0,0)
 }
 break;
 
@@ -35,7 +35,7 @@ case "田":
 with(oDrawMeunBG)
 {
 sprite_delete(sprite_index)
-sprite_index = sprite_add(working_directory+"./Image/Background/6.png",0,0,0,0,0)
+sprite_index = sprite_add( "./Image/Background/6.png",0,0,0,0,0)
 }
 break;
 
@@ -43,7 +43,7 @@ case "蚕丝":
 with(oDrawMeunBG)
 {
 sprite_delete(sprite_index)
-sprite_index = sprite_add(working_directory+"./Image/Background/7.png",0,0,0,0,0)
+sprite_index = sprite_add( "./Image/Background/7.png",0,0,0,0,0)
 }
 break;
 
@@ -51,7 +51,7 @@ case "亚麻":
 with(oDrawMeunBG)
 {
 sprite_delete(sprite_index)
-sprite_index = sprite_add(working_directory+"./Image/Background/8.png",0,0,0,0,0)
+sprite_index = sprite_add( "./Image/Background/8.png",0,0,0,0,0)
 }
 break;
 
@@ -59,7 +59,7 @@ case "棉花":
 with(oDrawMeunBG)
 {
 sprite_delete(sprite_index)
-sprite_index = sprite_add(working_directory+"./Image/Background/9.png",0,0,0,0,0)
+sprite_index = sprite_add( "./Image/Background/9.png",0,0,0,0,0)
 }
 break;
 

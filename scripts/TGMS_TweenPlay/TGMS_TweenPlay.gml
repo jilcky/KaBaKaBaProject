@@ -1,5 +1,5 @@
 //  Required by TweenPlay*() scripts
-//  Don't call this directly!
+//  Don"t call this directly!
 
 /// @description Create a tween to be started with TweenPlay*() (not auto-destroyed)
 
@@ -46,7 +46,7 @@ if (argument_count > 1)
 		
 			if (variable_instance_exists(_t[TWEEN.TARGET], _property))
 			{
-				_t[@ TWEEN.PROPERTY] = TGMS_Variable_Instance_Set; // Set tween's property setter script
+				_t[@ TWEEN.PROPERTY] = TGMS_Variable_Instance_Set; // Set tween"s property setter script
 				_property = TGMS_Variable_Instance_Set;
 			}
 			else
@@ -57,21 +57,21 @@ if (argument_count > 1)
 		}
 		else // Optimised property
 		{
-			_t[@ TWEEN.PROPERTY] = _property; // Set tween's property setter script
+			_t[@ TWEEN.PROPERTY] = _property; // Set tween"s property setter script
 		}
     
-	    //_t[@ TWEEN.DATA] = argument[0]; // Set tween's data as target id
-		_t[@ TWEEN.DATA] = _t[TWEEN.TARGET]; // Set tween's data as target id
+	    //_t[@ TWEEN.DATA] = argument[0]; // Set tween"s data as target id
+		_t[@ TWEEN.DATA] = _t[TWEEN.TARGET]; // Set tween"s data as target id
 	}
 	else // Extended property
 	{
 	    _property[0] = argument[1]; // Set extended property setter script
 	    _property[1] = argument[9]; // override target data with data
 	    _t[@ TWEEN.PROPERTY_RAW] = _property; // Store raw property data
-	    _t[@ TWEEN.DATA] = _property[1];  // Set tween's data to extended arguments
+	    _t[@ TWEEN.DATA] = _property[1];  // Set tween"s data to extended arguments
 	    var _script = _property[0];     // Cache script to use as property setter
 	    _property = _script;            // Update cached property setter
-	    _t[@ TWEEN.PROPERTY] = _script;   // Set tween's property setter script   
+	    _t[@ TWEEN.PROPERTY] = _script;   // Set tween"s property setter script   
 	}
 }
 else

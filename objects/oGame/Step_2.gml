@@ -2,9 +2,9 @@
 //重置游戏
 if keyboard_check_pressed(ord("R")) and keyboard_check(vk_control)
 {
-//	room_restart()
+	room_restart()
 
-room_goto_next()
+//room_goto_next()
 }
 
 

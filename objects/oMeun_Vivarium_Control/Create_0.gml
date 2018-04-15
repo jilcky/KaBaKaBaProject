@@ -11,7 +11,7 @@ Button_Order[5] = "返回"
 
 event_inherited();
 
-BG =  sprite_add(working_directory+"./Image/Background/4.png",0,0,0,0,0)
+BG =  sprite_add( "./Image/Background/4.png",0,0,0,0,0)
 
 with(oDrawMeunBG)
 {

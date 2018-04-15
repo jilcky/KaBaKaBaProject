@@ -1,3 +1,4 @@
+/// @description 执行触发的指令
 if (live_call()) return live_result;
 #region 解除处理的锁定
 Order_Locking = false //锁定解除
@@ -12,4 +13,3 @@ default:
 	show_debug_message(string(Order_String) + "_指令未注册") break;
 }
 #endregion
-

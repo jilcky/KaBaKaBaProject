@@ -29,11 +29,11 @@ if (is_array(_t)){
         switch(_t[TWEEN.MODE])
         {
             case TWEEN_MODE_ONCE:
-                _t[@ TWEEN.TIME] = _t[TWEEN.DURATION]; // Update tween's time
+                _t[@ TWEEN.TIME] = _t[TWEEN.DURATION]; // Update tween"s time
             break;
                
             case TWEEN_MODE_BOUNCE:
-                _t[@ TWEEN.TIME] = 0; // Update tween's time
+                _t[@ TWEEN.TIME] = 0; // Update tween"s time
             break;
             
             default:
