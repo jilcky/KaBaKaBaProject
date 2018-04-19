@@ -90,3 +90,10 @@ old_y = y
 //	}
 //}
 ////if path_get_closed()
+
+ //so it will inherit from par_speaker
+
+/*
+
+Other code
+codecodecode

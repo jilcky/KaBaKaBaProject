@@ -1,9 +1,10 @@
+
 x_speed_ = 0;
 y_speed_ = 0;
 max_speed_ = 5;
 acceleration_ = 1.5;
 
-instance_create_layer(x, y, "Instances", o_camera);
+//instance_create_layer(x, y, "Instances", o_camera);
 //o_level.grid_ 
 
 //global.grid = mp_grid_create(0, 0, room_width div 32, room_height div 32, 32, 32)
@@ -19,4 +20,10 @@ old_y = y
 
 grid = mp_grid_create(0, 576, room_width div 32, (room_height) div 32, 32, 32);
 
+mp_grid_add_instances(grid, object3, false);
+
 path  = 0
+
+
+
+

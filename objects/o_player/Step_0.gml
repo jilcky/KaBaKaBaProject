@@ -1,5 +1,24 @@
-var _x_input = keyboard_check(vk_right) - keyboard_check(vk_left);
-var _y_input = keyboard_check(vk_down) - keyboard_check(vk_up);
+//show_debug_message("fuck")
+
+var _x_pad = 0;
+var _y_pad = 0;
+if instance_exists(oVk_Rocker)
+{
+	 _x_pad = oVk_Rocker.RX/oVk_Rocker.R;
+	 _y_pad = oVk_Rocker.RY/oVk_Rocker.R;
+}
+
+var _x_input =  _x_pad//keyboard_check(vk_right) - keyboard_check(vk_left);
+var _y_input = _y_pad //keyboard_check(vk_down) - keyboard_check(vk_up);
+
+if keyboard_check(vk_right) - keyboard_check(vk_left) != 0
+_x_input = keyboard_check(vk_right) - keyboard_check(vk_left)
+
+if  keyboard_check(vk_down) - keyboard_check(vk_up) != 0
+_y_input = keyboard_check(vk_down) - keyboard_check(vk_up)
+
+//_x_input = _x_input or _x_pad;
+//_y_input = _y_input or _y_pad;
 
 x_speed_ += _x_input * acceleration_;
 y_speed_ += _y_input * acceleration_;
@@ -35,14 +54,14 @@ x += x_speed_;
 
 // Right collisions
 if x_speed_ > 0 {
-	if (grid_place_meeting(self, o_level.grid_)) {
+	if (grid_place_meeting(self,global.grid_)) {
 		x = bbox_right&~(CELL_WIDTH-1);
 		x -= bbox_right-x;
 		x_speed_ = 0;
 	}
 } else if x_speed_ < 0 {
 	// Left collisions
-	if (grid_place_meeting(self, o_level.grid_)) {
+	if (grid_place_meeting(self,global.grid_)) {
 		x = bbox_left&~(CELL_WIDTH-1);
 		x += CELL_WIDTH+x-bbox_left;
 		x_speed_ = 0;
@@ -55,14 +74,14 @@ y += y_speed_;
 // Vertical collisions
 if y_speed_ > 0 {
 	// Bottom collisions
-	if (grid_place_meeting(self, o_level.grid_)) {
+	if (grid_place_meeting(self, global.grid_)) {
 		y = bbox_bottom&~(CELL_HEIGHT-1);
 		y -= bbox_bottom-y;
 		y_speed_ = 0;
 	}
 } else if y_speed_ < 0 {
 	// Top collisions
-	if (grid_place_meeting(self, o_level.grid_)) {
+	if (grid_place_meeting(self, global.grid_)) {
 		y = bbox_top&~(CELL_HEIGHT-1);
 		y += CELL_HEIGHT+y-bbox_top;
 		y_speed_ = 0;

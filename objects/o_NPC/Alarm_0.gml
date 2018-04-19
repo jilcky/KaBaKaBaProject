@@ -2,7 +2,7 @@
 if path_exists( path )
 path_delete(path)
 
-mp_grid_add_instances(grid, object3, false);
+
 
 
 	      path = path_add();
@@ -16,9 +16,9 @@ var _Y =		room_height - irandom(576 );
 ////   path_get_length(path)
 //   )
 	   
-	   show_debug_message("X:"+string(_X)+"_Y:"+string(_Y))
+//	   show_debug_message("X:"+string(_X)+"_Y:"+string(_Y))
 	   
-	show_debug_message(path_get_length(path))
+//	show_debug_message(path_get_length(path))
     path_start(path, 3, 0 , 0);
 	
 	

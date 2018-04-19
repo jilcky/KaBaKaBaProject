@@ -8,5 +8,4 @@ mode = oVk_Button_type.Tap
 
 ButtonSize = image_xscale
 
-Fuck = 0
-
+Order = ""
