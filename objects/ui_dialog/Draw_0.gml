@@ -57,23 +57,23 @@ if uiDrawRounded=false { uiRadiusX=0;uiRadiusY=0;};
 
 if (uiDrawBackColor) && (uiCustomDrawBack==noone) 
    {
-    draw_roundrect_color_ext(x+3, y+3, x+sprite_width+3, y+sprite_height+3, uiRadiusX,uiRadiusY,uiShadowColor,uiShadowColor, false);   //fill          
+    draw_roundrect_color_ext(x+3, y+3, x+Sprite_Width+3, y+Sprite_Height+3, uiRadiusX,uiRadiusY,uiShadowColor,uiShadowColor, false);   //fill          
     draw_set_color(uiBackColor);  
     if uiBackColor2==0 uiBackColor2=uiBackColor;
-    draw_roundrect_color_ext(x, y, x+sprite_width, y+sprite_height, uiRadiusX,uiRadiusY, uiBackColor,uiBackColor2,uiDrawOutline);   //fill    
+    draw_roundrect_color_ext(x, y, x+Sprite_Width, y+Sprite_Height, uiRadiusX,uiRadiusY, uiBackColor,uiBackColor2,uiDrawOutline);   //fill    
     px=x+2;  //need to set drawing sprite inside the rectangle.
     py=y+2;   
    }
   else if (uiCustomDrawBack != noone)
     {
-      script_execute(uiCustomDrawBack,x,y,x+sprite_width,y+sprite_height,uiBackColor,uiBackColor2);    
+      script_execute(uiCustomDrawBack,x,y,x+Sprite_Width,y+Sprite_Height,uiBackColor,uiBackColor2);    
     }    
    
    
 if uiDialogSprite>=0 then
    {
        if uiSpriteScale==0  {
-                             draw_sprite_stretched_ext(uiDialogSprite,uiSpriteIndex,px,py,sprite_width-(px-x),sprite_height-(py-y),image_blend,uiAlpha);         
+                             draw_sprite_stretched_ext(uiDialogSprite,uiSpriteIndex,px,py,Sprite_Width-(px-x),Sprite_Height-(py-y),image_blend,uiAlpha);         
                             }  //stretch image to fit.
        else draw_sprite_stretched_ext(uiDialogSprite,uiSpriteIndex,px,py,(sprite_get_width(uiDialogSprite)*uiSpriteScale),(sprite_get_height(uiDialogSprite)*uiSpriteScale),uiImageBlend,uiAlpha);
    }   

@@ -44,11 +44,11 @@ draw_set_font(uiFont);
 draw_set_halign(uiAlign);
 draw_set_valign(fa_top);
 
-draw_roundrect_color_ext(x, y, x+sprite_width, y+sprite_height, uiRadiusX,uiRadiusY,uiBackColor,uiBackColor, false);   //fill
+draw_roundrect_color_ext(x, y, x+Sprite_Width, y+Sprite_Height, uiRadiusX,uiRadiusY,uiBackColor,uiBackColor, false);   //fill
 
-ymargin= (sprite_height - (string_height(string_hash_to_newline(disptx)) * uiYscale)) div 2 ;
+ymargin= (Sprite_Height - (string_height(string_hash_to_newline(disptx)) * uiYscale)) div 2 ;
 
-while (string_width(string_hash_to_newline(disptx+"X")) * uiXscale) > (sprite_width)
+while (string_width(string_hash_to_newline(disptx+"X")) * uiXscale) > (Sprite_Width)
  { 
     disptx=string_delete(disptx,string_length(disptx),1);
     if string_length(disptx)<3 break;
@@ -56,8 +56,8 @@ while (string_width(string_hash_to_newline(disptx+"X")) * uiXscale) > (sprite_wi
  
 
 if uiAlign==fa_left { px=x +5; } 
- else if uiAlign==fa_middle {px= x + (sprite_width div 2); }
-   else if uiAlign==fa_right {px = x+sprite_width -5; } 
+ else if uiAlign==fa_middle {px= x + (Sprite_Width div 2); }
+   else if uiAlign==fa_right {px = x+Sprite_Width -5; } 
  
 draw_set_color(uiTextColor);  
 draw_text_transformed(px,y + ymargin,string_hash_to_newline(disptx),uiXscale,uiYscale,0);   

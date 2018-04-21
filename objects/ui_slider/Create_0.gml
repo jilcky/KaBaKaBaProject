@@ -51,16 +51,9 @@ mouse_origy = 0;
 
 
 select_xpos = 0;
-select_ypos = sprite_height div 2;
+select_ypos = Sprite_Height div 2;
 last_per = 0;  //dont" touch
-uiSelectSize = sprite_height div 2; //default size to height
-
-
-
-
-
-
-
+uiSelectSize = Sprite_Height div 2; //default size to height
 
 
 scr_gui_setdefaults();         //you should set your default properties in this script.

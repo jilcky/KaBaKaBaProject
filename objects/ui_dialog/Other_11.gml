@@ -3,7 +3,7 @@
 var dw,dh,cury,curx,butwidth,curb,fx;
 
 dw=uiDialogWidth;
-dh=sprite_height;
+dh=Sprite_Height;
 
 if uiDialogPosY !=-1 y=uiDialogPosY;
 if uiDialogPosX !=-1 x=uiDialogPosX;
@@ -156,7 +156,7 @@ uiSetWidth=uiDialogWidth;
     
 
 if uiDialogPosX=-1 {x=(room_width-uiDialogWidth) div 2;}     //auto-center;
-if uiDialogPosY=-1 {y=(room_height-sprite_height) div 2;}    //auto-center;
+if uiDialogPosY=-1 {y=(room_height-Sprite_Height) div 2;}    //auto-center;
 
 
 

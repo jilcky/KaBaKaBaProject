@@ -16,13 +16,13 @@ lineheight=string_height(string_hash_to_newline("XgpT"))*uiYscale + 5;
 
 //set popup positions;
 cx1=x+10;
-cy1=y+sprite_height+1;
-cx2=cx1+sprite_width;
+cy1=y+Sprite_Height+1;
+cx2=cx1+Sprite_Width;
 cy2=cy1+(numitems*lineheight);
 
 if (cy2 > room_height) || (uiDrawArrowUp)      //if too low then show up the items...
    {
-    cy1=cy1-(cy2-cy1)-sprite_height-3;
+    cy1=cy1-(cy2-cy1)-Sprite_Height-3;
     cy2=cy1+(numitems*lineheight);     
     uiDrawArrowUp=true;
    
@@ -68,7 +68,7 @@ for (fx=0;fx<numitems;fx+=1)
    }
 
 lookupid.image_xscale=image_xscale;
-lookupid.image_yscale=(cy2-cy1)/ (lookupid.sprite_height);  //set scale
+lookupid.image_yscale=(cy2-cy1)/ (lookupid.Sprite_Height);  //set scale
 lookupid.uiComboID=self.id;
 lookupid.uiAlpha=0;
 lookupid.uiFadeIn=true;

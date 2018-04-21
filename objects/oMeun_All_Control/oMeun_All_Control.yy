@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oMeun_All_Control",
     "eventList": [
-        
+        {
+            "id": "08e0f00b-b863-4760-b1eb-e2e547bf933b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "1b7dbecd-bb22-404a-9206-392fd1f15cee"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

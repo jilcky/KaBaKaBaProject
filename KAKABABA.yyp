@@ -5,7 +5,9 @@
     "IsDnDProject": false,
     "configs": [
         "default",
-        "default;测试"
+        "default;测试",
+        "default;func",
+        "default;funck"
     ],
     "option_ecma": false,
     "parentProject": {
@@ -18,7 +20,8 @@
                 "Value": {
                     "configDeltas": [
                         "inherited",
-                        "测试"
+                        "测试",
+                        "funck"
                     ],
                     "id": "1d18850c-9870-40f4-bb4d-8fde11a7a05e",
                     "resourcePath": "options\\main\\options_main.yy",
@@ -145,6 +148,14 @@
             }
         },
         {
+            "Key": "0a56322c-25db-4b60-96d1-1c40edc6def7",
+            "Value": {
+                "id": "5a231792-f1c6-42f8-a214-73200417d377",
+                "resourcePath": "datafiles_yy\\主菜单\\房间.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "0b01b98c-0153-4fb2-b956-0516135fee50",
             "Value": {
                 "id": "f860982e-917f-4288-a413-65c81d190204",
@@ -230,6 +241,22 @@
                 "id": "5ed0bb14-cf02-4f2b-bfcf-46c6d9d004ed",
                 "resourcePath": "scripts\\SeeMap\\SeeMap.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "10252984-76b4-4578-a6a0-cce3ba8ec0a7",
+            "Value": {
+                "id": "482c50ff-6f73-4e54-8262-8a4c01b81b26",
+                "resourcePath": "datafiles_yy\\主菜单\\食物.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "105302ab-65fe-4729-a431-d4398f34fa09",
+            "Value": {
+                "id": "1f3c4ced-546e-494f-89f6-56373dfd54fc",
+                "resourcePath": "datafiles_yy\\主菜单\\钻石.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -342,6 +369,14 @@
                 "id": "675d77a2-ab74-4d5e-b86c-fa0bfd558214",
                 "resourcePath": "scripts\\EaseInCubic\\EaseInCubic.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1621ae6e-55ee-4016-bfa7-bffc44e8f429",
+            "Value": {
+                "id": "6379b0a3-f6d1-481e-a1ed-caeb9ce9c9c0",
+                "resourcePath": "datafiles_yy\\主菜单\\植物园.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -465,6 +500,14 @@
             }
         },
         {
+            "Key": "1b9c7790-0791-4998-892e-8cc9be4c19e7",
+            "Value": {
+                "id": "143a5412-f932-4a8e-aa2a-921ed87abe25",
+                "resourcePath": "scripts\\script205\\script205.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1ccff697-ee40-4842-8c4b-9c654188d263",
             "Value": {
                 "id": "78137b60-48d6-4f39-b5e8-fde7ca116575",
@@ -494,6 +537,14 @@
                 "id": "1f12f58f-942b-4321-acd7-4ed19a29aa5b",
                 "resourcePath": "rooms\\rGameReady\\rGameReady.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "1ed0fd0a-c628-4836-8974-9f7d677f0fd4",
+            "Value": {
+                "id": "29751fbf-ac7a-41c4-a7b0-55f2f1d5764d",
+                "resourcePath": "views\\1ed0fd0a-c628-4836-8974-9f7d677f0fd4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -542,6 +593,14 @@
                 "id": "1e61b33f-b2f4-41eb-a3c7-aa58eb9ad3f4",
                 "resourcePath": "scripts\\@__init_view\\__init_view.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "24b95f77-49a0-4566-a3d4-df68e75e7ac3",
+            "Value": {
+                "id": "717a90e9-3aec-4d9e-ad79-d7bd6df8f1e8",
+                "resourcePath": "datafiles_yy\\设置菜单\\设置音量按钮.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -622,6 +681,14 @@
                 "id": "c4469963-54f7-46ba-988d-2ae753267bdb",
                 "resourcePath": "objects\\object70\\object70.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "27e0a97a-2a16-4bcd-a15c-6d5e6dff8f90",
+            "Value": {
+                "id": "97bdb59c-f703-4649-a402-797df9228178",
+                "resourcePath": "datafiles_yy\\主菜单\\战场.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -748,6 +815,14 @@
             }
         },
         {
+            "Key": "2e213f70-5227-47bc-adc8-2b50d80c7201",
+            "Value": {
+                "id": "dcb0e696-a775-4014-b274-cfe45e1042a0",
+                "resourcePath": "datafiles_yy\\主菜单\\玩家信息.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "2e3ba65e-8071-4a13-85fa-b339810120c8",
             "Value": {
                 "id": "a27b7d48-f3d7-4b10-a4af-ea4594fa0b80",
@@ -817,6 +892,14 @@
                 "id": "ac86c4b2-3761-4111-8854-85491a8c8449",
                 "resourcePath": "objects\\obj_gmlive\\obj_gmlive.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "33885c55-cb48-44c2-acb6-a132bfea37d5",
+            "Value": {
+                "id": "5c8b897c-ee53-4573-8ca0-4173e841782e",
+                "resourcePath": "scripts\\scr_listhorz_drawitem\\scr_listhorz_drawitem.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -961,6 +1044,14 @@
                 "id": "e486d94e-dfa8-48ec-8a88-4072ed06b4fb",
                 "resourcePath": "views\\3a7ba75b-7c30-4d7c-bb6a-7e556d8f6b6c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3aff2a1b-537f-46a5-b645-8757a70018bd",
+            "Value": {
+                "id": "d8cf6033-2d12-4ce3-a0c5-a6fdf479ab06",
+                "resourcePath": "datafiles_yy\\主菜单\\设置.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1266,6 +1357,14 @@
             }
         },
         {
+            "Key": "50334bd8-8f75-438b-a07d-3a616a89efd9",
+            "Value": {
+                "id": "f8474b6e-93a7-4069-a06a-be76e3cd7028",
+                "resourcePath": "datafiles_yy\\设置菜单\\开.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "503ab5ae-e829-42a1-8f43-22c83de4db0b",
             "Value": {
                 "id": "18a53de2-8c59-4e7f-a5c1-7d09eb2258d1",
@@ -1319,6 +1418,14 @@
                 "id": "e2f36cd0-69a0-4d3b-9d95-e593071cecca",
                 "resourcePath": "fonts\\fText\\fText.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "519909db-76ab-4563-aed4-07c612a5608a",
+            "Value": {
+                "id": "6365d01b-1e92-4d48-a9db-883cf8ee274f",
+                "resourcePath": "datafiles_yy\\立绘\\0.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1418,6 +1525,14 @@
                 "id": "d197c1c2-08dd-4dcb-96ae-7560eea2b94d",
                 "resourcePath": "views\\55b9a0fa-c1ec-4b53-a4e2-cfee7d4679d1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "55c3a544-7258-469f-b493-e86511f6547c",
+            "Value": {
+                "id": "0e1e55f7-51a4-4966-917b-a0822b96113e",
+                "resourcePath": "datafiles_yy\\主菜单\\城堡.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1739,6 +1854,14 @@
             }
         },
         {
+            "Key": "6ceca4a1-c8d8-4607-9f6f-2a409a14b942",
+            "Value": {
+                "id": "91ccbb83-1b75-45f2-91bc-e7c02c40f2b5",
+                "resourcePath": "datafiles_yy\\设置菜单\\关.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "6df455de-2439-4d4b-bf49-cce212f41d74",
             "Value": {
                 "id": "e4be2eb6-c475-4629-a0e7-e3be3089a959",
@@ -1768,6 +1891,14 @@
                 "id": "18d4d417-7a0a-4bc0-8396-658ccea2e837",
                 "resourcePath": "objects\\o_player\\o_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6f0bf352-daf4-4aea-ad5f-0a1075c47280",
+            "Value": {
+                "id": "30f6b07e-bf19-42df-a20c-7b2bbdeacd25",
+                "resourcePath": "datafiles_yy\\主菜单\\MeunSet.ini.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1947,6 +2078,14 @@
                 "id": "17489e7c-6835-43c3-826e-ba946fea6312",
                 "resourcePath": "scripts\\EaseInOutElastic\\EaseInOutElastic.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7b132ed8-8289-4848-b0ca-eea8e98dbfaf",
+            "Value": {
+                "id": "76d225c4-f53f-47a2-827c-44cf6e6a2a47",
+                "resourcePath": "datafiles_yy\\主菜单\\工作室.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2335,6 +2474,14 @@
             }
         },
         {
+            "Key": "9430bd8d-6474-4fe9-9664-b4ea43d0acfa",
+            "Value": {
+                "id": "c63eeb8f-ae65-4a45-8bcc-aad184f9b508",
+                "resourcePath": "datafiles_yy\\立绘\\3.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "94842233-dbf3-4ba7-927e-bb90312d9e7a",
             "Value": {
                 "id": "da769c71-384d-4899-8cb3-b41cf4a43b42",
@@ -2364,6 +2511,14 @@
                 "id": "55f90259-2e98-4b13-8a44-18d8e90b9f8a",
                 "resourcePath": "views\\97c5180b-888d-4eae-8d37-c47f1a884f90.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "99e0196c-f48e-49d8-9fa2-e503ed6d7687",
+            "Value": {
+                "id": "feaef9b4-773f-42fd-8c51-284fe433f09f",
+                "resourcePath": "datafiles_yy\\设置菜单\\返回.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2496,11 +2651,27 @@
             }
         },
         {
+            "Key": "a26aa3c3-348c-4bb8-b70c-bc40d5c8e2e0",
+            "Value": {
+                "id": "dfc98cf8-f73d-45ae-9dec-ac64b7c28436",
+                "resourcePath": "datafiles_yy\\主菜单\\金币.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "a26b6334-bf70-4ce0-9e4f-bcc87e7ee793",
             "Value": {
                 "id": "c4e111d8-4a50-4c83-8bff-26468a0c030e",
                 "resourcePath": "scripts\\TweenEasyUseDelta\\TweenEasyUseDelta.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a28f7897-6167-4cbc-8581-1b2134b3feda",
+            "Value": {
+                "id": "d15e7f0f-1ca8-4649-a5ad-d85345d8dad5",
+                "resourcePath": "datafiles_yy\\立绘\\1.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2544,6 +2715,14 @@
                 "id": "edea07c3-9ec6-4756-8a92-88c204f881ac",
                 "resourcePath": "scripts\\__x\\__x.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a62dcdfb-7f85-4b5b-acf4-312ced65e8c0",
+            "Value": {
+                "id": "d68111ee-fec7-4fe8-83fa-f26180bd82d2",
+                "resourcePath": "datafiles_yy\\设置菜单\\滑动器.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2935,6 +3114,14 @@
             }
         },
         {
+            "Key": "c34156f5-2a0c-4eaa-85d3-aaa26b9d6031",
+            "Value": {
+                "id": "02f976cc-e592-4d28-bfa8-b8f61182c220",
+                "resourcePath": "views\\c34156f5-2a0c-4eaa-85d3-aaa26b9d6031.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c3faf112-280a-41d9-8253-b8507fffe804",
             "Value": {
                 "id": "d1cbeaa5-1090-4f0f-b814-c5b27ff17bbf",
@@ -2956,6 +3143,14 @@
                 "id": "9a50f07c-ef2d-4e5c-9a81-227e358db0f3",
                 "resourcePath": "scripts\\scr_bubble_sample\\scr_bubble_sample.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c5a3fd47-6a0f-4289-8b7c-b109c3a27719",
+            "Value": {
+                "id": "9b1b9d60-994f-4c95-bfd7-d61f6cc17506",
+                "resourcePath": "datafiles_yy\\设置菜单\\滑动条.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -3015,6 +3210,14 @@
             }
         },
         {
+            "Key": "ca229a7f-cc24-4ff6-9adf-609725e7467c",
+            "Value": {
+                "id": "d0572b84-125f-4713-ae71-efd3dfa284e4",
+                "resourcePath": "datafiles_yy\\立绘\\5.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "ca9522f0-f41e-4ac5-ab19-d88d0109e1de",
             "Value": {
                 "id": "a312d18a-2b6a-4953-951d-7a6396bf3c0f",
@@ -3028,6 +3231,14 @@
                 "id": "19889c41-939b-4090-8572-c791ba188791",
                 "resourcePath": "scripts\\EaseLinear\\EaseLinear.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cb797dc8-b22d-425f-bfd5-e1e812ceab78",
+            "Value": {
+                "id": "b2567a71-3316-484f-8fd7-7c9556f22f89",
+                "resourcePath": "datafiles_yy\\立绘\\2.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -3054,6 +3265,14 @@
             "Value": {
                 "id": "c08d5b83-fac8-4a74-9bbf-890dd4fd3f1a",
                 "resourcePath": "scripts\\TweenFinish\\TweenFinish.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cc134142-b0e6-4d91-b3d7-04369fdcea4c",
+            "Value": {
+                "id": "1edd97cc-42c2-42ff-b8b0-2d73b5b8a3de",
+                "resourcePath": "scripts\\scr_listbox_drawline\\scr_listbox_drawline.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3213,6 +3432,14 @@
                 "id": "91c9abee-d0f7-45f6-94ea-e8474575bc4d",
                 "resourcePath": "scripts\\TGMS_ClearRoom\\TGMS_ClearRoom.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "da192735-ac5b-47db-864b-8ff4e5d7fd05",
+            "Value": {
+                "id": "07882d4d-6f30-45ca-b7bf-63a39998e411",
+                "resourcePath": "datafiles_yy\\设置菜单\\设置背景.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -3467,6 +3694,14 @@
             }
         },
         {
+            "Key": "ea513768-afb2-4703-90e2-426837d4b355",
+            "Value": {
+                "id": "2de22d18-70b6-41b0-b6af-29663844ddac",
+                "resourcePath": "views\\ea513768-afb2-4703-90e2-426837d4b355.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ed1229c8-99d0-4660-b482-d0cf680670b3",
             "Value": {
                 "id": "ca212784-edaa-4b34-b2e4-f0bde587c9d1",
@@ -3598,6 +3833,22 @@
             }
         },
         {
+            "Key": "f506f81c-1c8d-4736-9899-7b81373075cd",
+            "Value": {
+                "id": "08705e0e-1f1f-4e65-911b-70b050e765cd",
+                "resourcePath": "datafiles_yy\\主菜单\\仓库.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f5283c3b-c7bc-46c3-8d91-4a804f69e825",
+            "Value": {
+                "id": "d676a399-134a-4611-bf09-774bacfb47a3",
+                "resourcePath": "datafiles_yy\\立绘\\4.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "f553f8c3-4026-4cd8-b87f-208e6c6504f5",
             "Value": {
                 "id": "a408ffc6-2026-4edd-b116-51b785c0e944",
@@ -3643,6 +3894,14 @@
                 "id": "7fc41755-4699-4444-ab51-5b273e22d9ba",
                 "resourcePath": "scripts\\EaseInOutSine\\EaseInOutSine.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f6f24126-bc06-4cbd-8020-f78cf4944a09",
+            "Value": {
+                "id": "8205f7f1-32c2-4dbf-bbc0-38a3c3c58396",
+                "resourcePath": "datafiles_yy\\主菜单\\公告.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -3764,6 +4023,14 @@
             }
         },
         {
+            "Key": "fbd97219-63ac-4bde-b1f7-6da70d896057",
+            "Value": {
+                "id": "be36876c-75d8-4b10-8971-0baca73fd45f",
+                "resourcePath": "objects\\object72\\object72.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fe04f295-404f-4d33-a535-0a64ca7e7abd",
             "Value": {
                 "id": "464effbe-c846-4a81-bdd2-f92569995946",
@@ -3772,11 +4039,27 @@
             }
         },
         {
+            "Key": "ff4e4f19-18ac-4e33-b624-fe5cbfacf007",
+            "Value": {
+                "id": "f3a0f09b-1dda-4026-ac5b-5d8b78555513",
+                "resourcePath": "datafiles_yy\\主菜单\\商店.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "ff5c63d1-c50f-4522-9d86-6f197055d2a3",
             "Value": {
                 "id": "6dfae881-0b35-4c9c-8007-7dc1361ce6c8",
                 "resourcePath": "objects\\oMeun_Option_Control\\oMeun_Option_Control.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ffa70c8d-648a-43ea-986e-bed306ab3440",
+            "Value": {
+                "id": "466ec7a4-29a9-43d0-a479-3a2d8cfc5dc2",
+                "resourcePath": "datafiles_yy\\主菜单\\经验值.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         }
     ],
@@ -3968,9 +4251,11 @@
         "e4ac6a57-83e7-4041-85a4-a38b882b82e5",
         "0e9c0c7e-a292-44bb-a741-e826e677a1c2",
         "234e54b4-7060-4202-aa2a-932299c56999",
+        "33885c55-cb48-44c2-acb6-a132bfea37d5",
         "c555553c-f555-4888-b998-42849be25b90",
         "e785e665-d982-4e7b-8af1-d4fa5eaabe43",
         "8d8872bc-9e35-4862-9535-e8e820fc073b",
+        "cc134142-b0e6-4d91-b3d7-04369fdcea4c",
         "3011020f-8529-4012-bff9-aaccca82782a",
         "504f775b-e857-4d32-a8fd-aa83fa0fe55a",
         "0db1147b-1447-4a55-aee3-cdaf017c4773",
@@ -3985,7 +4270,8 @@
         "3617c53b-fbad-41c1-b107-7ab92fa8aaca",
         "8c296651-c031-4b1f-bd69-0a6b58852c62",
         "22c57393-d17c-4500-b428-2d67f27d9725",
-        "83f9a46c-861a-4760-8d4f-95a0e90888fe"
+        "83f9a46c-861a-4760-8d4f-95a0e90888fe",
+        "1b9c7790-0791-4998-892e-8cc9be4c19e7"
     ],
     "tutorial": ""
 }

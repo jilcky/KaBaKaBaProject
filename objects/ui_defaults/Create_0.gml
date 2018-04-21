@@ -15,8 +15,10 @@ You should have received a copy of the GNU Lesser General Public
 License along with this library; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-
 */
+
+Sprite_Width = sprite_width
+Sprite_Height = sprite_height
 
 uiTextValue="";
 uiTextLabel="";
@@ -31,7 +33,7 @@ uiHiliteBackColor=c_blue;
 uiHiliteBackColor2=c_navy;
 uiAlign = fa_left;
 uiAlignV = fa_top;
-uiFont = font_ui;
+uiFont = fText32;
 uiXscale = 1.0;
 uiYscale = 1.0;
 uiButtonList = false;  //if set then control is a button list and will send button to eventobj
@@ -60,8 +62,8 @@ uiAlpha=1;
 uiImageBlend=c_white;
 uiOrigXscale=image_xscale;
 uiOrigYscale=image_yscale;
-uiOrigWidth=sprite_width;
-uiOrigHeight=sprite_height;
+uiOrigWidth=	Sprite_Width;
+uiOrigHeight=	Sprite_Height;
 uiMouseHandle=true;   //if item overlap then we only process on one control.
 uiRefresh=false;      //this will cause all comboboxes to close for now....
 uiFocusID=noone;         //instance that has focus used on refresh;
@@ -120,8 +122,8 @@ uiCallBackSound=false;         //if want to do more complex sound/haptic then us
 uiClickSound=-1;              //if not using callback, you can set your snd_xxx here.
 soundindex=-1;                 //don"t touch this....
 uiAnchorPos=true;              //if anchor children take the xpos/ypos changes...
-uiCurWidth=sprite_width;
-uiCurHeight=sprite_height;
+uiCurWidth=Sprite_Width;
+uiCurHeight=Sprite_Height;
 uiCustomDrawBack=noone;       //if you want to draw a custom background on panel, listbox, etc.
 
 

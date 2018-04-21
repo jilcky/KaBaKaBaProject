@@ -41,7 +41,7 @@ if (uiDrawBackColor)
    {
     draw_set_color(uiBackColor);  
     if uiBackColor2==0 uiBackColor2=uiBackColor;
-    draw_roundrect_color_ext(x, y, x+sprite_width, y+sprite_height, uiRadiusX,uiRadiusY, uiBackColor,uiBackColor2,uiDrawOutline);   //fill
+    draw_roundrect_color_ext(x, y, x+Sprite_Width, y+Sprite_Height, uiRadiusX,uiRadiusY, uiBackColor,uiBackColor2,uiDrawOutline);   //fill
        
     px=x+2;  //need to set drawing sprite inside the rectangle.
     py=y+2;   
@@ -50,7 +50,7 @@ if (uiDrawBackColor)
 if uiPanelSprite>=0 then
    {
        if uiSpriteScale==0  {
-                             draw_sprite_stretched_ext(uiPanelSprite,uiSpriteIndex,px,py,sprite_width-(px-x),sprite_height-(py-y),image_blend,uiAlpha);         
+                             draw_sprite_stretched_ext(uiPanelSprite,uiSpriteIndex,px,py,Sprite_Width-(px-x),Sprite_Height-(py-y),image_blend,uiAlpha);         
                             }  //stretch image to fit.
        else draw_sprite_stretched_ext(uiPanelSprite,uiSpriteIndex,px,py,(sprite_get_width(uiPanelSprite)*uiSpriteScale),(sprite_get_height(uiPanelSprite)*uiSpriteScale),image_blend,uiAlpha);
    }   

@@ -2,7 +2,7 @@
 
 var hc,ym;
 
-if uiAutoSize {if sprite_width != uiBubbleWidth { image_xscale=uiBubbleWidth/sprite_get_width(sprite_index); }      }
+if uiAutoSize {if Sprite_Width != uiBubbleWidth { image_xscale=uiBubbleWidth/sprite_get_width(sprite_index); }      }
 
 drawX=xstart;
 drawY=ystart;
@@ -48,12 +48,12 @@ if curLB.uiCurHeight <=uiTextHeight  //center
    }
 else //need to streched y scale to fit    
      {    
-        var rat=sprite_height/uiTextHeight;
+        var rat=Sprite_Height/uiTextHeight;
         hc=(curLB.uiCurHeight-uiTextHeight);  //height change
         if (uiTextHeight+hc)<uiBubbleMin hc=uiBubbleMin-uiTextHeight;  //set min
         uiTextHeight +=hc;
        
-        image_yscale=(sprite_height+(hc*rat)) / sprite_get_height(sprite_index);       
+        image_yscale=(Sprite_Height+(hc*rat)) / sprite_get_height(sprite_index);       
         event_user(2);  //we rescale;
         ym= (uiTextHeight-curLB.uiCurHeight) div 2;   
      }
@@ -61,10 +61,10 @@ else //need to streched y scale to fit
       
 
 switch (uiBubblePos)
-{          case 0  : curLB.y = (drawY-sprite_height)+(uiTextPosY-drawY)+ym ;  break;
-           case 1  : curLB.y = (drawY+sprite_height)-(uiTextPosY-drawY)-uiTextHeight+ym; break; //curLB.y += sprite_height ; break;           
-           case 2  : curLB.x = drawX-(uiTextPosX-drawX)-uiTextWidth;curLB.y=(drawY+sprite_height)-(uiTextPosY-drawY)-uiTextHeight+ym;break;
-           case 3  : curLB.x = drawX-(uiTextPosX-drawX)-uiTextWidth;curLB.y = (drawY-sprite_height)+(uiTextPosY-drawY)+ym; break;
+{          case 0  : curLB.y = (drawY-Sprite_Height)+(uiTextPosY-drawY)+ym ;  break;
+           case 1  : curLB.y = (drawY+Sprite_Height)-(uiTextPosY-drawY)-uiTextHeight+ym; break; //curLB.y += Sprite_Height ; break;           
+           case 2  : curLB.x = drawX-(uiTextPosX-drawX)-uiTextWidth;curLB.y=(drawY+Sprite_Height)-(uiTextPosY-drawY)-uiTextHeight+ym;break;
+           case 3  : curLB.x = drawX-(uiTextPosX-drawX)-uiTextWidth;curLB.y = (drawY-Sprite_Height)+(uiTextPosY-drawY)+ym; break;
 }      
 
 

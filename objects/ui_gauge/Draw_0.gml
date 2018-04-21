@@ -33,13 +33,13 @@ if uiDrawSquare {uiRadiusX=0;uiRadiusY=0;}
 
 barx=x;
 bary=y;
-barw=sprite_width;
-barh=sprite_height;
+barw=Sprite_Width;
+barh=Sprite_Height;
 
 if uiBackSprite != noone  //if we are using a background sprite behind/around the gauge, we use bounding box to get gauge location/size
   {
-   if uiSpriteScale==0 {   xratio=sprite_width/sprite_get_width(uiBackSprite);
-                           yratio=sprite_height/sprite_get_height(uiBackSprite);
+   if uiSpriteScale==0 {   xratio=Sprite_Width/sprite_get_width(uiBackSprite);
+                           yratio=Sprite_Height/sprite_get_height(uiBackSprite);
                        } else
                        {   xratio=uiSpriteScale;
                            yratio=uiSpriteScale;
@@ -113,7 +113,7 @@ if curValue>=uiBarLevel {curColor=uiBarColor; curColorBlend=uiBarColorBlend;}
 if uiBackSprite!=noone then
    {
        if uiSpriteScale==0  {
-                             draw_sprite_stretched_ext(uiBackSprite,0,x,y,sprite_width,sprite_height,image_blend,uiAlpha);         
+                             draw_sprite_stretched_ext(uiBackSprite,0,x,y,Sprite_Width,Sprite_Height,image_blend,uiAlpha);         
                             }  //stretch image to fit.
        else draw_sprite_stretched_ext(uiBackSprite,0,x,y,(sprite_get_width(uiBackSprite)*uiSpriteScale),(sprite_get_height(uiBackSprite)*uiSpriteScale),image_blend,uiAlpha);
    }  

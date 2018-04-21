@@ -6,8 +6,8 @@ var fx,fy,fs,fl,fh,fc,ft,curx,cury,curchar;
 
 if uiFocusID.ystart>boardy
  {
-  //  guiSlide=(boardy-(uiFocusID.ystart))+uiFocusID.sprite_height+(50*yfc);   
-    guiSlide=((uiFocusID.ystart)-boardy)+uiFocusID.sprite_height+(50*yfc);   
+  //  guiSlide=(boardy-(uiFocusID.ystart))+uiFocusID.Sprite_Height+(50*yfc);   
+    guiSlide=((uiFocusID.ystart)-boardy)+uiFocusID.Sprite_Height+(50*yfc);   
     with (ui_defaults)
      {
         uiMoveY=ystart-other.guiSlide;

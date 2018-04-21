@@ -39,7 +39,7 @@ while string_length(curst)>fx
      }
   curword=curword+" ";
      
-  if ((string_width(string_hash_to_newline(curline))+string_width(string_hash_to_newline(" "+curword)))*uiXscale<sprite_width -3)
+  if ((string_width(string_hash_to_newline(curline))+string_width(string_hash_to_newline(" "+curword)))*uiXscale<Sprite_Width -3)
     {curline=curline+curword;
      curword="";
     }  

@@ -51,6 +51,6 @@ if (mouse_move==false && drawy<bottomline && noscroll=false)
    
     } 
 
-if (drawy< (bottomline-(sprite_height div 3)) && mouse_move) event_user(0);
-if (drawy> (sprite_height div 3) && mouse_move) event_user(0);                               
+if (drawy< (bottomline-(Sprite_Height div 3)) && mouse_move) event_user(0);
+if (drawy> (Sprite_Height div 3) && mouse_move) event_user(0);                               
 

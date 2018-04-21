@@ -46,7 +46,7 @@ curAniCounter=0;
 
 uiSlideSprite = -1;       //sprite must have center as origin.
 uiSliderColor = c_white;  //if not using a sprite
-uiSlideBarHeight= -1;    //use the entire sprite_height or specify
+uiSlideBarHeight= -1;    //use the entire Sprite_Height or specify
 
 uiOnLabel="ON";
 uiOnLabelColor=c_yellow;

@@ -14,5 +14,4 @@ for (var i = 0; i < ds_list_size(Map_list); ++i) {
 //   ds_map_find_next(Spr_map,key)
 //}
 
-	ds_list_clear(Map_list)
-//	ds_map_clear(Spr_map)
+ds_list_clear(Map_list)

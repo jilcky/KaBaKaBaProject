@@ -48,8 +48,8 @@ if (lasttext!=uiTextValue) //|| (uiAniPulse!=0)  //if string is too long we need
  { 
   lasttext=uiTextValue;  //keep copy to see if changed.
 
-//  if ((string_width(uiTextValue+"X") * curXscale) > (sprite_width)) 
-  if ((string_width(string_hash_to_newline(uiTextValue+"X"))) > (sprite_width))   
+//  if ((string_width(uiTextValue+"X") * curXscale) > (Sprite_Width)) 
+  if ((string_width(string_hash_to_newline(uiTextValue+"X"))) > (Sprite_Width))   
    {
      event_user(1); //breaks apart string into items array;
    } else 
@@ -71,15 +71,15 @@ uiCurHeight=(numitems * (lh+uiLineSpacing));  //info only for other controls.
 
 if uiDrawBackColor 
    {
-    draw_roundrect_color_ext(x, y, x+sprite_width, y+sprite_height, uiRadiusX,uiRadiusY,uiBackColor,uiBackColor, false);   //fill
+    draw_roundrect_color_ext(x, y, x+Sprite_Width, y+Sprite_Height, uiRadiusX,uiRadiusY,uiBackColor,uiBackColor, false);   //fill
    } 
 
-if (uiCenterWrap) || (numitems=1) {ymargin= (sprite_height - (uiCurHeight * curYscale)) div 2 ;} else {ymargin=0;}  //center in area or top
+if (uiCenterWrap) || (numitems=1) {ymargin= (Sprite_Height - (uiCurHeight * curYscale)) div 2 ;} else {ymargin=0;}  //center in area or top
 
  
 if uiAlign==fa_left { px=x +5; } 
- else if uiAlign==fa_middle {px= x + (sprite_width div 2); }
-   else if uiAlign==fa_right {px = x+sprite_width -8; } 
+ else if uiAlign==fa_middle {px= x + (Sprite_Width div 2); }
+   else if uiAlign==fa_right {px = x+Sprite_Width -8; } 
 
    
 cury=y+ymargin;   

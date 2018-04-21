@@ -33,7 +33,7 @@ draw_set_halign(uiAlign);
 draw_set_valign(fa_top);
 
 
-ymargin= (sprite_height - uiLineWidth) div 2;
+ymargin= (Sprite_Height - uiLineWidth) div 2;
 
 
 
@@ -53,18 +53,18 @@ else {slideper=0;}
 
 //draw selector
 
-select_xpos = x+ uiSelectSize + round( (sprite_width - (uiSelectSize * 2)) * slideper);  //set selector position
-select_ypos = y+(sprite_height div 2);
+select_xpos = x+ uiSelectSize + round( (Sprite_Width - (uiSelectSize * 2)) * slideper);  //set selector position
+select_ypos = y+(Sprite_Height div 2);
 
 if uiLineSprite == -1 {
     if (uiDrawBackColor) {
         if uiBackColor2==0 uiBackColor2=uiBackColor;
-        draw_rectangle_color(x, y+ymargin, x+sprite_width-2, y+ymargin+uiLineWidth, uiBackColor,uiBackColor, uiBackColor2,uiBackColor2, uiDrawOutline);   //fill
+        draw_rectangle_color(x, y+ymargin, x+Sprite_Width-2, y+ymargin+uiLineWidth, uiBackColor,uiBackColor, uiBackColor2,uiBackColor2, uiDrawOutline);   //fill
     }
     
     //draw border 
     draw_set_color(uiBorderColor);  
-    if uiBorderColor != 0 draw_rectangle(x, y+ymargin, x+sprite_width-2, y+ymargin+uiLineWidth,true); 
+    if uiBorderColor != 0 draw_rectangle(x, y+ymargin, x+Sprite_Width-2, y+ymargin+uiLineWidth,true); 
 } else draw_sprite(uiLineSprite, 0, x, y+ymargin);  //draw line sprite.
 
 

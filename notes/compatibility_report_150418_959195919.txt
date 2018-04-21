@@ -343,7 +343,7 @@ uiSetWidth=uiDialogWidth;
     
 
 if uiDialogPosX=-1 {x=(room_width-uiDialogWidth) div 2;}     //auto-center;
-if uiDialogPosY=-1 {y=(room_height-sprite_height) div 2;}    //auto-center;
+if uiDialogPosY=-1 {y=(room_height-Sprite_Height) div 2;}    //auto-center;
 
 
 
@@ -373,7 +373,7 @@ uiSetWidth=uiDialogWidth;
     
 
 if uiDialogPosX=-1 {x=(room_width-uiDialogWidth) div 2;}     //auto-center;
-if uiDialogPosY=-1 {y=(room_height-sprite_height) div 2;}    //auto-center;
+if uiDialogPosY=-1 {y=(room_height-Sprite_Height) div 2;}    //auto-center;
 
 
 

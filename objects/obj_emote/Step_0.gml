@@ -8,7 +8,7 @@ if(mode == 0){
 
 	if(instance_exists(creator)){
 		x = creator.x;
-		y = creator.y-creator.sprite_height;
+		y = creator.y-creator.Sprite_Height;
 	}
 } else if (mode == 1){
 	if(keyboard_check_pressed(interact_key)){ fade = true; }

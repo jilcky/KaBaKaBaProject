@@ -24,5 +24,4 @@ if uiEventObject != noone
    {if evNum>=0 event_user(evNum);}
    
 soundindex=1; //click
-event_user(10); //process sound event;      
-
+event_user(10); //process sound event;

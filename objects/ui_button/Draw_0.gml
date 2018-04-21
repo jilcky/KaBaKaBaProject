@@ -36,7 +36,7 @@ draw_set_valign(fa_top);
 if (uiDrawBackColor && uiButtonState==0 && uiDrawOutline==false)  //if draw background and state = up.
    {
     draw_set_color(uiShadowColor);  
-    draw_roundrect_color_ext(x+3, y+3, x+sprite_width+3, y+sprite_height+3,uiRadiusX,uiRadiusY,uiShadowColor,uiShadowColor, false);   //fill
+    draw_roundrect_color_ext(x+3, y+3, x+Sprite_Width+3, y+Sprite_Height+3,uiRadiusX,uiRadiusY,uiShadowColor,uiShadowColor, false);   //fill
    } 
    
 drawbutdown=false;
@@ -50,8 +50,8 @@ if (uiDrawBackColor)
     draw_set_color(uiBackColor);  
     if uiBackColor2==0 uiBackColor2=uiBackColor;
     if (drawbutdown==false)
-       draw_roundrect_color_ext(x+bx, y+by, x+sprite_width+bx, y+sprite_height+by, uiRadiusX,uiRadiusY,uiBackColor,uiBackColor2,uiDrawOutline);   //fill
-       else draw_roundrect_color_ext(x+bx, y+by, x+sprite_width+bx, y+sprite_height+by, uiRadiusX,uiRadiusY, uiDownColor,uiDownColor,uiDrawOutline);   //fill
+       draw_roundrect_color_ext(x+bx, y+by, x+Sprite_Width+bx, y+Sprite_Height+by, uiRadiusX,uiRadiusY,uiBackColor,uiBackColor2,uiDrawOutline);   //fill
+       else draw_roundrect_color_ext(x+bx, y+by, x+Sprite_Width+bx, y+Sprite_Height+by, uiRadiusX,uiRadiusY, uiDownColor,uiDownColor,uiDrawOutline);   //fill
    } 
    
 if uiFlashButton then
@@ -61,7 +61,7 @@ if uiFlashButton then
   if (uiFlashCounter mod (5*px)) < (3*px)
         {
            draw_set_color(uiDownColor);  
-           draw_roundrect_color_ext(x+bx, y+by, x+sprite_width+bx, y+sprite_height+by, uiRadiusX,uiRadiusY, uiDownColor,uiDownColor, false);   //fill
+           draw_roundrect_color_ext(x+bx, y+by, x+Sprite_Width+bx, y+Sprite_Height+by, uiRadiusX,uiRadiusY, uiDownColor,uiDownColor, false);   //fill
         }             
    }   
    
@@ -74,23 +74,23 @@ if uiButtonSprite>=0 then
    {
          px=x; 
          if uiSpriteAlign==fa_left { px=x +5; } 
-            else if uiSpriteAlign==fa_center {px= x + ((sprite_width - (sprite_get_width(uiButtonSprite)*uiSpriteScale)) div 2); }
-            else if uiSpriteAlign==fa_right {px = x+sprite_width - (sprite_get_width(uiButtonSprite)*uiSpriteScale) -5; } 
+            else if uiSpriteAlign==fa_center {px= x + ((Sprite_Width - (sprite_get_width(uiButtonSprite)*uiSpriteScale)) div 2); }
+            else if uiSpriteAlign==fa_right {px = x+Sprite_Width - (sprite_get_width(uiButtonSprite)*uiSpriteScale) -5; } 
 
          py=y;      
          if uiSpriteAlignV==fa_top { py= y+5; }
-            else if uiSpriteAlignV==fa_middle { py=y + ((sprite_height - (sprite_get_height(uiButtonSprite)*uiSpriteScale)) div 2);}  //center text vertically;
-            else if uiSpriteAlignV==fa_bottom { py=y+sprite_height - (sprite_get_height(uiButtonSprite)*uiSpriteScale) - 5; }
+            else if uiSpriteAlignV==fa_middle { py=y + ((Sprite_Height - (sprite_get_height(uiButtonSprite)*uiSpriteScale)) div 2);}  //center text vertically;
+            else if uiSpriteAlignV==fa_bottom { py=y+Sprite_Height - (sprite_get_height(uiButtonSprite)*uiSpriteScale) - 5; }
 
          if uiSpriteScale==0  {px=x+2;py=y+2;  
-                             draw_sprite_stretched_ext(uiButtonSprite,uiSpriteIndex,px+bx,py+by,sprite_width-2,sprite_height-2,image_blend,uiAlpha);         
+                             draw_sprite_stretched_ext(uiButtonSprite,uiSpriteIndex,px+bx,py+by,Sprite_Width-2,Sprite_Height-2,image_blend,uiAlpha);         
                             }  //stretch image to fit.
          else draw_sprite_stretched_ext(uiButtonSprite,uiSpriteIndex,px+bx,py+by,(sprite_get_width(uiButtonSprite)*uiSpriteScale),(sprite_get_height(uiButtonSprite)*uiSpriteScale),image_blend,uiAlpha);
    }   
    
 
 
-while (string_width(string_hash_to_newline(disptx+"X")) * uiXscale) > (sprite_width)
+while (string_width(string_hash_to_newline(disptx+"X")) * uiXscale) > (Sprite_Width)
  { 
     disptx=string_delete(disptx,string_length(disptx),1);
     if string_length(disptx)<2 break;  //failsafe
@@ -98,16 +98,17 @@ while (string_width(string_hash_to_newline(disptx+"X")) * uiXscale) > (sprite_wi
  
 px=x; 
 if uiAlign==fa_left { px=x +5; } 
- else if uiAlign==fa_center {px= x + (sprite_width div 2); }
-   else if uiAlign==fa_right {px = x+sprite_width -5; } 
+ else if uiAlign==fa_center {px= x + (Sprite_Width div 2); }
+   else if uiAlign==fa_right {px = x+Sprite_Width -5; } 
 
 py=y;      
 if uiAlignV==fa_top { py= y+5; }
- else if uiAlignV==fa_middle { py=y+(sprite_height - (string_height(string_hash_to_newline(disptx)) * uiYscale)) div 2 ;}  //center text vertically;
-    else if uiAlignV==fa_bottom { py=y+sprite_height - (string_height(string_hash_to_newline(disptx)) * uiYscale)};
+ else if uiAlignV==fa_middle { py=y+(Sprite_Height - (string_height(string_hash_to_newline(disptx)) * uiYscale)) div 2 ;}  //center text vertically;
+    else if uiAlignV==fa_bottom { py=y+Sprite_Height - (string_height(string_hash_to_newline(disptx)) * uiYscale)};
    
     
 draw_set_color(uiTextColor);  
+
 if disptx != "" draw_text_transformed(px+bx,py+by,string_hash_to_newline(disptx),uiXscale,uiYscale,0);   
 
 draw_set_alpha(backalpha);  //restore alpha (in case of fadeout, etc   

@@ -50,5 +50,6 @@ Meun_Index[?"工作室"] = oMeun_Studio_Control;
 
 Map_list = ds_list_create()
 List_list = ds_list_create()
-
 Spr_map = ds_list_create()
+
+show_debug_message("创建游戏")

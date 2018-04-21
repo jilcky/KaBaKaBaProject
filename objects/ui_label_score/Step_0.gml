@@ -46,8 +46,8 @@ lseffectcount+=1;
 
 if (ischanging) && (lseffectcount>uiEffectDelay)
    {           
-       if uiEffectAbove!=-1 effect_create_above(uiEffectAbove,x+irandom(sprite_width),y+irandom(sprite_height),1,uiEffectColor);
-       if uiEffectBelow!=-1 effect_create_below(uiEffectBelow,x+irandom(sprite_width),y+irandom(sprite_height),1,uiEffectColor);
+       if uiEffectAbove!=-1 effect_create_above(uiEffectAbove,x+irandom(Sprite_Width),y+irandom(Sprite_Height),1,uiEffectColor);
+       if uiEffectBelow!=-1 effect_create_below(uiEffectBelow,x+irandom(Sprite_Width),y+irandom(Sprite_Height),1,uiEffectColor);
        lseffectcount=0; //reset delay counter;        
    }   
                                                     

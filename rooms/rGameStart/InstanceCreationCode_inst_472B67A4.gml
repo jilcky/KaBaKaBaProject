@@ -1,0 +1,1 @@
+if room = rGameStart room_goto_next()

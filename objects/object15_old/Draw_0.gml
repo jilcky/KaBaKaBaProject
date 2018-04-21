@@ -1,5 +1,5 @@
 
-if y > 0 - sprite_height and y < room_height + sprite_height
+if y > 0 - Sprite_Height and y < room_height + Sprite_Height
 {
 draw_self()
 

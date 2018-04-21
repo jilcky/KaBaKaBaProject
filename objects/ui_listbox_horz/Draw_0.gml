@@ -34,14 +34,14 @@ if (uiZoomFactor==0.1) || (uiVisible==false) exit;  //for zooming
 
 tw=uiItemWidth;
 
-//bottomline=((numitems*lineheight)-sprite_height) * -1;  //top drawy line for bottom clip.
+//bottomline=((numitems*lineheight)-Sprite_Height) * -1;  //top drawy line for bottom clip.
 curImageBlend=uiImageBlend;
 curAlpha=uiAlpha;
      
    
 if (!surface_exists(CurSurface)) {
-    sury=ceil(sprite_height);
-    surx=ceil(sprite_width+(uiItemWidth*2));  //max lineheight for one line item is 128 for now?
+    sury=ceil(Sprite_Height);
+    surx=ceil(Sprite_Width+(uiItemWidth*2));  //max lineheight for one line item is 128 for now?
     fx=1; while (fx < surx) { fx *= 2}; surx=fx;  //make sure power of 2
     fx=1; while (fx < sury) { fx *= 2}; sury=fx;  //make sure power of 2  
     CurSurface = surface_create(surx,sury); 
@@ -56,8 +56,8 @@ if uiDrawSquare { uiRadiusX=0;uiRadiusY=0;}
 
 if uiDrawBackColor    //draw background
    {//draw the surface background 
-    draw_roundrect_color_ext(0, 0, sw, sprite_height, uiRadiusX,uiRadiusY,uiBackColor,uiBackColor, false);   //fill
-    draw_roundrect_color_ext(0, 0, sw, sprite_height, uiRadiusX,uiRadiusY,uiBorderBackColor,uiBorderBackColor,true);   //draw outline    
+    draw_roundrect_color_ext(0, 0, sw, Sprite_Height, uiRadiusX,uiRadiusY,uiBackColor,uiBackColor, false);   //fill
+    draw_roundrect_color_ext(0, 0, sw, Sprite_Height, uiRadiusX,uiRadiusY,uiBorderBackColor,uiBorderBackColor,true);   //draw outline    
    } 
      
    
@@ -66,7 +66,7 @@ numSprites=array_length_1d(sprites);
 
 cury=0;  //always draw from 0;
 visible_ytop=(drawy+uiLeftMargin)*-1;
-visible_ybot=visible_ytop+sprite_width+1;  //clipping region for drawing bottom....
+visible_ybot=visible_ytop+Sprite_Width+1;  //clipping region for drawing bottom....
 sur_pos=max(uiItemWidth-((drawy+uiLeftMargin)*-1),0); //surface y pos;
 
 autoPos=visible_ytop;                 //auto selection pos
@@ -98,7 +98,7 @@ for (fx=0;fx<numitems;fx+=1)    //go through each item in the list;
                draw_set_color(uiTextColor); 
                 if (itemindex==fx) && (uiDrawHilite==true)       //if hilited item
                      {
-                        draw_rectangle_color(sur_pos,0, sur_pos+tw,sprite_height-1,uiHiliteBackColor,uiHiliteBackColor2,uiHiliteBackColor,uiHiliteBackColor2,false);   //fill hilite;
+                        draw_rectangle_color(sur_pos,0, sur_pos+tw,Sprite_Height-1,uiHiliteBackColor,uiHiliteBackColor2,uiHiliteBackColor,uiHiliteBackColor2,false);   //fill hilite;
                         draw_set_color(uiHiliteColor);  //set text color  
                      }
 
@@ -116,12 +116,12 @@ for (fx=0;fx<numitems;fx+=1)    //go through each item in the list;
                                  else if uiSpriteAlign==fa_right {sprx =uiItemWidth - (sprite_get_width(sprites[fx])*uiSpriteScale); } 
                         
                               if uiSpriteAlignV==fa_top { spry=5; }
-                                 else if uiSpriteAlignV==fa_middle { spry=( ((sprite_height - (sprite_get_height(sprites[fx]))*uiSpriteScale)) div 2);}  //center text vertically;
-                                 else if uiSpriteAlignV==fa_bottom { spry=sprite_height - (sprite_get_height(sprites[fx])*uiSpriteScale); }
+                                 else if uiSpriteAlignV==fa_middle { spry=( ((Sprite_Height - (sprite_get_height(sprites[fx]))*uiSpriteScale)) div 2);}  //center text vertically;
+                                 else if uiSpriteAlignV==fa_bottom { spry=Sprite_Height - (sprite_get_height(sprites[fx])*uiSpriteScale); }
                                      
                               if uiSpriteScale==0 { 
                                                     sprxscale= uiItemWidth / (sprite_get_width(sprites[fx]));
-                                                    spryscale= sprite_height / (sprite_get_height(sprites[fx]));
+                                                    spryscale= Sprite_Height / (sprite_get_height(sprites[fx]));
                                                     sprx=px+ (sprite_get_xoffset(sprites[fx])* sprxscale);
                                                     spry=py+ (sprite_get_yoffset(sprites[fx])* spryscale);  
                                                   }                              
@@ -139,8 +139,8 @@ for (fx=0;fx<numitems;fx+=1)    //go through each item in the list;
 
                 py=0;
                 if uiAlignV==fa_top { py=5; } 
-                 else if uiAlignV==fa_middle {py=(sprite_height div 2); }
-                   else if uiAlignV==fa_bottom {py = sprite_height-string_height(string_hash_to_newline("Xypg")); } 
+                 else if uiAlignV==fa_middle {py=(Sprite_Height div 2); }
+                   else if uiAlignV==fa_bottom {py = Sprite_Height-string_height(string_hash_to_newline("Xypg")); } 
 
                    
               
@@ -150,7 +150,7 @@ for (fx=0;fx<numitems;fx+=1)    //go through each item in the list;
                 if (itemindex!=fx) && uiDrawLines then  // draw lines between items
                         {
                              draw_set_color(uiBorderBackColor);
-                             draw_line_width(sur_pos+tw,0,sur_pos+tw,sprite_height,1);    
+                             draw_line_width(sur_pos+tw,0,sur_pos+tw,Sprite_Height,1);    
                         }               
                cury+=tw;
                sur_pos+=tw;  //add to surface position;
@@ -168,13 +168,13 @@ for (fx=0;fx<numitems;fx+=1)    //go through each item in the list;
 
         if (cury)<(visible_ytop-uiItemWidth)   //if not visible then draw at alpha 0 at postion 0....
               { draw_set_alpha(0);  //don"t draw stuff that"s not visible.  we still need to get the variable heights, so that is why we draw alpha=0 lines....
-                cury+=script_execute(uiCustomDrawScript,self.id,fx,0,0,sprite_height,tw,items[fx],sel,curSprite);     
+                cury+=script_execute(uiCustomDrawScript,self.id,fx,0,0,Sprite_Height,tw,items[fx],sel,curSprite);     
                 draw_set_alpha(uiAlpha);  
                 sur_pos=cury-(visible_ytop-uiItemWidth);
               } 
           else if ((cury)<=visible_ybot) //if we are below bottom  and above top...we draw to surface....                      
                {
-               ch=script_execute(uiCustomDrawScript,self.id,fx,sur_pos,0,sprite_height,tw,items[fx],sel,curSprite);
+               ch=script_execute(uiCustomDrawScript,self.id,fx,sur_pos,0,Sprite_Height,tw,items[fx],sel,curSprite);
                cury+=ch;
                sur_pos+=ch;  //add to surface position;
                }
@@ -183,17 +183,17 @@ for (fx=0;fx<numitems;fx+=1)    //go through each item in the list;
       }   
 }  //for each item
 
-if cury>=sprite_width noscroll=false; else noscroll=true;  //weather we scroll or not
+if cury>=Sprite_Width noscroll=false; else noscroll=true;  //weather we scroll or not
 
 //set bottomline when possible variable length custom drawing...
 //
-if uiLeftMargin==0 {bottomline=(cury-(sprite_width)) * -1; } //top drawy line for bottom clip.
-   else {bottomline=(cury-(sprite_width)+(uiItemWidth)) * -1;}  //top drawy line for bottom clip.
+if uiLeftMargin==0 {bottomline=(cury-(Sprite_Width)) * -1; } //top drawy line for bottom clip.
+   else {bottomline=(cury-(Sprite_Width)+(uiItemWidth)) * -1;}  //top drawy line for bottom clip.
 //draw bottom clip
 
 texture_set_interpolation(true);
 surface_reset_target();
-draw_surface_part(CurSurface, uiItemWidth,0,sprite_width,sprite_height,x,y);  //128 is the per clip region
+draw_surface_part(CurSurface, uiItemWidth,0,Sprite_Width,Sprite_Height,x,y);  //128 is the per clip region
 
 
 //draw header with uiTextLabel
@@ -201,19 +201,19 @@ draw_surface_part(CurSurface, uiItemWidth,0,sprite_width,sprite_height,x,y);  //
 if uiDrawHeader
 {
 //draw_set_color(uiBorderBackColor);  
-//draw_rectangle(x, y-th, x+sprite_width, y, false);   //fill
+//draw_rectangle(x, y-th, x+Sprite_Width, y, false);   //fill
 }
 
 
 if uiDrawBackColor    //draw Border
    {  
-    draw_roundrect_color_ext(x, y, x+sprite_width, y+sprite_height, uiRadiusX,uiRadiusY,uiBorderBackColor,uiBorderBackColor, true);   //draw outline         
+    draw_roundrect_color_ext(x, y, x+Sprite_Width, y+Sprite_Height, uiRadiusX,uiRadiusY,uiBorderBackColor,uiBorderBackColor, true);   //draw outline         
    } 
 
 
 //draw uiTextLabel centered.
 draw_set_color(uiBorderColor);
-px= x + (sprite_width div 2);
+px= x + (Sprite_Width div 2);
 draw_set_halign(fa_center);
 if uiTextLabel !="" draw_text_transformed(px,y-string_height(string_hash_to_newline("Xypg"))+2,string_hash_to_newline(uiTextLabel),uiXscale,uiYscale,0);  
 
@@ -223,8 +223,8 @@ if (noscroll==false) && (uiScrollArrows=true)  && (uiEnabled)
    { curArrowPulse += curArrowSpeed;
      if curArrowPulse > 1 {curArrowSpeed *= -1;}
         else if curArrowPulse < 0.3 {curArrowSpeed *= -1;}          
-     if drawy<0 draw_sprite_ext(sprite_index,3,x+30, y+sprite_height-20,1,1,180,uiScrollColor,curArrowPulse);
-     if drawy>bottomline draw_sprite_ext(sprite_index,3,x+sprite_width-30,y+sprite_height-52,1,1,0,uiScrollColor,curArrowPulse);              
+     if drawy<0 draw_sprite_ext(sprite_index,3,x+30, y+Sprite_Height-20,1,1,180,uiScrollColor,curArrowPulse);
+     if drawy>bottomline draw_sprite_ext(sprite_index,3,x+Sprite_Width-30,y+Sprite_Height-52,1,1,0,uiScrollColor,curArrowPulse);              
    }
 
 

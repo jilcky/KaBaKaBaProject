@@ -15,6 +15,3 @@ if mouse_move exit;
          flicked=0;
          mouse_time = get_timer();
         }
-        
-       
-

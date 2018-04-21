@@ -23,7 +23,7 @@ if (abs (mouse_x - mouse_origx) < 15) // && mouse_y >= y)  //a click not a move
     //process event...
     
     alarm[0]=uiDelayEvent;
-    
+    evNum=uiEventNum; 
     if uiComboID >= 0      
        if instance_exists(uiComboID) then                        //for combo drop down list...
          with (uiComboID) {if evNum>=0 event_user(evNum);}
@@ -52,5 +52,4 @@ else //see if it was a quick swipe...flicked!
    //   }  
       
       
-   }  
-
+   }

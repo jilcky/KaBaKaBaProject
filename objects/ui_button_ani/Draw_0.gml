@@ -101,13 +101,13 @@ if curZoomFactor != 1
        
   
       
-sprH=sprite_height*uiBackScale;
-sprW=sprite_width*uiBackScale;      
+sprH=Sprite_Height*uiBackScale;
+sprW=Sprite_Width*uiBackScale;      
 
 if uiDrawBackColor  //if we drawing background buttons then check uiBackScale (shrinking) 
     {
-    px+=(sprite_width - sprW) / 2;
-    py+=(sprite_height - sprH) / 2;       
+    px+=(Sprite_Width - sprW) / 2;
+    py+=(Sprite_Height - sprH) / 2;       
     }
 
 if (uiDrawBackColor && uiButtonState==0 && uiDrawOutline==false)  //if draw background and state = up.
@@ -145,16 +145,16 @@ if curSprite>=0 then
          if uiSpriteScale==0 { uiSpriteAlign=fa_left; uiSpriteAlignV=fa_top;}  //if auto-fit then no alignment.
      
          if uiSpriteAlign==fa_left { sprx=px; } 
-            else if uiSpriteAlign==fa_center {sprx= px + ((sprite_width - (sprite_get_width(curSprite)*uiSpriteScale)) div 2); }
-            else if uiSpriteAlign==fa_right {sprx = px+sprite_width - (sprite_get_width(curSprite)*uiSpriteScale); } 
+            else if uiSpriteAlign==fa_center {sprx= px + ((Sprite_Width - (sprite_get_width(curSprite)*uiSpriteScale)) div 2); }
+            else if uiSpriteAlign==fa_right {sprx = px+Sprite_Width - (sprite_get_width(curSprite)*uiSpriteScale); } 
 
          if uiSpriteAlignV==fa_top { spry=py; }
-            else if uiSpriteAlignV==fa_middle { spry=py + ((sprite_height - (sprite_get_height(curSprite)*uiSpriteScale)) div 2);}  //center text vertically;
-            else if uiSpriteAlignV==fa_bottom { spry=py +sprite_height - (sprite_get_height(curSprite)*uiSpriteScale); }
+            else if uiSpriteAlignV==fa_middle { spry=py + ((Sprite_Height - (sprite_get_height(curSprite)*uiSpriteScale)) div 2);}  //center text vertically;
+            else if uiSpriteAlignV==fa_bottom { spry=py +Sprite_Height - (sprite_get_height(curSprite)*uiSpriteScale); }
                 
          if uiSpriteScale==0 { 
-                               sprxscale= sprite_width / (sprite_get_width(curSprite));
-                               spryscale= sprite_height / (sprite_get_height(curSprite));
+                               sprxscale= Sprite_Width / (sprite_get_width(curSprite));
+                               spryscale= Sprite_Height / (sprite_get_height(curSprite));
                                sprx=px+ (sprite_get_xoffset(curSprite)* sprxscale);
                                spry=py+ (sprite_get_yoffset(curSprite)* spryscale);  
                              }                              
@@ -172,7 +172,7 @@ if curSprite>=0 then
 
 if uiTextTrim 
 {  
- while (string_width(string_hash_to_newline(disptx+"X")) * uiXscale) > (sprite_width)
+ while (string_width(string_hash_to_newline(disptx+"X")) * uiXscale) > (Sprite_Width)
  { 
     disptx=string_delete(disptx,string_length(disptx),1);
     if string_length(disptx)<2 break;  //failsafe
@@ -182,7 +182,7 @@ if uiTextTrim
   
  
 if uiAlign==fa_left { px=px +5; } 
-// else if uiAlign==fa_center {px= px + ( (sprite_width -(string_width(disptx) *curZoomFactor))  div 2); }
+// else if uiAlign==fa_center {px= px + ( (Sprite_Width -(string_width(disptx) *curZoomFactor))  div 2); }
  else if uiAlign==fa_center {px= px + (sprW  div 2); }
      else if uiAlign==fa_right {px = px + sprW -5; } 
 
@@ -211,14 +211,14 @@ if (uiTouchKey) && (drawbutdown)  //draw a big button above press
         var kx,ky,kw,kh,ks;
         kx=x-5;
         ky=y-70;
-        kw=sprite_width+10;
+        kw=Sprite_Width+10;
         kh=70;
         draw_roundrect_color_ext(kx, ky, kx+kw, ky+kh,uiRadiusX,uiRadiusY,uiShadowColor,uiShadowColor,false);   //fill
         draw_set_color(uiBackColor);  
         if uiBackColor2==0 uiBackColor2=uiBackColor;
         draw_roundrect_color_ext(kx, ky, kx+kw, ky+kh,uiRadiusX,uiRadiusY,uiDownColor,uiDownColor,uiDrawOutline);   //fill
         draw_set_color(uiTextColor);  
-        kx=kx + ((sprite_width+10)  div 2);
+        kx=kx + ((Sprite_Width+10)  div 2);
         draw_text_transformed(kx,ky+(kh div 2),string_hash_to_newline(disptx),1.5,1.5,0);     
                
       }                    

@@ -47,8 +47,8 @@ px=0;py=0;
 
 
 if curZoomFactor != 1
-   {  zx =    (sprite_width - (sprite_width * curZoomFactor)) div 2 ;
-      zy =    (sprite_height - (sprite_height * curZoomFactor)) div 2 ;         
+   {  zx =    (Sprite_Width - (Sprite_Width * curZoomFactor)) div 2 ;
+      zy =    (Sprite_Height - (Sprite_Height * curZoomFactor)) div 2 ;         
 
    }
    
@@ -60,18 +60,18 @@ if (uiDrawBackColor) && (uiBubbleSprite==noone)
     drawX=px;drawY=py;
     switch (uiBubblePos)
           {
-           case 0  : drawY=y-sprite_height;y=ystart-sprite_height; break;
-           case 2  : drawX-=sprite_width;x=xstart-sprite_width;break;
-           case 3  : drawX-=sprite_width;drawY-=sprite_height;x=xstart-sprite_width;y=ystart-sprite_height;break;
+           case 0  : drawY=y-Sprite_Height;y=ystart-Sprite_Height; break;
+           case 2  : drawX-=Sprite_Width;x=xstart-Sprite_Width;break;
+           case 3  : drawX-=Sprite_Width;drawY-=Sprite_Height;x=xstart-Sprite_Width;y=ystart-Sprite_Height;break;
           }       
 
     if (uiCustomDrawBack != noone)
          {
-          script_execute(uiCustomDrawBack,x+zx, y+zy, x+zx+(sprite_width*curZoomFactor), y+zy+(sprite_height*curZoomFactor),uiBackColor,uiBackColor2);    
+          script_execute(uiCustomDrawBack,x+zx, y+zy, x+zx+(Sprite_Width*curZoomFactor), y+zy+(Sprite_Height*curZoomFactor),uiBackColor,uiBackColor2);    
          }   
      else 
-       {draw_roundrect_color_ext(x+zx+3, y+zy+3, x+zx+3+(sprite_width*curZoomFactor), y+zy+3+(sprite_height*curZoomFactor), uiRadiusX,uiRadiusY,uiBackColor2,uiBackColor2, false);   //fill background        
-        draw_roundrect_color_ext(x+zx, y+zy, x+zx+(sprite_width*curZoomFactor), y+zy+(sprite_height*curZoomFactor), uiRadiusX,uiRadiusY,uiBackColor,uiBackColor, false);   //fill        
+       {draw_roundrect_color_ext(x+zx+3, y+zy+3, x+zx+3+(Sprite_Width*curZoomFactor), y+zy+3+(Sprite_Height*curZoomFactor), uiRadiusX,uiRadiusY,uiBackColor2,uiBackColor2, false);   //fill background        
+        draw_roundrect_color_ext(x+zx, y+zy, x+zx+(Sprite_Width*curZoomFactor), y+zy+(Sprite_Height*curZoomFactor), uiRadiusX,uiRadiusY,uiBackColor,uiBackColor, false);   //fill        
        }
    } 
 
@@ -84,14 +84,14 @@ if uiBubbleSprite != noone
      curRot=0;
      switch (uiBubblePos)
           {
-           case 0  : py-=sprite_height;y=ystart-sprite_height; break;
-           case 1  : ymir=-1; py+=sprite_height;zy*=-1; break;
-           case 2  : ymir=-1;xmir=-1;py+=sprite_height;x=xstart-sprite_width;zx*=-1;zy*=-1; break;
-           case 3  : xmir=-1;py-=sprite_height;x=xstart-sprite_width;y=ystart-sprite_height;zx*=-1;break;
+           case 0  : py-=Sprite_Height;y=ystart-Sprite_Height; break;
+           case 1  : ymir=-1; py+=Sprite_Height;zy*=-1; break;
+           case 2  : ymir=-1;xmir=-1;py+=Sprite_Height;x=xstart-Sprite_Width;zx*=-1;zy*=-1; break;
+           case 3  : xmir=-1;py-=Sprite_Height;x=xstart-Sprite_Width;y=ystart-Sprite_Height;zx*=-1;break;
           }    
      xmir=xmir*curZoomFactor;
      ymir=ymir*curZoomFactor;     
-     draw_sprite_ext( uiBubbleSprite, uiSpriteIndex, drawX+px+zx,drawY+py+zy, (sprite_width/sprite_get_width(uiBubbleSprite))*xmir, (sprite_height/sprite_get_height(uiBubbleSprite))*ymir, curRot, image_blend, curAlpha );
+     draw_sprite_ext( uiBubbleSprite, uiSpriteIndex, drawX+px+zx,drawY+py+zy, (Sprite_Width/sprite_get_width(uiBubbleSprite))*xmir, (Sprite_Height/sprite_get_height(uiBubbleSprite))*ymir, curRot, image_blend, curAlpha );
      }                 
        
 draw_set_alpha(backalpha);  //restore alpha (in case of fadeout, etc   

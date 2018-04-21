@@ -16,7 +16,7 @@ if (mouse_move)
   
     if (mouse_x-x)>0 
       {
-        getper = (mouse_x-(x+uiSelectSize)) / (sprite_width - (uiSelectSize * 2));
+        getper = (mouse_x-(x+uiSelectSize)) / (Sprite_Width - (uiSelectSize * 2));
         uiValue= ((uiMax-uiMin) * getper) + uiMin;   
         if uiValue>uiMax uiValue=uiMax;
         if uiValue<uiMin uiValue=uiMin;

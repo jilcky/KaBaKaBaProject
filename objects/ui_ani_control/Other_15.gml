@@ -14,7 +14,7 @@ with (EaseControl) do
         
     if (other.EaseCurValue mod uiSparkle == 0) && (uiEnabled)
        {
-       effect_create_above(ef_spark, x + random(sprite_width), y + random(sprite_height), choose(0,1,2),merge_color(c_white, c_yellow, (irandom(10)/10)));
+       effect_create_above(ef_spark, x + random(Sprite_Width), y + random(Sprite_Height), choose(0,1,2),merge_color(c_white, c_yellow, (irandom(10)/10)));
        
        }
             

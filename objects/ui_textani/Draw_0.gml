@@ -74,11 +74,11 @@ if CurInMotion      //if moving along a path...
     
  }  else //nopath assigned
  {     
-       ymargin= (sprite_height - (string_height(string_hash_to_newline(CurDispText)) * uiYscale)) div 2 ;
+       ymargin= (Sprite_Height - (string_height(string_hash_to_newline(CurDispText)) * uiYscale)) div 2 ;
        px=x;
        if uiAlignAni==fa_left { px=x +5; } 
-         else if uiAlignAni==fa_center {px= x + (( sprite_width-(string_width(string_hash_to_newline(CurDispText)) * uiYscale)) div 2); }
-            else if uiAlignAni==fa_right {px = x + sprite_width - (string_width(string_hash_to_newline(CurDispText)) * uiYscale) -8; } 
+         else if uiAlignAni==fa_center {px= x + (( Sprite_Width-(string_width(string_hash_to_newline(CurDispText)) * uiYscale)) div 2); }
+            else if uiAlignAni==fa_right {px = x + Sprite_Width - (string_width(string_hash_to_newline(CurDispText)) * uiYscale) -8; } 
        curp=px;
        for (fx=CurStartIndex;fx<=tw;fx+=1)
             {

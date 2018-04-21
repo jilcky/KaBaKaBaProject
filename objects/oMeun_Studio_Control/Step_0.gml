@@ -1,0 +1,1 @@
+List.uiTextLabel="只看 摸了也没用 选着了_"+ string(List.itemindex);

@@ -26,15 +26,15 @@ uiTextValue="";
 uiBubblePos=0;  //0=bottom left default, clockwise 1,2,3
 uiTextPosX=10;  //added to x .  Text will be centered
 uiTextPosY=10;
-uiTextWidth=sprite_width*0.80;  //80% of bubble width
-uiTextHeight=sprite_height*0.80;
+uiTextWidth=Sprite_Width*0.80;  //80% of bubble width
+uiTextHeight=Sprite_Height*0.80;
 uiKillPress=true;  //default if user presses bubble it will fade and destory;
 uiAutoDestroy=true;  //will kill the button after time;  factor
 uiCloseFactor=1;   //if autoclose will use # of characters in string * factor;
 uiAutoSize=true;   //this will adjust the bubble size based on the uiMemo;
 uiAlign=fa_center;
 canfocus=false;
-uiBubbleWidth=sprite_width;
+uiBubbleWidth=Sprite_Width;
 uiBubbleMin=50;
 uiFadeOnKill=true;   //default is to fade or to popdown...
 

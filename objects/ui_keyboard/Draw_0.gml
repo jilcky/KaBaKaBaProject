@@ -37,7 +37,7 @@ if (uiDrawBackColor)
    {
     draw_set_color(uiBackColor);  
     if uiBackColor2==0 uiBackColor2=uiBackColor;
-    draw_roundrect_color_ext(x, y, x+sprite_width, y+sprite_height, uiRadiusX,uiRadiusY,uiBackColor,uiBackColor2,uiDrawOutline);   //fill
+    draw_roundrect_color_ext(x, y, x+Sprite_Width, y+Sprite_Height, uiRadiusX,uiRadiusY,uiBackColor,uiBackColor2,uiDrawOutline);   //fill
    }   
    
 if cap_lock

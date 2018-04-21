@@ -34,7 +34,7 @@ draw_set_valign(fa_top);
 
 
 if numitems==0 numitems=1;
-lineheight = (sprite_height) div numitems;   //normal its just the divide by elements, but maybe theres a header and need to take into account.
+lineheight = (Sprite_Height) div numitems;   //normal its just the divide by elements, but maybe theres a header and need to take into account.
   
 if (uiZoomFactor==0.1) || (uiVisible==false) exit;  //for zooming     
 
@@ -46,11 +46,11 @@ if uiTextLabel != ""
    {
         //draw header with uiTextLabel
         th=string_height(string_hash_to_newline(uiTextLabel)) + 5;
-        draw_roundrect_color_ext(x, y, x+sprite_width, y-th, uiRadiusX,uiRadiusY,uiBorderBackColor,uiBorderBackColor, false);   //fill
+        draw_roundrect_color_ext(x, y, x+Sprite_Width, y-th, uiRadiusX,uiRadiusY,uiBorderBackColor,uiBorderBackColor, false);   //fill
 
         //draw uiTextLabel centered.
         draw_set_color(uiBorderColor);
-        px= x + (sprite_width div 2);
+        px= x + (Sprite_Width div 2);
         draw_set_halign(fa_center);
         draw_text_transformed(px,y-th+2,string_hash_to_newline(uiTextLabel),uiXscale,uiYscale,0);  
    }
@@ -60,8 +60,8 @@ th=lineheight;
 
 if uiDrawBackColor    //draw background
    {
-    draw_roundrect_color_ext(x, y, x+sprite_width, y+sprite_height, uiRadiusX,uiRadiusY,uiBackColor,uiBackColor, false);   //fill
-    draw_roundrect_color_ext(x, y, x+sprite_width, y+sprite_height, uiRadiusX,uiRadiusY,uiBorderBackColor,uiBorderBackColor, true);   //draw outline    
+    draw_roundrect_color_ext(x, y, x+Sprite_Width, y+Sprite_Height, uiRadiusX,uiRadiusY,uiBackColor,uiBackColor, false);   //fill
+    draw_roundrect_color_ext(x, y, x+Sprite_Width, y+Sprite_Height, uiRadiusX,uiRadiusY,uiBorderBackColor,uiBorderBackColor, true);   //draw outline    
    } 
 
    
@@ -77,7 +77,7 @@ for (fx=0;fx<numitems;fx+=1)    //go through each item in the list;
    disptx=items[fx];  
   
       
-   while (string_width(string_hash_to_newline(disptx+"X")) * uiXscale) > (sprite_width - 40)   //clip strings if they are too long
+   while (string_width(string_hash_to_newline(disptx+"X")) * uiXscale) > (Sprite_Width - 40)   //clip strings if they are too long
      { 
         disptx=string_delete(disptx,string_length(disptx),1);
         if string_length(disptx)<2 break;
@@ -85,8 +85,8 @@ for (fx=0;fx<numitems;fx+=1)    //go through each item in the list;
 
     px=x;   
     if uiAlign==fa_left { px=x +5; } 
-       else if uiAlign==fa_middle {px= x + ((sprite_width-40) div 2); }
-         else if uiAlign==fa_right {px = x+sprite_width-40; } 
+       else if uiAlign==fa_middle {px= x + ((Sprite_Width-40) div 2); }
+         else if uiAlign==fa_right {px = x+Sprite_Width-40; } 
          
     //center text;
     ymargin= (lineheight-string_height(string_hash_to_newline(disptx))) div 2;          
@@ -97,7 +97,7 @@ for (fx=0;fx<numitems;fx+=1)    //go through each item in the list;
     if (fx != numitems-1) then  //don"t draw lines on last item
       {
         draw_set_color(uiBorderBackColor);  //draw lines
-        draw_line_width(x,y+cury+th,x+sprite_width,y+cury+th,1);   
+        draw_line_width(x,y+cury+th,x+Sprite_Width,y+cury+th,1);   
       }
 
     ymargin= (lineheight - (sprite_get_height(sprite_index))) div 2 ;
@@ -107,8 +107,8 @@ for (fx=0;fx<numitems;fx+=1)    //go through each item in the list;
     if uiMultiSelect then checkstat=itemschecked[fx];       
          else if itemindex==fx checkstat=true;
          
-    if checkstat {draw_sprite(sprite_index,2,x+sprite_width - 40,y+cury+ymargin)}
-            else {draw_sprite(sprite_index,1,x+sprite_width - 40,y+cury+ymargin)}
+    if checkstat {draw_sprite(sprite_index,2,x+Sprite_Width - 40,y+cury+ymargin)}
+            else {draw_sprite(sprite_index,1,x+Sprite_Width - 40,y+cury+ymargin)}
    
 cury+=th;
  
