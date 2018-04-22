@@ -15,7 +15,9 @@ for (fg=0;fg<6;fg+=1)
    
    var Sur = surface_create(1080/4,1920 / 4)
    surface_set_target(Sur)
-   draw_sprite_ext( Spr_Add("/立绘/"+string(fg)+".png"),0,0,0,1/4,1/4,0,c_white,1)
+   var sp = Spr_Add("立绘/"+string(fg)+".png")
+   if sp
+   draw_sprite_ext(sp ,0,0,0,1/4,1/4,0,c_white,1)
    surface_reset_target()
       sprites[fg]= sprite_create_from_surface(Sur,0,0,surface_get_width(Sur),surface_get_height(Sur),0,0,0,0)
  }

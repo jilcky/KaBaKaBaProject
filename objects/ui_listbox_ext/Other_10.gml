@@ -25,7 +25,7 @@ if (abs (mouse_y - mouse_origy) < 15) // && mouse_y >= y)  //a click not a move
     alarm[0]=uiDelayEvent;
     
     if uiComboID >= 0      
-       if instance_exists(uiComboID) then                        //for combo drop down list...
+       if instance_exists(uiComboID)                    //for combo drop down list...
          with (uiComboID) {if evNum>=0 event_user(evNum);}
     soundindex=1; //click
     event_user(10); //process sound event;   

@@ -19,7 +19,7 @@ var i_d = ds_map_find_value(async_load, "id");
             }   
           modified = true;
           if(uiTextLimit) uiTextValue = string_copy(uiTextValue,1,uiTextLimit);
-          if object_exists(uiEventObject) then      //we call the statechanged event on controller if set
+          if instance_exists(uiEventObject) then      //we call the statechanged event on controller if set
              with (uiEventObject) {event_user(0);}
           }
        }

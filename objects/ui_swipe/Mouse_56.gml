@@ -36,7 +36,7 @@ if SwipedRight || SwipedLeft || SwipedUp || SwipedDown
     var evNum;
     evNum=uiEventNum;
     if uiEventObject != noone then
-     if object_exists(uiEventObject) then
+     if instance_exists(uiEventObject) then
        with (uiEventObject) 
         {if evNum>=0 event_user(evNum); }   
    }

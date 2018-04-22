@@ -27,7 +27,7 @@ uiShadowColor= c_dkgray;
 uiDialogSprite = -1;
 uiSpriteIndex=0;
 uiSpriteScale = 1.0;
-uiDialogWidth=Sprite_Width;
+uiDialogWidth= Sprite_Width;
 uiDialogPosY=-1;     //auto-center;
 uiDialogPosX=-1;     //auto-center;
 uiDialogResult=-1;   //button result -1 is none, 1=button1..4=button4

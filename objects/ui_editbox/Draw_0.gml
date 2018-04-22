@@ -38,6 +38,7 @@ disptx=string_replace_all(disptx,"#","\\#")
 
 while (string_width(string_hash_to_newline(disptx)) > Sprite_Width-string_width(string_hash_to_newline("X"))-5)
   {
+	  show_debug_message(date_current_datetime())
     start_pos+=1;
     disptx=string_copy(uiTextValue,start_pos+1,cursor_pos+1);
     disptx=string_replace_all(disptx,"#","\\#")

@@ -20,6 +20,9 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 Sprite_Width = sprite_width
 Sprite_Height = sprite_height
 
+image_xscale = Sprite_Width / 32
+image_yscale = Sprite_Height/32
+
 uiTextValue="";
 uiTextLabel="";
 uiBackColor= c_white;

@@ -8,7 +8,7 @@ event_inherited();
 if checked then checked=false; else checked=true;
 
 if uiEventObject != noone
- if object_exists(uiEventObject) then      //we call the statechanged event on controller if set
+ if instance_exists(uiEventObject) then      //we call the statechanged event on controller if set
    with (uiEventObject) {event_user(0);}
 
 soundindex=1; //click

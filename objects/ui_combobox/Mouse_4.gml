@@ -49,7 +49,7 @@ lookupid = instance_create(cx1,cy1,ui_listbox);
 
 lookupid.uiDrawHeader=false;
 lookupid.uiDrawSquare=true;
-lookupid.depth=-10000;
+lookupid.depth=-1000;
 lookupid.uiBackColor=uiBackColor;
 lookupid.uiDrawBackColor=uiDrawBackColor;
 lookupid.uiTextColor=uiTextColor;

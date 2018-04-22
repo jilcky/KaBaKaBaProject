@@ -1189,6 +1189,14 @@
             }
         },
         {
+            "Key": "441a627b-4790-4fce-8116-ca7547526deb",
+            "Value": {
+                "id": "bbc45229-2249-459b-a033-b2a3c5d018a0",
+                "resourcePath": "scripts\\scr_bubble\\scr_bubble.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "44742c40-a8e3-450d-8c66-cb36402ad487",
             "Value": {
                 "id": "24d3e31f-6210-4fbd-8188-1d3051cdecb1",
@@ -1596,6 +1604,14 @@
             "Value": {
                 "id": "0a19ef2f-3ebe-48ce-bd5d-7feb9257f827",
                 "resourcePath": "objects\\oRunControl\\oRunControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5ac0af03-c17a-4bfc-a420-dd17aaee4545",
+            "Value": {
+                "id": "50e6ca18-8bd2-4666-ad95-c753851fdc5e",
+                "resourcePath": "objects\\obj_dialog\\obj_dialog.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3411,6 +3427,14 @@
             }
         },
         {
+            "Key": "d5e6a29c-2e8b-4483-b3f7-4048be131002",
+            "Value": {
+                "id": "794f9549-36e4-47e2-9c0a-7d038da9ee8a",
+                "resourcePath": "fonts\\font6\\font6.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "d6e09fcb-7282-4d84-978c-5db0ce6f7ae7",
             "Value": {
                 "id": "2150f0ce-ccb5-4860-93f0-7c114fa365c4",
@@ -4271,7 +4295,8 @@
         "8c296651-c031-4b1f-bd69-0a6b58852c62",
         "22c57393-d17c-4500-b428-2d67f27d9725",
         "83f9a46c-861a-4760-8d4f-95a0e90888fe",
-        "1b9c7790-0791-4998-892e-8cc9be4c19e7"
+        "1b9c7790-0791-4998-892e-8cc9be4c19e7",
+        "441a627b-4790-4fce-8116-ca7547526deb"
     ],
     "tutorial": ""
 }

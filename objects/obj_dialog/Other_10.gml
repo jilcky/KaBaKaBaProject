@@ -1,28 +1,3 @@
-if (live_call()) return live_result;
-
-show_debug_message("妇产科ing")
-
-if variable_instance_get(other,"itemindex"){
-  show_debug_message(other.itemindex)
-   GetPos = other.itemindex;
-}
-
-  switch (other.uiControlName) {
-    case "返回":
-	
-		instance_create_depth(x,y,depth, oMeun_Main_Control);
-		instance_destroy();
-		
-        break;
-		
-	
-    default:
-        // code here
-        break;
-		
-		
-		
-}
 /// @description sample dialog object  
 
 //this event will get called when there's a result from dialog
@@ -48,17 +23,17 @@ if other.uiControlName=="dialogsample"   //result from dialogsample
    }  //dialog result sample
 else if other.uiControlName=="showdialog"
    {
-     with (C)
-       {   uiTitle.uiTextValue="a"
-           uiSubTitle.uiTextValue="b"
-           uiCheckBox.uiTextValue="v"
-           uiButtons1.uiTextValue="s"
-           uiButtons2.uiTextValue="b"
-           uiButtons3.uiTextValue="a"
-           uiButtons4.uiTextValue="d"
-           uiEditBox1.uiTextLabel="d"
+     with (inst_dialog)
+       {   //uiTitle.uiTextValue="1";
+       //    uiSubTitle.uiTextValue="2"; 
+       //    uiCheckBox.uiTextValue="3";
+           uiButtons1.uiTextValue="很长的一句哈";
+           //uiButtons2.uiTextValue="5";
+           //uiButtons3.uiTextValue="6";
+           //uiButtons4.uiTextValue="7";
+           uiEditBox1.uiTextLabel="撒地方";
            uiEditBox1.uiSetHeight=40;
-           uiEditBox2.uiTextLabel="b"
+           uiEditBox2.uiTextLabel="9";
            uiEditBox2.uiSetHeight=40;
            uiShowDialog=true;
 		   
@@ -66,8 +41,8 @@ else if other.uiControlName=="showdialog"
 Sprite_Width = 1280/2
 Sprite_Height = 1920 / 4
 
-image_xscale = Sprite_Width / 32
-image_yscale = Sprite_Height/32
+//image_xscale = Sprite_Width / 32
+//image_yscale = Sprite_Height/32
        }    
    } //show dialog button pressed;
    

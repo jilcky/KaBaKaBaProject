@@ -27,7 +27,7 @@ var fx;
 uiBackColor = c_blue;
 uiBackColor2 = c_navy;
 uiDrawBackColor=true;
-uiSetDepth=-99999;
+uiSetDepth=-999;
 
 
 
