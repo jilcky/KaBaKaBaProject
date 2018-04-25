@@ -75,16 +75,4 @@ curLB.xstart=curLB.x;  //for animation
 curLB.ystart=curLB.y;  
 
 
-if uiAutoDestroy {alarm[0]=max(30,(string_length(last_st)*uiCloseFactor));};  //close if set
-      
-      
-      
-      
-
-
-
-
-  
-
-
-
+if uiAutoDestroy {alarm[0]=max(room_speed*1.5,(string_length(last_st)*uiCloseFactor));};  //close if set

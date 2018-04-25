@@ -1,1 +1,1 @@
-sur = -1//surface_create(1280,720)
+sur = -1//surface_create(1920,1080)

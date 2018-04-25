@@ -9,7 +9,7 @@ draw_sprite_ext(__234,0,camera_get_view_x(view_camera[0]),camera_get_view_y(view
 
 draw_set_color(c_black)
 draw_set_alpha(0.3)
-draw_rectangle(_X,_Y,_X+1280,_Y+720,false)
+draw_rectangle(_X,_Y,_X+1920,_Y+1080,false)
 draw_set_alpha(1)
 
 T+=0.5

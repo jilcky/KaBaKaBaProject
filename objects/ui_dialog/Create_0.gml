@@ -41,6 +41,8 @@ uiSetModal=false;
 canfocus=false;
 panelfocused=false;
 
+//uiCustomDrawBack = -4//noone;
+
 
 
 uiTitle=instance_create(x,y,ui_label);

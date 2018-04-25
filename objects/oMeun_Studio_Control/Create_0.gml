@@ -2,7 +2,7 @@ if (live_call()) return live_result;
 ButtonMap  = DSmap_create()
 ButtonOrder = 0
 
-List = instance_create(1280/4,128,ui_listbox_horz)
+List = instance_create(1920/4,128,ui_listbox_horz)
 
 with(List){
 uiItemWidth= 1080 / 4;  //set the width of each element...
@@ -44,7 +44,7 @@ uiDrawHilit = false
 
 //uiAutoSelect=true; //will auto hilite the center item
 
-Sprite_Width = 1280/2
+Sprite_Width = 1920/2
 Sprite_Height = 1920 / 4
 
 image_xscale = Sprite_Width / 32

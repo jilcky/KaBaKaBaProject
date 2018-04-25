@@ -46,7 +46,7 @@ if true{
 	
 }
 
-//List = instance_create_depth(1280/4,128,depth,ui_listbox_ext)
+//List = instance_create_depth(1920/4,128,depth,ui_listbox_ext)
 //with(List){
 //for (fg=0;fg<20;fg+=1) 
 // { //if (fg mod 7) == 2 
@@ -65,7 +65,7 @@ if true{
 
 //uiDrawHilite = false;
 
-//Sprite_Width = 1280/2
+//Sprite_Width = 1920/2
 //Sprite_Height = 1920 / 4
 
 //image_xscale = Sprite_Width / 32
@@ -124,7 +124,7 @@ uiEventObject=other.id;
 uiControlName="dialogsample";
 
 
-Sprite_Width = 1280/2
+Sprite_Width = 1920/2
 Sprite_Height = 1920 / 4
 
 image_xscale = Sprite_Width / 32

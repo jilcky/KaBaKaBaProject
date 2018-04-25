@@ -8,5 +8,4 @@ with ui_defaults
   }
 
 depth=maxdepth-1; 
-uiMouseHandle=true; //reset ourselves.  
-
+uiMouseHandle=true; //reset ourselves.
