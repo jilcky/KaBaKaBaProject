@@ -1,5 +1,5 @@
 {
-    "id": "ffa70c8d-648a-43ea-986e-bed306ab3440",
+    "id": "b0941fd7-c253-4a91-9eb9-6f6427b47ae8",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "经验值.png",

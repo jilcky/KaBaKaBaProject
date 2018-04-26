@@ -1,5 +1,5 @@
 {
-    "id": "105302ab-65fe-4729-a431-d4398f34fa09",
+    "id": "6f615e93-1a4c-48cd-b13f-1e954deaae39",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "钻石.png",

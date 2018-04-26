@@ -48,10 +48,10 @@ panelfocused=false;
 uiTitle=instance_create(x,y,ui_label);
 uiSubTitle=instance_create(x,y,ui_label);;
 uiCheckBox=instance_create(x,y,ui_checkbox);;
-uiButtons1=instance_create(x,y,ui_button_ani);
-uiButtons2=instance_create(x,y,ui_button_ani);
-uiButtons3=instance_create(x,y,ui_button_ani);
-uiButtons4=instance_create(x,y,ui_button_ani);
+uiButtons1=instance_create(x,y,ui_button);
+uiButtons2=instance_create(x,y,ui_button);
+uiButtons3=instance_create(x,y,ui_button);
+uiButtons4=instance_create(x,y,ui_button);
 
 uiEditBox1=instance_create(x,y,ui_editbox);
 uiEditBox2=instance_create(x,y,ui_editbox);

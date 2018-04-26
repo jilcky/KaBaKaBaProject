@@ -148,14 +148,6 @@
             }
         },
         {
-            "Key": "0a56322c-25db-4b60-96d1-1c40edc6def7",
-            "Value": {
-                "id": "5a231792-f1c6-42f8-a214-73200417d377",
-                "resourcePath": "datafiles_yy\\主菜单\\房间.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "0b01b98c-0153-4fb2-b956-0516135fee50",
             "Value": {
                 "id": "f860982e-917f-4288-a413-65c81d190204",
@@ -212,6 +204,14 @@
             }
         },
         {
+            "Key": "0d9347e2-c13d-4638-a37c-cab7c5ab3050",
+            "Value": {
+                "id": "13f50143-31a8-420e-9750-98db03f2b106",
+                "resourcePath": "datafiles_yy\\主菜单\\工作室.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "0db1147b-1447-4a55-aee3-cdaf017c4773",
             "Value": {
                 "id": "e941a225-9c28-4ae3-b5c0-8b44efcc6851",
@@ -249,22 +249,6 @@
                 "id": "5ed0bb14-cf02-4f2b-bfcf-46c6d9d004ed",
                 "resourcePath": "scripts\\See_Map\\See_Map.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "10252984-76b4-4578-a6a0-cce3ba8ec0a7",
-            "Value": {
-                "id": "482c50ff-6f73-4e54-8262-8a4c01b81b26",
-                "resourcePath": "datafiles_yy\\主菜单\\食物.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "105302ab-65fe-4729-a431-d4398f34fa09",
-            "Value": {
-                "id": "1f3c4ced-546e-494f-89f6-56373dfd54fc",
-                "resourcePath": "datafiles_yy\\主菜单\\钻石.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -377,14 +361,6 @@
                 "id": "675d77a2-ab74-4d5e-b86c-fa0bfd558214",
                 "resourcePath": "scripts\\EaseInCubic\\EaseInCubic.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "1621ae6e-55ee-4016-bfa7-bffc44e8f429",
-            "Value": {
-                "id": "6379b0a3-f6d1-481e-a1ed-caeb9ce9c9c0",
-                "resourcePath": "datafiles_yy\\主菜单\\植物园.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -692,14 +668,6 @@
             }
         },
         {
-            "Key": "27e0a97a-2a16-4bcd-a15c-6d5e6dff8f90",
-            "Value": {
-                "id": "97bdb59c-f703-4649-a402-797df9228178",
-                "resourcePath": "datafiles_yy\\主菜单\\战场.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "27eb3664-f6a0-4afa-936f-ebe5710a0a8d",
             "Value": {
                 "id": "e950da35-87a6-4d75-95af-49a705a8414c",
@@ -836,14 +804,6 @@
                 "id": "747e347e-ddb5-4c4a-8347-afbd14ff2df7",
                 "resourcePath": "views\\2df4c607-7638-4557-944f-8939704eec09.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "2e213f70-5227-47bc-adc8-2b50d80c7201",
-            "Value": {
-                "id": "dcb0e696-a775-4014-b274-cfe45e1042a0",
-                "resourcePath": "datafiles_yy\\主菜单\\玩家信息.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1079,14 +1039,6 @@
             }
         },
         {
-            "Key": "3aff2a1b-537f-46a5-b645-8757a70018bd",
-            "Value": {
-                "id": "d8cf6033-2d12-4ce3-a0c5-a6fdf479ab06",
-                "resourcePath": "datafiles_yy\\主菜单\\设置.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "3b8f098d-1b60-4387-befe-11c8b69dd270",
             "Value": {
                 "configDeltas": [
@@ -1186,6 +1138,14 @@
                 "id": "6f3d714b-4f88-45b9-922f-9c37fb304878",
                 "resourcePath": "views\\40333d31-c2dc-4101-ba92-1746c88732f6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "417e2131-25b2-4e8f-bffe-56baedfd45ea",
+            "Value": {
+                "id": "bf1f3d24-3d47-4dc1-b367-fcf327c380b2",
+                "resourcePath": "scripts\\Spr_Dle\\Spr_Dle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1370,6 +1330,14 @@
                 "id": "1c6237fe-f265-41d2-88cb-321c856d800d",
                 "resourcePath": "scripts\\TweenFire\\TweenFire.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4b45ebe3-f4a5-4d36-b0d4-f5c984d88be8",
+            "Value": {
+                "id": "8675c933-d7ea-4a7a-a5e0-9e21342194d0",
+                "resourcePath": "datafiles_yy\\主菜单\\仓库.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1592,14 +1560,6 @@
             }
         },
         {
-            "Key": "55c3a544-7258-469f-b493-e86511f6547c",
-            "Value": {
-                "id": "0e1e55f7-51a4-4966-917b-a0822b96113e",
-                "resourcePath": "datafiles_yy\\主菜单\\城堡.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "562ee4a4-a29f-4ab6-8971-48786c6015e9",
             "Value": {
                 "id": "e1de2593-535c-4997-89df-c060c8f6f74a",
@@ -1792,6 +1752,14 @@
             }
         },
         {
+            "Key": "60fd8508-e67f-47fe-aebf-6960ef87be9b",
+            "Value": {
+                "id": "3ec3d432-753d-408c-ac6e-bb43e959b5e7",
+                "resourcePath": "datafiles_yy\\主菜单\\食物.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "6155fe62-14a6-46df-8aab-0c9affc1c74e",
             "Value": {
                 "id": "db1aa899-84d8-4a82-a1fd-41b2708a639a",
@@ -1907,6 +1875,14 @@
             }
         },
         {
+            "Key": "6acb988b-1bf6-41f4-bc91-fb965767a267",
+            "Value": {
+                "id": "c49b0763-bd74-416b-b4e3-996796fcab38",
+                "resourcePath": "datafiles_yy\\主菜单\\植物园.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "6af3e3f3-f1cd-4639-9a94-7449571e0024",
             "Value": {
                 "configDeltas": [
@@ -1990,11 +1966,27 @@
             }
         },
         {
+            "Key": "6f615e93-1a4c-48cd-b13f-1e954deaae39",
+            "Value": {
+                "id": "0ab9e42b-5979-410b-b872-d236dbba2535",
+                "resourcePath": "datafiles_yy\\主菜单\\钻石.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "6f9dc514-b505-4d6e-bfee-47d2eb9b6edd",
             "Value": {
                 "id": "02994625-6318-415f-9ad1-5e8d19ba37c9",
                 "resourcePath": "scripts\\TGMS_Variable_Global_Set\\TGMS_Variable_Global_Set.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6fb21a65-302f-42eb-89d0-2fce43b3dfe9",
+            "Value": {
+                "id": "b4491488-fd8f-4b45-9b64-c3f690d54d3b",
+                "resourcePath": "datafiles_yy\\主菜单\\金币.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2150,14 +2142,6 @@
                 "id": "17489e7c-6835-43c3-826e-ba946fea6312",
                 "resourcePath": "scripts\\EaseInOutElastic\\EaseInOutElastic.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "7b132ed8-8289-4848-b0ca-eea8e98dbfaf",
-            "Value": {
-                "id": "76d225c4-f53f-47a2-827c-44cf6e6a2a47",
-                "resourcePath": "datafiles_yy\\主菜单\\工作室.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2439,6 +2423,14 @@
             }
         },
         {
+            "Key": "89fd1728-c25f-457d-b3a5-ec6db3b750f4",
+            "Value": {
+                "id": "1da54f98-f064-4170-a314-43d71d1fb33a",
+                "resourcePath": "datafiles_yy\\主菜单\\房间.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "8a0a9637-9249-44da-9050-217f969dca43",
             "Value": {
                 "id": "a3737b35-6ce1-4fe9-be1d-ad4e6fb3101f",
@@ -2534,6 +2526,14 @@
             "Value": {
                 "id": "aab33dc6-def9-4bb3-b7ac-3f065e93cc62",
                 "resourcePath": "datafiles_yy\\license.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "932c5766-b674-42ef-a6b2-1b3035a01586",
+            "Value": {
+                "id": "480af7e2-e8e8-44db-9b3e-9ca7b3eea9ac",
+                "resourcePath": "datafiles_yy\\主菜单\\城堡.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -2723,14 +2723,6 @@
             }
         },
         {
-            "Key": "a26aa3c3-348c-4bb8-b70c-bc40d5c8e2e0",
-            "Value": {
-                "id": "dfc98cf8-f73d-45ae-9dec-ac64b7c28436",
-                "resourcePath": "datafiles_yy\\主菜单\\金币.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "a26b6334-bf70-4ce0-9e4f-bcc87e7ee793",
             "Value": {
                 "id": "c4e111d8-4a50-4c83-8bff-26468a0c030e",
@@ -2910,6 +2902,14 @@
                 "id": "249474d7-54f8-4bed-9ac2-526c4fbe589e",
                 "resourcePath": "scripts\\TGMS_TweensExecute\\TGMS_TweensExecute.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b0941fd7-c253-4a91-9eb9-6f6427b47ae8",
+            "Value": {
+                "id": "8fdf3e41-e00f-4a44-8e01-5e721349da14",
+                "resourcePath": "datafiles_yy\\主菜单\\经验值.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -3097,6 +3097,14 @@
                 "id": "fd12cf50-cd46-4231-bf30-63dcd3856a94",
                 "resourcePath": "views\\bc53c8ee-4e2a-45e8-8d7a-413175981273.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bcea000e-6870-4f53-8f40-224820df99ef",
+            "Value": {
+                "id": "96e10ca9-2c77-4099-a65b-02c15251e5df",
+                "resourcePath": "datafiles_yy\\主菜单\\商店.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -3587,6 +3595,14 @@
             }
         },
         {
+            "Key": "de91bfd3-1cbf-4463-827e-1388c55a2bcb",
+            "Value": {
+                "id": "58291eaf-b1c9-486f-982a-b23d601e81f2",
+                "resourcePath": "datafiles_yy\\主菜单\\设置.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "de925728-b5cb-40cc-9a49-6c8869e6ca62",
             "Value": {
                 "id": "b1b5f55c-d947-4693-981d-09326a4cc03b",
@@ -3774,6 +3790,14 @@
             }
         },
         {
+            "Key": "e9f529c5-c4b0-4135-a77b-2081beb1e7dc",
+            "Value": {
+                "id": "a501e1ca-d533-4940-a9ab-13b0cfb4801c",
+                "resourcePath": "datafiles_yy\\主菜单\\战场.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "ea021d1e-831f-4f56-9de2-9b8ef5f35c36",
             "Value": {
                 "id": "87fd15e4-786c-485e-94e4-b1df0b78030b",
@@ -3894,6 +3918,14 @@
             }
         },
         {
+            "Key": "f411c619-68a2-44e3-b154-9c5c13ba3eb2",
+            "Value": {
+                "id": "fbabdbba-ce48-4d2f-9837-dc310503469f",
+                "resourcePath": "datafiles_yy\\主菜单\\玩家信息.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "6d05f7e4-27a5-4ad5-b649-4ccd0624a2cd",
@@ -3918,14 +3950,6 @@
                 "id": "d549db9a-a51d-4538-8f70-b1be7b1b033c",
                 "resourcePath": "sprites\\__234\\__234.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f506f81c-1c8d-4736-9899-7b81373075cd",
-            "Value": {
-                "id": "08705e0e-1f1f-4e65-911b-70b050e765cd",
-                "resourcePath": "datafiles_yy\\主菜单\\仓库.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -3982,14 +4006,6 @@
                 "id": "7fc41755-4699-4444-ab51-5b273e22d9ba",
                 "resourcePath": "scripts\\EaseInOutSine\\EaseInOutSine.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "f6f24126-bc06-4cbd-8020-f78cf4944a09",
-            "Value": {
-                "id": "8205f7f1-32c2-4dbf-bbc0-38a3c3c58396",
-                "resourcePath": "datafiles_yy\\主菜单\\公告.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -4063,6 +4079,14 @@
             }
         },
         {
+            "Key": "faab73a1-d907-44c0-a3eb-568d22dfd975",
+            "Value": {
+                "id": "6ba8efbe-22e3-4815-8133-be78b05e6408",
+                "resourcePath": "datafiles_yy\\主菜单\\公告.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "fae4f9af-6a5f-4871-ad9d-eecd2df67583",
             "Value": {
                 "id": "dddd47f4-a544-4847-aa79-c77ad4705d33",
@@ -4127,27 +4151,11 @@
             }
         },
         {
-            "Key": "ff4e4f19-18ac-4e33-b624-fe5cbfacf007",
-            "Value": {
-                "id": "f3a0f09b-1dda-4026-ac5b-5d8b78555513",
-                "resourcePath": "datafiles_yy\\主菜单\\商店.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "ff5c63d1-c50f-4522-9d86-6f197055d2a3",
             "Value": {
                 "id": "6dfae881-0b35-4c9c-8007-7dc1361ce6c8",
                 "resourcePath": "objects\\oMeun_Option_Control\\oMeun_Option_Control.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "ffa70c8d-648a-43ea-986e-bed306ab3440",
-            "Value": {
-                "id": "466ec7a4-29a9-43d0-a479-3a2d8cfc5dc2",
-                "resourcePath": "datafiles_yy\\主菜单\\经验值.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         }
     ],
@@ -4155,6 +4163,7 @@
         "0fa10a90-65ad-46b7-bf53-2c6fbf745074",
         "0168dc60-24be-417b-8b17-9f75c3871867",
         "05062dc7-302d-4231-b23d-72e4c5fe3eb1",
+        "417e2131-25b2-4e8f-bffe-56baedfd45ea",
         "2d659f56-655c-4549-b975-f35d5a6c57ee",
         "28aa3757-d7a6-4be4-a2a2-f65ea6409028",
         "e9319e2b-2b7e-4465-abae-8e7512fdf3b9",

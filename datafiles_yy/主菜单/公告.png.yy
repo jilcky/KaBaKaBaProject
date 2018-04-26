@@ -1,5 +1,5 @@
 {
-    "id": "f6f24126-bc06-4cbd-8020-f78cf4944a09",
+    "id": "faab73a1-d907-44c0-a3eb-568d22dfd975",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "公告.png",

@@ -1,4 +1,10 @@
-			for (var i = 0; i < ds_map_size(ButtonMap); ++i) {
+	for (fg=0;fg<6;fg+=1) 
+	{
+		
+	sprite_delete(	List.sprites[fg])
+	}
+
+for (var i = 0; i < ds_map_size(ButtonMap); ++i) {
 				var _key = ButtonOrder[i]
 				
 				var ID = ds_map_find_value(ButtonMap,_key)
@@ -11,3 +17,4 @@
 	ds_map_destroy(ButtonMap)
 	
 	show_debug_message(string(object_get_name(object_index))+string(id)+":进行了清理")
+	

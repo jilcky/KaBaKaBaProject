@@ -20,6 +20,9 @@ for (fg=0;fg<6;fg+=1)
    draw_sprite_ext(sp ,0,0,0,1/4,1/4,0,c_white,1)
    surface_reset_target()
       sprites[fg]= sprite_create_from_surface(Sur,0,0,surface_get_width(Sur),surface_get_height(Sur),0,0,0,0)
+	 Spr_Dle("立绘/"+string(fg)+".png")
+	 surface_free(sp)
+	 
  }
 uiTextLabel="只看 摸了也没用";
 
@@ -71,7 +74,7 @@ if true{
 	_inst.uiBackColor=c_white;
 //    _inst.uiMouseHandle = false
     _inst.Sprite_Height = sprite_get_height(Spr_Add(File+_file))
-    _inst.Sprite_Width = sprite_get_width(Spr_Add(File+_file))
+    _inst.Sprite_Width =  sprite_get_width(Spr_Add(File+_file))
 
 	_inst.x=_inst.xstart+room_width;
 	_inst.uiMoveX=_inst.xstart;

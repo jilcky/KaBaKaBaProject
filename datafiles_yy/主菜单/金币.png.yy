@@ -1,5 +1,5 @@
 {
-    "id": "a26aa3c3-348c-4bb8-b70c-bc40d5c8e2e0",
+    "id": "6fb21a65-302f-42eb-89d0-2fce43b3dfe9",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "金币.png",

@@ -44,85 +44,28 @@ if true{
 	ButtonMap[?_order] = _inst;
     ButtonOrder[0] = _order;
 	
+	
+	
 }
 
-//List = instance_create_depth(GameInfo.Width/4,128,depth,ui_listbox_ext)
-//with(List){
-//for (fg=0;fg<20;fg+=1) 
-// { //if (fg mod 7) == 2 
-//   items[fg]="随便写点东西"+string(fg); 
-//   //else
-//  // items[fg]="Long List "+string(fg);
+List = instance_create_depth(GameInfo.Width/4,128,depth,ui_listbox_ext)
+with(List){
+for (fg=0;fg<20;fg+=1) 
+ { //if (fg mod 7) == 2 
+   items[fg]="随便写点东西"+string(fg); 
+   //else
+  // items[fg]="Long List "+string(fg);
    
-//   sprites[fg]  = -1//choose(spr_home,spr_toggle,spr_dragon,-1)
-// }
-//uiTextLabel="当商品列表也行 交任务列表也行";
-//uiAlign=fa_left;
-//uiButtonList=true;
-//uiShowArrows=true;
-//uiDrawHeader=false;
-//uiCustomDrawScript=scr_listbox_drawline;
+   sprites[fg]  =  choose(Spr_Add("设置菜单/开.png"),Spr_Add("设置菜单/关.png"),-1)
+ }
+uiTextLabel="当商品列表也行 交任务列表也行";
+uiAlign=fa_left;
+uiButtonList=true;
+uiShowArrows=true;
+uiDrawHeader=false;
+uiCustomDrawScript=scr_listbox_drawline;
 
-//uiDrawHilite = false;
-
-//Sprite_Width = GameInfo.Width/2
-//Sprite_Height = GameInfo.Width / 4
-
-//image_xscale = Sprite_Width / 32
-//image_yscale = Sprite_Height/32
-
-//	uiEventObject = other.id;
-//	uiControlName= "按钮";
-////	uiComboID = other.id;
-//}
-
-C = instance_create(128,512,ui_dialog)
-with(C)
-{
-uiDialogWidth=450;
-
-//values are set with editbox data in demo...but you would set here...
-
-//uiTitle.uiTextValue='Rate App?';
-uiTitle.uiTextColor=c_yellow;
-uiTitle.uiFont=fText;
-//uiSubTitle.uiTextValue='Would you like to Rate App';
-//uiCheckBox.uiTextValue="Save Password";
-uiCheckBox.uiTextColor=c_teal;
-uiFontuiDialogWidth=450;
-
-//values are set with editbox data in demo...but you would set here...
-
-//uiTitle.uiTextValue='Rate App?';
-uiTitle.uiTextColor=c_yellow;
-uiTitle.uiFont=fText;
-//uiSubTitle.uiTextValue='Would you like to Rate App';
-//uiCheckBox.uiTextValue="Save Password";
-uiCheckBox.uiTextColor=c_teal;
-uiFont=fText;
-//uiButtons1.uiTextValue='Yes';
-uiButtons1.uiFont=fText;
-//uiButtons2.uiTextValue='No';
-uiButtons2.uiFont=fText;
-//uiButtons3.uiTextValue='Never';
-uiButtons3.uiFont=fText;
-uiButtons4.uiFont=fText;
-//uiEditBox1.uiTextLabel='Enter your Name';
-uiEditBox1.uiSetHeight=40;
-//uiEditBox2.uiTextLabel='Enter password';
-uiEditBox2.uiSetHeight=40;
-//uiEditBox2.uiPasswordChar='*';
-
-
-//uiButtons4.uiTextValue='Maybe';
-
-//uiCustomDrawBack=scr_CustomDrawBack;
-
-//uiShowDialog=true;
-
-uiEventObject=other.id;
-uiControlName="dialogsample";
-
+uiDrawHilite = false;
 
 Sprite_Width = GameInfo.Width/2
 Sprite_Height = GameInfo.Width / 4
@@ -130,14 +73,8 @@ Sprite_Height = GameInfo.Width / 4
 image_xscale = Sprite_Width / 32
 image_yscale = Sprite_Height/32
 
+	uiEventObject = other.id;
+	uiControlName= "按钮";
+//	uiComboID = other.id;
 }
-
-	
-var _inst2 = instance_create_depth(128,256,0,ui_button)	
-_inst2.uiTextValue="Show Dialog";
-_inst2.uiEventObject = id ;
-_inst2.uiControlName="showdialog";
-	_inst2.sprite_index =  Spr_Add(File+_file);
-_inst2.Sprite_Height = sprite_get_height(Spr_Add(File+_file))
-_inst2.Sprite_Width = sprite_get_width(Spr_Add(File+_file))
 

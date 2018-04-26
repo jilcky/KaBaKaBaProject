@@ -1,5 +1,5 @@
 {
-    "id": "f506f81c-1c8d-4736-9899-7b81373075cd",
+    "id": "4b45ebe3-f4a5-4d36-b0d4-f5c984d88be8",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "仓库.png",

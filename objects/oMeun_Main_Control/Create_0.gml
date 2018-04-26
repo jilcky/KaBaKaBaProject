@@ -10,6 +10,7 @@ enum ButtonType
 
 ButtonMap  = DSmap_create()
 ButtonOrder = 0
+List= ds_list_create()
 
 File = "主菜单/"
 ini_open(working_directory+File+"MeunSet.ini")
@@ -22,6 +23,14 @@ for (var i = 0; i < Size; ++i) {
 	var _file = ini_read_string(i,"图片","")
 	var _order = ini_read_string(i,"指令","")
 	ButtonOrder[i] = _order;
+	
+
+//var M = ds_map_create()
+//M[?"x"] = floor( _Size*_x )
+//M[?"y"] = floor( _Size*_y )
+//M[?"图片"] = _file
+//M[?"指令"] = _order;
+//ds_list_add(List,M)
 
 	switch (_type) {
 	    case ButtonType.ui_button_ani:
@@ -37,6 +46,7 @@ for (var i = 0; i < Size; ++i) {
     _inst.Sprite_Height = sprite_get_height(Spr_Add(File+_file))
     _inst.Sprite_Width = sprite_get_width(Spr_Add(File+_file))
 
+	
 	_inst.x=_inst.xstart+room_width;
 	_inst.uiMoveX=_inst.xstart;
 	_inst.uiMoveY=_inst.ystart;

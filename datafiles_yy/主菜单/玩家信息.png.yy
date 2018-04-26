@@ -1,5 +1,5 @@
 {
-    "id": "2e213f70-5227-47bc-adc8-2b50d80c7201",
+    "id": "f411c619-68a2-44e3-b154-9c5c13ba3eb2",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "玩家信息.png",

@@ -29,9 +29,10 @@ draw_set_color(c_green);
 //  && (mouse_y>=curY-curHeight) && (mouse_y<=curY) { curListB.itemindex=curIndex;
 //                                                  }   
 
-if curSelected then {draw_rectangle_color(curX,curY,curX+curWidth,curY+curHeight,c_blue,c_blue,c_navy,c_navy,false);
-                     draw_set_color(c_white);
-                    } 
+//************选中后如何 
+//if curSelected then {draw_rectangle_color(curX,curY,curX+curWidth,curY+curHeight,c_blue,c_blue,c_navy,c_navy,false);
+//                     draw_set_color(c_white);
+//                    } 
 
 if Spr//(curIndex mod 7) == 2   //just some sample stuff to change the variable height by lineitem
     {

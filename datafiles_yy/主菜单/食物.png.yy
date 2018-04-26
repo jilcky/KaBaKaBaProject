@@ -1,5 +1,5 @@
 {
-    "id": "10252984-76b4-4578-a6a0-cce3ba8ec0a7",
+    "id": "60fd8508-e67f-47fe-aebf-6960ef87be9b",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "食物.png",

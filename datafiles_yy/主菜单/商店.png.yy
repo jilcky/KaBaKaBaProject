@@ -1,5 +1,5 @@
 {
-    "id": "ff4e4f19-18ac-4e33-b624-fe5cbfacf007",
+    "id": "bcea000e-6870-4f53-8f40-224820df99ef",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "商店.png",
