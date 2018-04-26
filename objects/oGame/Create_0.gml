@@ -6,8 +6,13 @@
 show_debug_overlay(true)
 enum GameInfo {
 <<<<<<< HEAD
+<<<<<<< HEAD
 Height = 1920,
 Width = 1080,
+=======
+Height = 720,
+Width = 1280,
+>>>>>>> parent of c82f0a6... 登陆器逻辑搞定
 =======
 Height = 720,
 Width = 1280,
@@ -30,9 +35,15 @@ RoomBack = room
 if true//os_type = os_windows 
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
  	var Size = 0.33
  window_set_size(GameInfo.Width*Size,GameInfo.Height*Size)
  window_set_position(GameInfo.Width/2,GameInfo.Width/2)//只是单纯的让游戏画面在中间而已
+=======
+// 	var Size = 0.25
+// window_set_size(GameInfo.Width*Size,GameInfo.Height*Size)
+// window_set_position(1920/2-1280/2,1080/2-720/2)//只是单纯的让游戏画面在中间而已
+>>>>>>> parent of c82f0a6... 登陆器逻辑搞定
 =======
 // 	var Size = 0.25
 // window_set_size(GameInfo.Width*Size,GameInfo.Height*Size)

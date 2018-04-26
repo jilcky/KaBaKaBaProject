@@ -2,7 +2,11 @@
 	if! surface_exists(sur)
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	sur=surface_create(GameInfo.Width,GameInfo.Width)
+=======
+	sur=surface_create(1280,720)
+>>>>>>> parent of c82f0a6... 登陆器逻辑搞定
 =======
 	sur=surface_create(1280,720)
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定

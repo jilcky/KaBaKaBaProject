@@ -17,7 +17,11 @@ var _controller_x = width_ div 2;
 var _controller_y = height_ div 2;
 var _controller_direction = irandom(3);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _steps = GameInfo.Width;
+=======
+var _steps = 1280;
+>>>>>>> parent of c82f0a6... 登陆器逻辑搞定
 =======
 var _steps = 1280;
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定

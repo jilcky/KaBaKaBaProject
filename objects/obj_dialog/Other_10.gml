@@ -25,6 +25,7 @@ else if other.uiControlName=="showdialog"
    {
      with (inst_dialog)
 <<<<<<< HEAD
+<<<<<<< HEAD
        {  
 		   
 		   uiBackSprite = __234
@@ -66,6 +67,8 @@ Sprite_Width = string_width("注册")*1.5
     //       uiEditBox2.uiTextLabel="密码";
       //     uiEditBox2.uiSetHeight=64;
 =======
+=======
+>>>>>>> parent of c82f0a6... 登陆器逻辑搞定
        {   //uiTitle.uiTextValue="1";
        //    uiSubTitle.uiTextValue="2"; 
        //    uiCheckBox.uiTextValue="3";
@@ -77,6 +80,7 @@ Sprite_Width = string_width("注册")*1.5
            uiEditBox1.uiSetHeight=40;
            uiEditBox2.uiTextLabel="9";
            uiEditBox2.uiSetHeight=40;
+<<<<<<< HEAD
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
            uiShowDialog=true;
 		   
@@ -85,6 +89,13 @@ Sprite_Width = string_width("注册")*1.5
 Sprite_Width = GameInfo.Width * 0.8
 Sprite_Height = GameInfo.Width / 4
 =======
+Sprite_Width = 1280/2
+Sprite_Height = 1920 / 4
+>>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+           uiShowDialog=true;
+		   
+		   
 Sprite_Width = 1280/2
 Sprite_Height = 1920 / 4
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定

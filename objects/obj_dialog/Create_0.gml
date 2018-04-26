@@ -5,10 +5,14 @@ with(inst_dialog)
 {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		   
 Sprite_Width = GameInfo.Width *.8
 //Sprite_Height = GameInfo.Width / 4
 uiDialogWidth= Sprite_Width ;
+=======
+uiDialogWidth=450;
+>>>>>>> parent of c82f0a6... 登陆器逻辑搞定
 =======
 uiDialogWidth=450;
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定

@@ -221,7 +221,11 @@ for (fy=1;fy<=3;fy+=1)  //draw normal keys
      
   //hide key
 <<<<<<< HEAD
+<<<<<<< HEAD
   curx=GameInfo.Width*xfc;
+=======
+  curx=720*xfc;
+>>>>>>> parent of c82f0a6... 登陆器逻辑搞定
 =======
   curx=720*xfc;
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
