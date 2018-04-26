@@ -7,8 +7,8 @@ with(inst_dialog)
 <<<<<<< HEAD
 <<<<<<< HEAD
 		   
-Sprite_Width = GameInfo.Width *.8
-//Sprite_Height = GameInfo.Width / 4
+Sprite_Width = 1920 *.8
+//Sprite_Height = 1920 / 4
 uiDialogWidth= Sprite_Width ;
 =======
 uiDialogWidth=450;

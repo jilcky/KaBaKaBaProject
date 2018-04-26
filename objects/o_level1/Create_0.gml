@@ -18,6 +18,7 @@ var _controller_y = height_ div 2;
 var _controller_direction = irandom(3);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _steps = GameInfo.Width;
 =======
 var _steps = 1280;
@@ -25,6 +26,9 @@ var _steps = 1280;
 =======
 var _steps = 1280;
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+var _steps = 1920;
+>>>>>>> parent of 145b83e... 手滑失败了
 
 var _player_start_x = _controller_x * CELL_WIDTH + CELL_WIDTH/2;
 var _player_start_y = _controller_y * CELL_HEIGHT + CELL_HEIGHT/2;

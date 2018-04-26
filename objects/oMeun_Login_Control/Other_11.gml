@@ -18,8 +18,7 @@ if D_Mode = "创建登陆器" {
 		uiEventNum = 1
 		//uiBackColor = // false - 1
 		Sprite_Width = GameInfo.Width * 0.4;
-		Sprite_Height = Sprite_Width * (9 / 16) ;
-		uiDialogWidth = Sprite_Width;
+		Sprite_Height = Sprite_Width * (9 / 16) uiDialogWidth = Sprite_Width;
 		uiDialogHeight = Sprite_Height;
 		uiTitle.uiTextValue = ""
 		//			uiCustomDrawBack = false;

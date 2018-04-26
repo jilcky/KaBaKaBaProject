@@ -4,6 +4,7 @@ ButtonOrder = 0
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 List = instance_create(GameInfo.Width/4,128,ui_listbox_horz)
 =======
 List = instance_create(1280/4,128,ui_listbox_horz)
@@ -11,9 +12,12 @@ List = instance_create(1280/4,128,ui_listbox_horz)
 =======
 List = instance_create(1280/4,128,ui_listbox_horz)
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+List = instance_create(1920/4,128,ui_listbox_horz)
+>>>>>>> parent of 145b83e... 手滑失败了
 
 with(List){
-uiItemWidth= GameInfo.Width / 4;  //set the width of each element...
+uiItemWidth= 1080 / 4;  //set the width of each element...
 
 for (fg=0;fg<6;fg+=1) 
  { //if (fg mod 7) == 2 
@@ -21,7 +25,7 @@ for (fg=0;fg<6;fg+=1)
    items[fg]="编号_ "+string(fg);
 
    
-   var Sur = surface_create(GameInfo.Width/4,GameInfo.Width / 4)
+   var Sur = surface_create(1080/4,1920 / 4)
    surface_set_target(Sur)
    var sp = Spr_Add("立绘/"+string(fg)+".png")
    if sp
@@ -54,6 +58,7 @@ uiDrawHilit = false
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sprite_Width = GameInfo.Width/2
 Sprite_Height = GameInfo.Width / 4
 =======
@@ -62,6 +67,10 @@ Sprite_Height = GameInfo.Width / 4
 Sprite_Width = 1280/2
 Sprite_Height = 1920 / 4
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+Sprite_Width = 1920/2
+Sprite_Height = 1920 / 4
+>>>>>>> parent of 145b83e... 手滑失败了
 
 image_xscale = Sprite_Width / 32
 image_yscale = Sprite_Height/32

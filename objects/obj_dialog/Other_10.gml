@@ -33,7 +33,7 @@ else if other.uiControlName=="showdialog"
 		  uiDrawBackColor = false;
 		   //uiTitle.uiTextValue="623424";
 		   //////with(uiTitle)
-		   //////{x = xstart + (GameInfo.Width/4)}
+		   //////{x = xstart + (1920/4)}
 		   
            //uiSubTitle.uiTextValue="2345"; 
            //uiCheckBox.uiTextValue="yes";
@@ -86,6 +86,7 @@ Sprite_Width = string_width("注册")*1.5
 		   
 		   
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sprite_Width = GameInfo.Width * 0.8
 Sprite_Height = GameInfo.Width / 4
 =======
@@ -99,6 +100,12 @@ Sprite_Height = 1920 / 4
 Sprite_Width = 1280/2
 Sprite_Height = 1920 / 4
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+Sprite_Width = 1920 * 0.8
+Sprite_Height = 1920 / 4
+
+x = 32
+>>>>>>> parent of 145b83e... 手滑失败了
 
 //image_xscale = Sprite_Width / 32
 //image_yscale = Sprite_Height/32

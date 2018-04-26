@@ -48,6 +48,7 @@ if true{
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //List = instance_create_depth(GameInfo.Width/4,128,depth,ui_listbox_ext)
 =======
 //List = instance_create_depth(1280/4,128,depth,ui_listbox_ext)
@@ -55,6 +56,9 @@ if true{
 =======
 //List = instance_create_depth(1280/4,128,depth,ui_listbox_ext)
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+//List = instance_create_depth(1920/4,128,depth,ui_listbox_ext)
+>>>>>>> parent of 145b83e... 手滑失败了
 //with(List){
 //for (fg=0;fg<20;fg+=1) 
 // { //if (fg mod 7) == 2 
@@ -75,6 +79,7 @@ if true{
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Sprite_Width = GameInfo.Width/2
 //Sprite_Height = GameInfo.Width / 4
 =======
@@ -83,6 +88,10 @@ if true{
 //Sprite_Width = 1280/2
 //Sprite_Height = 1920 / 4
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+//Sprite_Width = 1920/2
+//Sprite_Height = 1920 / 4
+>>>>>>> parent of 145b83e... 手滑失败了
 
 //image_xscale = Sprite_Width / 32
 //image_yscale = Sprite_Height/32
@@ -142,6 +151,7 @@ uiControlName="dialogsample";
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sprite_Width = GameInfo.Width/2
 Sprite_Height = GameInfo.Width / 4
 =======
@@ -150,6 +160,10 @@ Sprite_Height = GameInfo.Width / 4
 Sprite_Width = 1280/2
 Sprite_Height = 1920 / 4
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+Sprite_Width = 1920/2
+Sprite_Height = 1920 / 4
+>>>>>>> parent of 145b83e... 手滑失败了
 
 image_xscale = Sprite_Width / 32
 image_yscale = Sprite_Height/32

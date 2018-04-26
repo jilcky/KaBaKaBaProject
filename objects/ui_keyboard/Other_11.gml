@@ -222,6 +222,7 @@ for (fy=1;fy<=3;fy+=1)  //draw normal keys
   //hide key
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   curx=GameInfo.Width*xfc;
 =======
   curx=720*xfc;
@@ -229,6 +230,9 @@ for (fy=1;fy<=3;fy+=1)  //draw normal keys
 =======
   curx=720*xfc;
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+  curx=1080*xfc;
+>>>>>>> parent of 145b83e... 手滑失败了
   cury=uiRowStartY[4]+6;
   butwidth=78 * xfc;
   with (hide_key) 

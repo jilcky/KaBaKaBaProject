@@ -7,6 +7,7 @@ All_Tween_Index = ds_list_create(); //补间动画引索
 All_Button_Index = DSmap_create(); //按钮的引索
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 display_set_gui_size(GameInfo.Width  , GameInfo.Width);
 =======
 display_set_gui_size(1280  , 720);
@@ -14,6 +15,9 @@ display_set_gui_size(1280  , 720);
 =======
 display_set_gui_size(1280  , 720);
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+display_set_gui_size(1920  , 1080);
+>>>>>>> parent of 145b83e... 手滑失败了
 //#region // 指令系列
 Order_String = ""; //指令
 Order_Locking = false; //锁定不执行
