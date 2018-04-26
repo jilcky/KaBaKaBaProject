@@ -3,8 +3,8 @@ with(inst_dialog)
 {
 
 		   
-Sprite_Width = 1920 *.8
-//Sprite_Height = 1920 / 4
+Sprite_Width = GameInfo.Width *.8
+//Sprite_Height = GameInfo.Width / 4
 uiDialogWidth= Sprite_Width ;
 
 //values are set with editbox data in demo...but you would set here...

@@ -5,7 +5,7 @@ All_Tween_Index = ds_list_create(); //补间动画引索
 
 
 All_Button_Index = DSmap_create(); //按钮的引索
-display_set_gui_size(1920  , 1080);
+display_set_gui_size(GameInfo.Width  , GameInfo.Width);
 //#region // 指令系列
 Order_String = ""; //指令
 Order_Locking = false; //锁定不执行

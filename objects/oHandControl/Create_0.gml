@@ -19,7 +19,7 @@ for (var a = 0; a < aSize  ; ++a) {
 	}
 }
 
-PartHight = b*(h+32)  -1080
+PartHight = b*(h+32)  -GameInfo.Width
 
 PartHight = max(0,PartHight)
 

@@ -63,8 +63,8 @@ else if other.uiControlName=="showdialog"
            uiShowDialog=true;
 		   
 		   
-Sprite_Width = 1920/2
-Sprite_Height = 1920 / 4
+Sprite_Width = GameInfo.Width/2
+Sprite_Height = GameInfo.Width / 4
 
 image_xscale = Sprite_Width / 32
 image_yscale = Sprite_Height/32

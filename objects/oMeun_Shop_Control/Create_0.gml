@@ -46,7 +46,7 @@ if true{
 	
 }
 
-//List = instance_create_depth(1920/4,128,depth,ui_listbox_ext)
+//List = instance_create_depth(GameInfo.Width/4,128,depth,ui_listbox_ext)
 //with(List){
 //for (fg=0;fg<20;fg+=1) 
 // { //if (fg mod 7) == 2 
@@ -65,8 +65,8 @@ if true{
 
 //uiDrawHilite = false;
 
-//Sprite_Width = 1920/2
-//Sprite_Height = 1920 / 4
+//Sprite_Width = GameInfo.Width/2
+//Sprite_Height = GameInfo.Width / 4
 
 //image_xscale = Sprite_Width / 32
 //image_yscale = Sprite_Height/32
@@ -124,8 +124,8 @@ uiEventObject=other.id;
 uiControlName="dialogsample";
 
 
-Sprite_Width = 1920/2
-Sprite_Height = 1920 / 4
+Sprite_Width = GameInfo.Width/2
+Sprite_Height = GameInfo.Width / 4
 
 image_xscale = Sprite_Width / 32
 image_yscale = Sprite_Height/32

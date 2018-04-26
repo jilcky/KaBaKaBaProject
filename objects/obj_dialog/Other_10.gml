@@ -31,7 +31,7 @@ else if other.uiControlName=="showdialog"
 		  uiDrawBackColor = false;
 		   //uiTitle.uiTextValue="623424";
 		   //////with(uiTitle)
-		   //////{x = xstart + (1920/4)}
+		   //////{x = xstart + (GameInfo.Width/4)}
 		   
            //uiSubTitle.uiTextValue="2345"; 
            //uiCheckBox.uiTextValue="yes";
@@ -80,8 +80,8 @@ Sprite_Height = string_height("登陆")+16
 Sprite_Width = string_width("注册")*1.5
 }
 		   
-Sprite_Width = 1920 * 0.8
-Sprite_Height = 1920 / 4
+Sprite_Width = GameInfo.Width * 0.8
+Sprite_Height = GameInfo.Width / 4
 
 x = 32
 

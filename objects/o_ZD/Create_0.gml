@@ -1,1 +1,1 @@
-sur = -1//surface_create(1920,1080)
+sur = -1//surface_create(GameInfo.Width,GameInfo.Width)

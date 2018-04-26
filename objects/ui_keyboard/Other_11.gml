@@ -220,7 +220,7 @@ for (fy=1;fy<=3;fy+=1)  //draw normal keys
     }       
      
   //hide key
-  curx=1080*xfc;
+  curx=GameInfo.Width*xfc;
   cury=uiRowStartY[4]+6;
   butwidth=78 * xfc;
   with (hide_key) 

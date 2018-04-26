@@ -1,7 +1,7 @@
 
 	if! surface_exists(sur)
 {
-	sur=surface_create(1920,1080)
+	sur=surface_create(GameInfo.Width,GameInfo.Width)
 	
 	
 }

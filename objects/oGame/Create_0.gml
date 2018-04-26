@@ -5,8 +5,8 @@
 
 show_debug_overlay(true)
 enum GameInfo {
-Height = 1080,
-Width = 1920,
+Height = 1920,
+Width = 1080,
 
 }
 
@@ -26,7 +26,7 @@ if true//os_type = os_windows
 {
  	var Size = 0.33
  window_set_size(GameInfo.Width*Size,GameInfo.Height*Size)
- window_set_position(1920/2,1080/2)//只是单纯的让游戏画面在中间而已
+ window_set_position(GameInfo.Width/2,GameInfo.Width/2)//只是单纯的让游戏画面在中间而已
 
 
 }

@@ -2,10 +2,10 @@ if (live_call()) return live_result;
 ButtonMap  = DSmap_create()
 ButtonOrder = 0
 
-List = instance_create(1920/4,128,ui_listbox_horz)
+List = instance_create(GameInfo.Width/4,128,ui_listbox_horz)
 
 with(List){
-uiItemWidth= 1080 / 4;  //set the width of each element...
+uiItemWidth= GameInfo.Width / 4;  //set the width of each element...
 
 for (fg=0;fg<6;fg+=1) 
  { //if (fg mod 7) == 2 
@@ -13,7 +13,7 @@ for (fg=0;fg<6;fg+=1)
    items[fg]="编号_ "+string(fg);
 
    
-   var Sur = surface_create(1080/4,1920 / 4)
+   var Sur = surface_create(GameInfo.Width/4,GameInfo.Width / 4)
    surface_set_target(Sur)
    var sp = Spr_Add("立绘/"+string(fg)+".png")
    if sp
@@ -44,8 +44,8 @@ uiDrawHilit = false
 
 //uiAutoSelect=true; //will auto hilite the center item
 
-Sprite_Width = 1920/2
-Sprite_Height = 1920 / 4
+Sprite_Width = GameInfo.Width/2
+Sprite_Height = GameInfo.Width / 4
 
 image_xscale = Sprite_Width / 32
 image_yscale = Sprite_Height/32
