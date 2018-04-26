@@ -8,6 +8,7 @@ enum GameInfo {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Height = 1920,
 Width = 1080,
 =======
@@ -18,6 +19,10 @@ Width = 1280,
 Height = 720,
 Width = 1280,
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+Height = 1080,
+Width = 1920,
+>>>>>>> parent of 145b83e... 手滑失败了
 =======
 Height = 1080,
 Width = 1920,
@@ -44,6 +49,7 @@ if true//os_type = os_windows
  	var Size = 0.33
  window_set_size(GameInfo.Width*Size,GameInfo.Height*Size)
 <<<<<<< HEAD
+<<<<<<< HEAD
  window_set_position(GameInfo.Width/2,GameInfo.Width/2)//只是单纯的让游戏画面在中间而已
 =======
 // 	var Size = 0.25
@@ -55,6 +61,9 @@ if true//os_type = os_windows
 // window_set_size(GameInfo.Width*Size,GameInfo.Height*Size)
 // window_set_position(1920/2-1280/2,1080/2-720/2)//只是单纯的让游戏画面在中间而已
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+ window_set_position(1920/2,1080/2)//只是单纯的让游戏画面在中间而已
+>>>>>>> parent of 145b83e... 手滑失败了
 =======
  window_set_position(1920/2,1080/2)//只是单纯的让游戏画面在中间而已
 >>>>>>> parent of 145b83e... 手滑失败了

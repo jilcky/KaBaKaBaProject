@@ -5,6 +5,7 @@ ButtonOrder = 0
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 List = instance_create(GameInfo.Width/4,128,ui_listbox_horz)
 =======
 List = instance_create(1280/4,128,ui_listbox_horz)
@@ -12,6 +13,9 @@ List = instance_create(1280/4,128,ui_listbox_horz)
 =======
 List = instance_create(1280/4,128,ui_listbox_horz)
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+List = instance_create(1920/4,128,ui_listbox_horz)
+>>>>>>> parent of 145b83e... 手滑失败了
 =======
 List = instance_create(1920/4,128,ui_listbox_horz)
 >>>>>>> parent of 145b83e... 手滑失败了
@@ -59,6 +63,7 @@ uiDrawHilit = false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sprite_Width = GameInfo.Width/2
 Sprite_Height = GameInfo.Width / 4
 =======
@@ -67,6 +72,10 @@ Sprite_Height = GameInfo.Width / 4
 Sprite_Width = 1280/2
 Sprite_Height = 1920 / 4
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+Sprite_Width = 1920/2
+Sprite_Height = 1920 / 4
+>>>>>>> parent of 145b83e... 手滑失败了
 =======
 Sprite_Width = 1920/2
 Sprite_Height = 1920 / 4

@@ -22,6 +22,7 @@ for (var a = 0; a < aSize  ; ++a) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 PartHight = b*(h+32)  -GameInfo.Width
 =======
 PartHight = b*(h+32)  -720
@@ -29,6 +30,9 @@ PartHight = b*(h+32)  -720
 =======
 PartHight = b*(h+32)  -720
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+PartHight = b*(h+32)  -1080
+>>>>>>> parent of 145b83e... 手滑失败了
 =======
 PartHight = b*(h+32)  -1080
 >>>>>>> parent of 145b83e... 手滑失败了

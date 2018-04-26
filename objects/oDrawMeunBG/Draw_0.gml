@@ -16,6 +16,7 @@ if sprite_exists(sprite_index)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var Size = GameInfo.Width/sprite_get_width(sprite_index)
 =======
 var Size = 1280/sprite_get_width(sprite_index)
@@ -23,6 +24,9 @@ var Size = 1280/sprite_get_width(sprite_index)
 =======
 var Size = 1280/sprite_get_width(sprite_index)
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+var Size = 1920/sprite_get_width(sprite_index)
+>>>>>>> parent of 145b83e... 手滑失败了
 =======
 var Size = 1920/sprite_get_width(sprite_index)
 >>>>>>> parent of 145b83e... 手滑失败了

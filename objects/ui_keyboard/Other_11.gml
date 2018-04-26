@@ -223,6 +223,7 @@ for (fy=1;fy<=3;fy+=1)  //draw normal keys
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   curx=GameInfo.Width*xfc;
 =======
   curx=720*xfc;
@@ -230,6 +231,9 @@ for (fy=1;fy<=3;fy+=1)  //draw normal keys
 =======
   curx=720*xfc;
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+  curx=1080*xfc;
+>>>>>>> parent of 145b83e... 手滑失败了
 =======
   curx=1080*xfc;
 >>>>>>> parent of 145b83e... 手滑失败了

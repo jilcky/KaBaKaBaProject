@@ -12,6 +12,7 @@ draw_set_alpha(0.3)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 draw_rectangle(_X,_Y,_X+GameInfo.Width,_Y+GameInfo.Width,false)
 =======
 draw_rectangle(_X,_Y,_X+1280,_Y+720,false)
@@ -19,6 +20,9 @@ draw_rectangle(_X,_Y,_X+1280,_Y+720,false)
 =======
 draw_rectangle(_X,_Y,_X+1280,_Y+720,false)
 >>>>>>> parent of c82f0a6... 登陆器逻辑搞定
+=======
+draw_rectangle(_X,_Y,_X+1920,_Y+1080,false)
+>>>>>>> parent of 145b83e... 手滑失败了
 =======
 draw_rectangle(_X,_Y,_X+1920,_Y+1080,false)
 >>>>>>> parent of 145b83e... 手滑失败了
