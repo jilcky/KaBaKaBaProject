@@ -53,7 +53,7 @@ if uiAlign==fa_left { px=x +5; }
 draw_set_color(uiTextColor);  
 draw_text_transformed(px,y + ymargin,string_hash_to_newline(disptx),uiXscale,uiYscale,0);   
 
-py =( (Sprite_Height - sprite_get_height(sprite_index)) / 2) +1;
+py =( (Sprite_Height - SGW) / 2) +1;
 
 
 if uiDrawArrowUp

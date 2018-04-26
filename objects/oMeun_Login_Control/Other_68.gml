@@ -1,3 +1,5 @@
+
+
 if (live_call()) return live_result;
 switch (async_load[?"type"]) {
 	#region 接入网络判断 失败继续

@@ -100,7 +100,7 @@ for (fx=0;fx<numitems;fx+=1)    //go through each item in the list;
         draw_line_width(x,y+cury+th,x+Sprite_Width,y+cury+th,1);   
       }
 
-    ymargin= (lineheight - (sprite_get_height(sprite_index))) div 2 ;
+    ymargin= (lineheight - (SGH)) div 2 ;
 
     //draw checkbox
     checkstat=false;

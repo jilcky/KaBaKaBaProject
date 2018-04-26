@@ -42,7 +42,7 @@ butspace=dw div 14;
 
 with uiTitle 
   {
-     x=other.x+10;
+    // x=other.x+other.Sprite_Width/2//+10;
      y=cury;  
      uiSetWidth=dw;
      lasttext="" ;  //force resize
@@ -74,7 +74,8 @@ if (uiEditBox1.uiTextLabel =="")
 else
      {
      with (uiEditBox1) 
-         {x=other.x+ ( dw div 2);  //center edit1box
+         {
+         x=other.x+ ( dw div 2);  //center edit1box
           y=cury;
           uiSetWidth=(dw div 2)-50;
           uiAlpha=other.uiAlpha;
@@ -91,7 +92,7 @@ if (uiEditBox2.uiTextLabel =="@")
 else
      {
      with (uiEditBox2) 
-         {x=other.x+ ( dw div 2);  //center edit1box
+         {x= other.x+ ( dw div 2);  //center edit1box
           y=cury;
           uiSetWidth=(dw div 2)-50;
           uiAlpha=other.uiAlpha;
@@ -142,7 +143,7 @@ for (fx=1;fx<=uiNumButtons;fx+=1)
      {
        x=curx;  //center checkbox!
        y=cury;
-       uiSetWidth=butwidth;
+       uiSetWidth= butwidth;
        uiAlpha=other.uiAlpha;
        uiVisible=other.uiVisible;         
      }
