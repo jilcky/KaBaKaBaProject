@@ -1,5 +1,4 @@
 if (StartEase==false) exit;        //leave if not inited
-if !instance_exists(EaseControl) exit;
 if (EasePause) {   //if paused then reset animation to 0
                 with (EaseControl)
                  { uiAniPulse=0;
@@ -8,7 +7,6 @@ if (EasePause) {   //if paused then reset animation to 0
                  }  
                 exit;  //do nothing until ready to start or if we"re paused
                } 
-	   
 if (EaseControl.uiVisible==false)  && (EaseControl.uiMoving==false) exit; //leave if uiVisible=false;              
 
 

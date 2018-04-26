@@ -189,5 +189,3 @@ scr_gui_setdefaults();
 
 /* */
 /*  */
-SGH = sprite_get_height(sprite_index)
-SGW = sprite_get_width(sprite_index)

@@ -20,8 +20,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 
 
-// image_xscale = Sprite_Width / 32
-// image_yscale = Sprite_Height /32
+image_xscale = Sprite_Width / 32
+image_yscale = Sprite_Height/32
 
 
 var ymargin,disptx,px,py;

@@ -14,8 +14,7 @@
         "7710c0bc-0dc0-4757-a089-c746d73fbff6",
         "74c9deee-b525-4a9f-81d9-dd81f4471413",
         "478b7783-a31d-4274-873b-9d8e7e9a7f87",
-        "1b7dbecd-bb22-404a-9206-392fd1f15cee",
-        "ea021d1e-831f-4f56-9de2-9b8ef5f35c36"
+        "1b7dbecd-bb22-404a-9206-392fd1f15cee"
     ],
     "filterType": "GMObject",
     "folderName": "主菜单部分",

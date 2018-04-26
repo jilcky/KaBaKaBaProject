@@ -50,7 +50,7 @@ keyboard_string=""; //reset keyboard buffer...
 scr_gui_setdefaults();         //you should set your default properties in this script.
 
 
-uiInLineEditing = false;
+
 
 /* */
 /*  */

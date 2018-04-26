@@ -2,7 +2,11 @@ if (live_call()) return live_result;
 ButtonMap  = DSmap_create()
 ButtonOrder = 0
 
+<<<<<<< HEAD
 List = instance_create(GameInfo.Width/4,128,ui_listbox_horz)
+=======
+List = instance_create(1280/4,128,ui_listbox_horz)
+>>>>>>> parent of c82f0a6... 登陆器逻辑搞定
 
 with(List){
 uiItemWidth= GameInfo.Width / 4;  //set the width of each element...
@@ -44,8 +48,13 @@ uiDrawHilit = false
 
 //uiAutoSelect=true; //will auto hilite the center item
 
+<<<<<<< HEAD
 Sprite_Width = GameInfo.Width/2
 Sprite_Height = GameInfo.Width / 4
+=======
+Sprite_Width = 1280/2
+Sprite_Height = 1920 / 4
+>>>>>>> parent of c82f0a6... 登陆器逻辑搞定
 
 image_xscale = Sprite_Width / 32
 image_yscale = Sprite_Height/32

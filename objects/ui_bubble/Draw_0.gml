@@ -88,7 +88,6 @@ if uiBubbleSprite != noone
            case 1  : ymir=-1; py+=Sprite_Height;zy*=-1; break;
            case 2  : ymir=-1;xmir=-1;py+=Sprite_Height;x=xstart-Sprite_Width;zx*=-1;zy*=-1; break;
            case 3  : xmir=-1;py-=Sprite_Height;x=xstart-Sprite_Width;y=ystart-Sprite_Height;zx*=-1;break;
-           case 4  : px = -Sprite_Width*0.5;break;
           }    
      xmir=xmir*curZoomFactor;
      ymir=ymir*curZoomFactor;     

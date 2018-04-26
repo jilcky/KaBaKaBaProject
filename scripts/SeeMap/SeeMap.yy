@@ -1,8 +1,8 @@
 {
-    "id": "2bad6e1d-ba80-4f30-a4b9-2405d47b1809",
+    "id": "0fa10a90-65ad-46b7-bf53-2c6fbf745074",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "NetSeedStr",
+    "name": "SeeMap",
     "IsCompatibility": false,
     "IsDnD": false
 }

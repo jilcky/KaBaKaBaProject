@@ -63,8 +63,13 @@ else if other.uiControlName=="showdialog"
            uiShowDialog=true;
 		   
 		   
+<<<<<<< HEAD
 Sprite_Width = GameInfo.Width/2
 Sprite_Height = GameInfo.Width / 4
+=======
+Sprite_Width = 1280/2
+Sprite_Height = 1920 / 4
+>>>>>>> parent of c82f0a6... 登陆器逻辑搞定
 
 image_xscale = Sprite_Width / 32
 image_yscale = Sprite_Height/32

@@ -19,13 +19,6 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 
-//if sprite_get_height(sprite_index) > 32
-SGH = Sprite_Height;
-//else
-//SGH = sprite_get_height(sprite_index)
-
-
-
 if uiViewFixed {
     x = __view_get( e__VW.XView, view_current )+xstart;
     y = __view_get( e__VW.YView, view_current )+ystart;
@@ -129,14 +122,14 @@ if (uiEnabled==false) || (uiMouseHandle==false) {draw_set_alpha(0.5);}
 
 
       
-if uiSetWidth != -1  {   uiOrigXscale=uiSetWidth/ SGW;   
+if uiSetWidth != -1  {   uiOrigXscale=uiSetWidth/sprite_get_width(sprite_index);   
                          uiOrigWidth=uiSetWidth;
                          uiCurWidth=uiSetWidth;
                          uiSetWidth=-1;
                          image_xscale = uiOrigXscale;
                      }                     
 
-if uiSetHeight != -1 {   uiOrigYscale=uiSetHeight/SGH;   
+if uiSetHeight != -1 {   uiOrigYscale=uiSetHeight/sprite_get_height(sprite_index);   
                          uiOrigHeight=uiSetHeight;
                          uiCurHeight=uiSetHeight;
                          uiSetHeight=-1;

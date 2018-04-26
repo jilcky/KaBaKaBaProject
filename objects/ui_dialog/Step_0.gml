@@ -16,4 +16,6 @@ if (uiSetModal) && (panelfocused==false)
      {
       event_user(4);
       panelfocused=false;    
-     }
+     }   
+        
+

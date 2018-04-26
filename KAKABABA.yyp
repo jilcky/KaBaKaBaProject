@@ -236,18 +236,10 @@
             }
         },
         {
-            "Key": "0f8e5a5d-b362-46ef-bac3-f2a87ea09254",
-            "Value": {
-                "id": "4b82d9da-adb6-45aa-8733-ca8acfb1aa45",
-                "resourcePath": "datafiles_yy\\二选一按钮.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "0fa10a90-65ad-46b7-bf53-2c6fbf745074",
             "Value": {
                 "id": "5ed0bb14-cf02-4f2b-bfcf-46c6d9d004ed",
-                "resourcePath": "scripts\\See_Map\\See_Map.yy",
+                "resourcePath": "scripts\\SeeMap\\SeeMap.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -764,22 +756,6 @@
             }
         },
         {
-            "Key": "2ab9a671-f653-48da-800a-25695d76cf1e",
-            "Value": {
-                "id": "83dd0dc6-75d0-495a-816c-1a658bb59bc8",
-                "resourcePath": "scripts\\scr_CustomDrawBack\\scr_CustomDrawBack.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "2bad6e1d-ba80-4f30-a4b9-2405d47b1809",
-            "Value": {
-                "id": "0e8db91d-d21a-4e05-80ca-5a08602333fe",
-                "resourcePath": "scripts\\NetSeedStr\\NetSeedStr.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "2befc192-a5ba-4ea5-aa1f-5df90217ce5f",
             "Value": {
                 "id": "4d871922-f3eb-4c71-ac0b-38fb7d79c666",
@@ -1004,14 +980,6 @@
                 "id": "3e5ab3d4-c10b-4dd4-94aa-9fe537e68512",
                 "resourcePath": "scripts\\TweenDefault\\TweenDefault.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "3635ed06-b0e9-4e8b-a49a-c89f32158063",
-            "Value": {
-                "id": "ab817948-9f0b-4bfd-bfc9-c4e05d4f6c7b",
-                "resourcePath": "datafiles_yy\\按钮.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1293,14 +1261,6 @@
             }
         },
         {
-            "Key": "46e1a1fa-1246-4892-b1f0-5c9080b2a2e4",
-            "Value": {
-                "id": "8e642c73-56ea-4563-9848-9ac52786c42d",
-                "resourcePath": "datafiles_yy\\提醒框.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "46ebdefb-ae77-4e63-9990-0b45625aa4da",
             "Value": {
                 "id": "fd5b91c6-b403-48e9-a151-8184d2ea5df8",
@@ -1389,27 +1349,11 @@
             }
         },
         {
-            "Key": "4c921639-e23c-4f58-a235-f09957a03c26",
-            "Value": {
-                "id": "fae4fae1-4ed1-4003-bf64-cafb19a5ff14",
-                "resourcePath": "datafiles_yy\\注册框.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "4d946eb9-b0dd-4942-87c2-d021d175f51a",
             "Value": {
                 "id": "0c01a57e-cb96-45a6-a3d5-bcebc3087c63",
                 "resourcePath": "rooms\\rGameStrengthenMeun\\rGameStrengthenMeun.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "4f3e5613-6d56-44e4-9f6f-fbffd2ae617b",
-            "Value": {
-                "id": "0e1df50a-475b-44f8-8eb0-5c8cfa6765e5",
-                "resourcePath": "scripts\\AddMassage\\AddMassage.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -3774,14 +3718,6 @@
             }
         },
         {
-            "Key": "ea021d1e-831f-4f56-9de2-9b8ef5f35c36",
-            "Value": {
-                "id": "87fd15e4-786c-485e-94e4-b1df0b78030b",
-                "resourcePath": "objects\\oMeun_Login_Control\\oMeun_Login_Control.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ea513768-afb2-4703-90e2-426837d4b355",
             "Value": {
                 "id": "2de22d18-70b6-41b0-b6af-29663844ddac",
@@ -4360,10 +4296,7 @@
         "22c57393-d17c-4500-b428-2d67f27d9725",
         "83f9a46c-861a-4760-8d4f-95a0e90888fe",
         "1b9c7790-0791-4998-892e-8cc9be4c19e7",
-        "441a627b-4790-4fce-8116-ca7547526deb",
-        "2ab9a671-f653-48da-800a-25695d76cf1e",
-        "4f3e5613-6d56-44e4-9f6f-fbffd2ae617b",
-        "2bad6e1d-ba80-4f30-a4b9-2405d47b1809"
+        "441a627b-4790-4fce-8116-ca7547526deb"
     ],
     "tutorial": ""
 }

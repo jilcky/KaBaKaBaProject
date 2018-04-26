@@ -18,4 +18,5 @@ else
   uiTextPosY=drawY+10;
   uiTextWidth=Sprite_Width-20;  //80% of bubble width
   uiTextHeight=Sprite_Height-20;    
-  }
+  }  
+

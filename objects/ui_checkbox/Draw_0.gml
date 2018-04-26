@@ -51,7 +51,7 @@ if uiAlign==fa_left { px=x +5; }
 draw_set_color(uiTextColor);  
 draw_text_transformed(px+5,y+ymargin,string_hash_to_newline(disptx),uiXscale,uiYscale,0);
 
-ymarginimg= (Sprite_Height - (SGH * uiYscale )) div 2 ;
+ymarginimg= (Sprite_Height - (sprite_get_height(sprite_index) * uiYscale )) div 2 ;
 
 //draw checkbox
 if checked {draw_sprite(sprite_index,2,x+Sprite_Width - 30,y+ymarginimg)}
